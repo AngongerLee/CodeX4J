@@ -1,10 +1,10 @@
-package chengyujia.codex4j.generator;
+package com.croot.gencode.generator;
 
-import chengyujia.codex4j.common.FileUtil;
-import chengyujia.codex4j.config.AppConfig;
-import chengyujia.codex4j.config.UserConfigModel;
-import chengyujia.codex4j.freemarker.FreeMarkerUtil;
-import chengyujia.codex4j.mybatis.MyBatisGeneratorHandler;
+import com.croot.gencode.common.FileUtil;
+import com.croot.gencode.config.AppConfig;
+import com.croot.gencode.config.UserConfigModel;
+import com.croot.gencode.freemarker.FreeMarkerUtil;
+import com.croot.gencode.mybatis.MyBatisGeneratorHandler;
 import org.apache.commons.io.FileUtils;
 
 import java.io.File;
@@ -35,13 +35,13 @@ public class Generator {
         String projectPath = AppConfig.getGeneratedProjectPath() + userConfigModel.getDatabase() + "/";
         FileUtils.deleteDirectory(new File(projectPath));
         String rootPackagePath = getRootPackagePath(projectPath, userConfigModel.getRootPackage());
-        generatePom(projectPath, userConfigModel);
-        generateIndexJsp(projectPath);
-        generateWebXml(projectPath);
-        generateJdbcProperties(projectPath, userConfigModel);
-        generateSpringXml(projectPath, userConfigModel);
-        generateSpringMvcXml(projectPath, userConfigModel);
-        generateSpringMyBatisXml(projectPath, userConfigModel);
+//        generatePom(projectPath, userConfigModel);
+//        generateIndexJsp(projectPath);
+//        generateWebXml(projectPath);
+//        generateJdbcProperties(projectPath, userConfigModel);
+//        generateSpringXml(projectPath, userConfigModel);
+//        generateSpringMvcXml(projectPath, userConfigModel);
+//        generateSpringMyBatisXml(projectPath, userConfigModel);
         generateModelAndDao(userConfigModel, projectPath);
         //String date = getDate();
         List<String> modelNames = getModelNames(rootPackagePath);

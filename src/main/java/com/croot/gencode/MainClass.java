@@ -1,9 +1,9 @@
-package chengyujia.codex4j;
+package com.croot.gencode;
 
-import chengyujia.codex4j.config.AppConfig;
-import chengyujia.codex4j.config.UserConfigModel;
-import chengyujia.codex4j.config.UserConfigUtil;
-import chengyujia.codex4j.generator.Generator;
+import com.croot.gencode.config.AppConfig;
+import com.croot.gencode.config.UserConfigModel;
+import com.croot.gencode.config.UserConfigUtil;
+import com.croot.gencode.generator.Generator;
 
 import javax.swing.*;
 import java.awt.*;
@@ -21,7 +21,7 @@ import java.net.URI;
 public class MainClass {
 
     public static void main(String[] args) {
-        JFrame frame = new JFrame("Java代码生成器CodeX4J");
+        JFrame frame = new JFrame("Java Code Generate CodeX4J");
         frame.setSize(400, 300);
         frame.setResizable(false);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -34,7 +34,7 @@ public class MainClass {
     private static void placeComponents(JPanel panel) {
         panel.setLayout(null);
 
-        JLabel hostLabel = new JLabel("数据库地址:");
+        JLabel hostLabel = new JLabel("DB HOST:");
         hostLabel.setBounds(10, 10, 70, 25);
         panel.add(hostLabel);
 
@@ -42,7 +42,7 @@ public class MainClass {
         hostText.setBounds(90, 10, 300, 25);
         panel.add(hostText);
 
-        JLabel portLabel = new JLabel("端口:");
+        JLabel portLabel = new JLabel("PORT:");
         portLabel.setBounds(10, 40, 70, 25);
         panel.add(portLabel);
 
@@ -50,7 +50,7 @@ public class MainClass {
         portText.setBounds(90, 40, 300, 25);
         panel.add(portText);
 
-        JLabel usernameLabel = new JLabel("用户名:");
+        JLabel usernameLabel = new JLabel("USERNAME:");
         usernameLabel.setBounds(10, 70, 70, 25);
         panel.add(usernameLabel);
 
@@ -58,7 +58,7 @@ public class MainClass {
         usernameText.setBounds(90, 70, 300, 25);
         panel.add(usernameText);
 
-        JLabel passwordLabel = new JLabel("密码:");
+        JLabel passwordLabel = new JLabel("PASSWORD:");
         passwordLabel.setBounds(10, 100, 70, 25);
         panel.add(passwordLabel);
 
@@ -66,7 +66,7 @@ public class MainClass {
         passwordText.setBounds(90, 100, 300, 25);
         panel.add(passwordText);
 
-        JLabel databaseLabel = new JLabel("数据库名:");
+        JLabel databaseLabel = new JLabel("DB NAME:");
         databaseLabel.setBounds(10, 130, 70, 25);
         panel.add(databaseLabel);
 
@@ -74,7 +74,7 @@ public class MainClass {
         databaseText.setBounds(90, 130, 300, 25);
         panel.add(databaseText);
 
-        JLabel rootPackageLabel = new JLabel("根包名:");
+        JLabel rootPackageLabel = new JLabel("ROOT PACKAGE NAME:");
         rootPackageLabel.setBounds(10, 160, 70, 25);
         panel.add(rootPackageLabel);
 
@@ -84,7 +84,7 @@ public class MainClass {
 
         JCheckBox useExampleCheckBox = new JCheckBox();
         useExampleCheckBox.setBounds(86, 190, 200, 25);
-        useExampleCheckBox.setText("使用Example");
+        useExampleCheckBox.setText("USE Example");
         panel.add(useExampleCheckBox);
 
         UserConfigModel userConfigModel = UserConfigUtil.getUserConfig();
@@ -101,7 +101,7 @@ public class MainClass {
             portText.setText("3306");
         }
 
-        JButton generateButton = new JButton("一键生成");
+        JButton generateButton = new JButton("GENERATE");
         generateButton.setBounds(50, 220, 100, 25);
         panel.add(generateButton);
         generateButton.addActionListener(new ActionListener() {
@@ -116,7 +116,7 @@ public class MainClass {
                 boolean useExample = useExampleCheckBox.isSelected();
 
                 if ("".equals(host) || "".equals(port) || "".equals(username) || "".equals(password) || "".equals(database) || "".equals(rootPackage)) {
-                    JOptionPane.showMessageDialog(panel, "所有文本框必填！");
+                    JOptionPane.showMessageDialog(panel, "ALL INPUT REQUIRED！");
                     return;
                 }
 
@@ -133,7 +133,7 @@ public class MainClass {
                 Generator generator = new Generator();
                 try {
                     generator.generate(userConfigModel);
-                    JOptionPane.showMessageDialog(panel, "生成完毕。");
+                    JOptionPane.showMessageDialog(panel, "Completed。");
                 } catch (Exception ex) {
                     ex.printStackTrace();
                     JOptionPane.showMessageDialog(panel, ex.getMessage());
@@ -141,7 +141,7 @@ public class MainClass {
             }
         });
 
-        JButton openButton = new JButton("打开生成文件夹");
+        JButton openButton = new JButton("OPEN FOLDER");
         openButton.setBounds(200, 220, 150, 25);
         panel.add(openButton);
         openButton.addActionListener(new ActionListener() {

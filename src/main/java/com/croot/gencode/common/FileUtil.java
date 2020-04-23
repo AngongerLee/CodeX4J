@@ -1,4 +1,4 @@
-package chengyujia.codex4j.common;
+package com.croot.gencode.common;
 
 import java.io.File;
 import java.util.ArrayList;

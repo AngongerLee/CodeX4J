@@ -1,4 +1,4 @@
-package chengyujia.codex4j.config;
+package com.croot.gencode.config;
 
 /**
  * Created by 成宇佳.

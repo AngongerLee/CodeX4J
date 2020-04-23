@@ -1,4 +1,4 @@
-package chengyujia.codex4j.config;
+package com.croot.gencode.config;
 
 import java.io.File;
 

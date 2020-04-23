@@ -1,4 +1,4 @@
-package chengyujia.codex4j.freemarker;
+package com.croot.gencode.freemarker;
 
 import freemarker.template.Configuration;
 import freemarker.template.Template;

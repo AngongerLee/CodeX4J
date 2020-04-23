@@ -1,0 +1,2353 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Dictionary>
+  <Field Number="501" Name="TotalIssueQty" Type="Int64" Description="总发行量"/>
+  <Field Number="502" Name="TotalBuyQty" Type="Int64"/>
+  <Field Number="503" Name="TotalSellQty" Type="Int64"/>
+  <Field Number="504" Name="TotalBuyQtyDiff" Type="Int64"/>
+  <Field Number="505" Name="TotalSellQtyDiff" Type="Int64"/>
+  <Field Number="506" Name="BuyQty1" Type="Int64"/>
+  <Field Number="507" Name="BuyQty2" Type="Int64"/>
+  <Field Number="508" Name="BuyQty3" Type="Int64"/>
+  <Field Number="509" Name="BuyQty4" Type="Int64"/>
+  <Field Number="510" Name="BuyQty5" Type="Int64"/>
+  <Field Number="511" Name="BuyQty6" Type="Int64"/>
+  <Field Number="512" Name="BuyQty7" Type="Int64"/>
+  <Field Number="513" Name="BuyQty8" Type="Int64"/>
+  <Field Number="514" Name="BuyQty9" Type="Int64"/>
+  <Field Number="515" Name="BuyQty10" Type="Int64"/>
+  <Field Number="516" Name="SellQty1" Type="Int64"/>
+  <Field Number="517" Name="SellQty2" Type="Int64"/>
+  <Field Number="518" Name="SellQty3" Type="Int64"/>
+  <Field Number="519" Name="SellQty4" Type="Int64"/>
+  <Field Number="520" Name="SellQty5" Type="Int64"/>
+  <Field Number="521" Name="SellQty6" Type="Int64"/>
+  <Field Number="522" Name="SellQty7" Type="Int64"/>
+  <Field Number="523" Name="SellQty8" Type="Int64"/>
+  <Field Number="524" Name="SellQty9" Type="Int64"/>
+  <Field Number="525" Name="SellQty10" Type="Int64"/>
+  <Field Number="526" Name="PrevTotalMktKnockQty" Type="Int64" Description="昨日成交数量"/>
+  <Field Number="527" Name="MktKnockQty" Type="Int64" Description="成交数量"/>
+  <Field Number="528" Name="TotalMktKnockQty" Type="Int64" Description="总成交数量"/>
+  <Field Number="529" Name="TotalCirculatingShare" Type="Int64" Description="流通股数"/>
+  <Field Number="530" Name="OrderTime" Type="Int64" Description="委托时间"/>
+  <Field Number="531" Name="SysDate" Type="Int64" Description="系统日期"/>
+  <Field Number="532" Name="SysTime" Type="Int64" Description="系统时间"/>
+  <Field Number="533" Name="BeginDate" Type="Int64" Description="开始时间"/>
+  <Field Number="534" Name="EndDate" Type="Int64" Description="结束时间"/>
+  <Field Number="535" Name="OccurTime" Type="Int64" Description="发生时间"/>
+  <Field Number="538" Name="TradeTime" Type="Int64" Description="委托/成交时间"/>
+  <Field Number="539" Name="KnockTime" Type="Int64" Description="成交日期"/>
+  <Field Number="540" Name="TradeDay" Type="Int64" Description="交易日期"/>
+  <Field Number="541" Name="RunTime" Type="Int64" Description="运行时间"/>
+  <Field Number="542" Name="BeginTradeTime" Type="Int64" Description="开盘时间"/>
+  <Field Number="545" Name="StockBasicInfoStaticVer" Type="Int64" Description="证券基本信息的静态数据版本号"/>
+  <Field Number="546" Name="StockBasicInfoDynamicVer" Type="Int64" Description="证券基本信息的动态数据版本号"/>
+  <Field Number="547" Name="TotalBuyDiffQty" Type="Int64" Description="总买差量"/>
+  <Field Number="548" Name="TotalSellDiffQty" Type="Int64" Description="总卖差量"/>
+  <Field Number="549" Name="VolumeDiff" Type="Int64" Description="委量差"/>
+  <Field Number="550" Name="InnerVolume" Type="Int64" Description="內盤量"/>
+  <Field Number="551" Name="OuterVolume" Type="Int64" Description="外盤量"/>
+  <Field Number="552" Name="NotDefineVolume" Type="Int64" Description="不定盤量"/>
+  <Field Number="553" Name="CurrentVolume" Type="Int64" Description="当前量"/>
+  <Field Number="554" Name="TotalVolume" Type="Int64" Description="总量"/>
+  <Field Number="555" Name="LocalDatetime" Type="Int64" Description="MDS本地时间"/>
+  <Field Number="556" Name="CreatTime" Type="Int64" Description="组合行情创建时间"/>
+  <Field Number="557" Name="TotalMktKnockQty1" Type="Int64" Description="总成交数量以上"/>
+  <Field Number="558" Name="TotalMktKnockQty2" Type="Int64" Description="总成交量以下"/>
+  <Field Number="561" Name="TDTotalOpenQty" Type="Int64" Description="今日累计买入数量"/>
+  <Field Number="562" Name="TDTotalCloseQty" Type="Int64" Description="今日累计卖出数量"/>
+  <Field Number="563" Name="AssetsUsableQty" Type="Int64" Description="可用数"/>
+  <Field Number="564" Name="AssetsRTPosition" Type="Int64" Description="实时持仓数"/>
+  <Field Number="565" Name="AssetsUnCirculatingShareQty" Type="Int64" Description="非流通数"/>
+  <Field Number="566" Name="AssetsFYPosition" Type="Int64" Description="平昨持仓数量"/>
+  <Field Number="567" Name="AssetsFTPosition" Type="Int64" Description="平今持仓数量"/>
+  <Field Number="568" Name="LastModifyTime" Type="Int64" Description="最后更新时间"/>
+  <Field Number="569" Name="RealTimePositionQty" Type="Int64" Description="实时持仓数"/>
+  <Field Number="570" Name="InternalAcctId" Type="Int64" Description="内部资金帐号"/>
+  <Field Number="571" Name="FutureInternalAcctId" Type="Int64" Description="期货内部资金帐号"/>
+  <Field Number="572" Name="StockInternalAcctId" Type="Int64" Description="现货内部资金帐号"/>
+  <Field Number="573" Name="AccountDate" Type="Int64" Description="交割日"/>
+  <Field Number="574" Name="ReckoningTime" Type="Int64" Description="清算时间"/>
+  <Field Number="575" Name="LastKnockTime" Type="Int64" Description="最后一笔成交时间"/>
+  <Field Number="576" Name="RequestID" Type="Int64" Description="请求消息ID"/>
+  <Field Number="577" Name="CreateTime" Type="Int64" Description="创建时间"/>
+  <Field Number="578" Name="OpenFinishedTime" Type="Int64" Description="开仓完成时间"/>
+  <Field Number="579" Name="CloseBeginTime" Type="Int64" Description="平仓开始时间"/>
+  <Field Number="580" Name="CloseEndTime" Type="Int64" Description="平仓完成时间"/>
+  <Field Number="581" Name="SecondTime" Type="Int64" Description="第二步操作开始时间"/>
+  <Field Number="582" Name="ThirdTime" Type="Int64" Description="第三步操作开始时间"/>
+  <Field Number="583" Name="EndTime" Type="Int64" Description="结束时间"/>
+  <Field Number="584" Name="AttachInternalAcctId" Type="Int64" Description="关联内部资金帐号"/>
+  <Field Number="585" Name="ExchTotalKnockQty" Type="Int64" Description="市场成交总量"/>
+  <Field Number="586" Name="ExpireDate" Type="Int64" Description="到期日"/>
+  <Field Number="587" Name="OpenDate" Type="Int64" Description="激活日期"/>
+  <Field Number="588" Name="LastLoginDate" Type="Int64" Description="上次登录日期"/>
+  <Field Number="589" Name="CloseTime" Type="Int64" Description="了结日期"/>
+  <Field Number="590" Name="LastLoginFailTime" Type="Int64" Description="上次登录失败时间"/>
+  <Field Number="591" Name="BatchSerialNo" Type="Int64" Description="批量委託序號"/>
+  <Field Number="592" Name="OrigSerialNo" Type="Int64" Description="原始委託序號"/>
+  <Field Number="593" Name="SerialNo" Type="Int64" Description="委託序號"/>
+  <Field Number="594" Name="ByPatchSerialNo" Type="Int64" Description="补单委托对应的原始委托流水号"/>
+  <Field Number="595" Name="BankSerialNo" Type="Int64" Description="银行流水号"/>
+  <Field Number="596" Name="CreditInternalAcctId" Type="Int64" Description="信用内部资金帐号"/>
+  <Field Number="597" Name="ExDate" Type="Int64" Description="除权除息日"/>
+  <Field Number="598" Name="LastLoginStartDate" Type="Int64" Description="上次登录开始日期"/>
+  <Field Number="599" Name="LastLoginEndDate" Type="Int64" Description="上次登录结束日期"/>
+  <Field Number="600" Name="OpenStartDate" Type="Int64" Description="激活开始日期"/>
+  <Field Number="601" Name="OpenEndDate" Type="Int64" Description="激活结束日期"/>
+  <Field Number="602" Name="TdOpenFrozenQty" Type="Int64" Description="今天得到的资产，但是不可用"/>
+  <Field Number="603" Name="EndExchKnockQty" Type="Int64" Description="结束时市场成交量"/>
+  <Field Number="611" Name="PreviousQty" Type="Int64" Description="昨日余额"/>
+  <Field Number="612" Name="CurrentQty" Type="Int64" Description="当前余额"/>
+  <Field Number="613" Name="UsableQty" Type="Int64" Description="可用数量"/>
+  <Field Number="614" Name="UnCirculatingShareQty" Type="Int64" Description="非流通余额"/>
+  <Field Number="615" Name="TDCloseFrozenQty" Type="Int64" Description="平今冻结数"/>
+  <Field Number="616" Name="YDCloseFrozenQty" Type="Int64" Description="平昨冻结数"/>
+  <Field Number="617" Name="TDOpenQty" Type="Int64" Description="今日已买入数量"/>
+  <Field Number="618" Name="ETFKnockQty" Type="Int64" Description="ETF当日成交可用余额"/>
+  <Field Number="619" Name="SellUsedQty" Type="Int64" Description="普通卖出使用库存数量"/>
+  <Field Number="620" Name="ETFUsedQty" Type="Int64" Description="ETF卖出使用库存数量"/>
+  <Field Number="621" Name="ExceptFrozenQty" Type="Int64" Description="异常冻结"/>
+  <Field Number="622" Name="NeedSettleQty" Type="Int64" Description="在途数量"/>
+  <Field Number="623" Name="TdOpeningQty" Type="Int64" Description="今日开仓在途数量"/>
+  <Field Number="624" Name="CurrentCreditUsedQty" Type="Int64" Description="当前融资/融券未了结的数量"/>
+  <Field Number="625" Name="CreditTransferQty" Type="Int64" Description="非交易划拨数量"/>
+  <Field Number="626" Name="TdFrozenAssureQty" Type="Int64" Description="冻结当日担保数量"/>
+  <Field Number="627" Name="YdFrozenAssureQty" Type="Int64" Description="冻结上日担保数量"/>
+  <Field Number="628" Name="TDUsableQty" Type="Int64" Description="今日持仓可平仓数量"/>
+  <Field Number="629" Name="YDUsableQty" Type="Int64" Description="昨日持仓可平仓数量"/>
+  <Field Number="630" Name="AssureUsedQty" Type="Int64" Description="备兑使用数量"/>
+  <Field Number="631" Name="AssureOpeningQty" Type="Int64" Description="备兑在途数量"/>
+  <Field Number="632" Name="KnockQty" Type="Int64" Description="成交数量"/>
+  <Field Number="633" Name="UnKnockQty" Type="Int64" Description="挂单数量"/>
+  <Field Number="634" Name="TotalKnockQty" Type="Int64" Description="成交总量"/>
+  <Field Number="635" Name="OrderQty" Type="Int64" Description="委托数量"/>
+  <Field Number="636" Name="TotalOrderQty" Type="Int64" Description="委托数量"/>
+  <Field Number="637" Name="TotalWithdrawQty" Type="Int64" Description="撤单数量"/>
+  <Field Number="638" Name="WithdrawQty" Type="Int64" Description="撤单数量"/>
+  <Field Number="639" Name="UsableFrozenQty" Type="Int64" Description="股份交易冻结（股份可用数，会影响股份可卖出的份额）"/>
+  <Field Number="640" Name="ReplaceFrozenQty" Type="Int64" Description="使用现金替代的股票数量"/>
+  <Field Number="641" Name="ShouldQty" Type="Int64" Description="目标数量"/>
+  <Field Number="642" Name="BuyQty" Type="Int64" Description="总买入数量"/>
+  <Field Number="643" Name="SellQty" Type="Int64" Description="总卖出数量"/>
+  <Field Number="644" Name="DividendQty" Type="Int64" Description="送股数量"/>
+  <Field Number="645" Name="TodayBuyQty" Type="Int64" Description="当日买入数量"/>
+  <Field Number="646" Name="TodaySellQty" Type="Int64" Description="当日卖出数量"/>
+  <Field Number="647" Name="OpenQty" Type="Int64" Description="开仓/平仓份数"/>
+  <Field Number="648" Name="CloseQty" Type="Int64" Description="平仓数量"/>
+  <Field Number="649" Name="TodayOpenQty" Type="Int64" Description="当天开仓数量"/>
+  <Field Number="650" Name="TodayCloseQty" Type="Int64" Description="当天平仓数量"/>
+  <Field Number="651" Name="OpenKnockQty" Type="Int64" Description="开仓(成交数量)"/>
+  <Field Number="652" Name="CloseFrozenQty" Type="Int64" Description="平仓(冻结数量)"/>
+  <Field Number="653" Name="CloseKnockQty" Type="Int64" Description="平仓(成交数量)"/>
+  <Field Number="654" Name="PrevUsableQty" Type="Int64" Description="昨持仓可平数"/>
+  <Field Number="655" Name="CreditShareQty" Type="Int64" Description="融券数量"/>
+  <Field Number="656" Name="ReturnCreditShareQty" Type="Int64" Description="已还券数量"/>
+  <Field Number="657" Name="UnReturnCreditShareQty" Type="Int64" Description="未还券数量"/>
+  <Field Number="658" Name="CreditCashQty" Type="Int64" Description="融资开仓数量"/>
+  <Field Number="659" Name="PreOpenPosition" Type="Int64" Description="昨持仓数量"/>
+  <Field Number="660" Name="OpenPosition" Type="Int64" Description="市场持仓量"/>
+  <Field Number="661" Name="PositDiff" Type="Int64" Description="市场仓差"/>
+  <Field Number="662" Name="AssureTdCloseFrozenQty" Type="Int64" Description="备兑平仓冻结数"/>
+  <Field Number="663" Name="RightsQty" Type="Int64" Description="可配股权益数量"/>
+  <Field Number="664" Name="PaidRightsQty" Type="Int64" Description="已缴款配股权益数量"/>
+  <Field Number="665" Name="CurrentPositionQty" Type="Int64" Description="实时持仓数量"/>
+  <Field Number="666" Name="QuotReceiveTime" Type="Int64" Description="收到行情的时间"/>
+  <Field Number="667" Name="CloseKnockTime" Type="Int64" Description="平仓成交时间"/>
+  <Field Number="668" Name="StrategyNO" Type="Int64" Description="交易策略编号"/>
+  <Field Number="669" Name="AcctGroupId" Type="Int64" Description="帐号组ID"/>
+  <Field Number="670" Name="SearchDate" Type="Int64" Description="基准日期"/>
+  <Field Number="671" Name="MinSplitMergeQty" Type="Int64" Description="最低分拆/合并数量"/>
+  <Field Number="672" Name="MTotalOpenQty" Type="Int64" Description="月买入/开仓数量"/>
+  <Field Number="673" Name="MTotalCloseQty" Type="Int64" Description="月卖出/平仓数量"/>
+  <Field Number="674" Name="YTotalOpenQty" Type="Int64" Description="年买入/开仓数量"/>
+  <Field Number="675" Name="YTotalCloseQty" Type="Int64" Description="年卖出/平仓数量"/>
+  <Field Number="676" Name="MCurrentQty" Type="Int64" Description="月持仓数量（统计）"/>
+  <Field Number="677" Name="YCurrentQty" Type="Int64" Description="年持仓数量（统计）"/>
+  <Field Number="678" Name="BeginTime" Type="Int64" Description="开始时间"/>
+  <Field Number="679" Name="LowBuyQtyLimit" Type="Int64" Description="买入下限"/>
+  <Field Number="680" Name="LowSellQtyLimit" Type="Int64" Description="卖出下限"/>
+  <Field Number="681" Name="HighBuyQtyLimit" Type="Int64" Description="买入上限"/>
+  <Field Number="682" Name="HighSellQtyLimit" Type="Int64" Description="卖出上限"/>
+  <Field Number="683" Name="CurrentInterCreditUsedQty" Type="Int64" Description="内部借券未了结数量"/>
+  <Field Number="684" Name="MinimalVolume" Type="Int64" Description="最小成交量"/>
+  <Field Number="685" Name="BuySerialNo" Type="Int64" Description="买序号"/>
+  <Field Number="686" Name="SellSerialNo" Type="Int64" Description="卖序号"/>
+  <Field Number="687" Name="CreditShareUsedQty" Type="Int64" Description="已融券数量"/>
+  <Field Number="688" Name="CreditShareUsableQty" Type="Int64" Description="可融券数量"/>
+  <Field Number="689" Name="IntelligentSerialNum" Type="Int64" Description="策略序号Num"/>
+  <Field Number="690" Name="OrigModSerialNo" Type="Int64" Description="修改单原始委託序號"/>
+  <Field Number="691" Name="CreditCashUsableQty" Type="Int64" Description="可融资数量"/>
+  <Field Number="692" Name="PreviousCreditShareQty" Type="Int64" Description="昨日融券余额(负债)"/>
+  <Field Number="695" Name="NewBatchSerialNo" Type="Int64" Description="新策略批号"/>
+  <Field Number="696" Name="OldOrderQty" Type="Int64" Description="原委托数量"/>
+  <Field Number="697" Name="AlgoUsableQty" Type="Int64" Description="可委托数量(含ALGO)"/>
+  <Field Number="698" Name="BusinessDate" Type="Int64" Description="业务日期"/>
+  <Field Number="701" Name="PretotalKnockQty" Type="Int64" Description="指令历史成交数量"/>
+  <Field Number="703" Name="KCBRightsQty" Type="Int64" Description="科创板可配股权益数量"/>
+  <Field Number="704" Name="KCBUsableQty" Type="Int64" Description="科创板可用数量"/>
+  <Field Number="705" Name="Updatetime" Type="Int64" Description="最新修改时间"/>
+  <Field Number="706" Name="lastRunTime" Type="Int64" Description="最新允许时间"/>
+  <Field Number="707" Name="totalRunTimes" Type="Int64" Description="执行次数"/>
+  <Field Number="708" Name="RelatedNum" Type="Int64" Description="风控关联序号"/>
+
+  <Field Number="1000" Name="AuditTime" Type="Int64" Description="审核时间 "/>
+  <Field Number="1001" Name="BeginInterestDate" Type="Int64" Description="债券起息日 "/>
+  <Field Number="1002" Name="CancelTime" Type="Int64" Description="取消时间"/>
+  <Field Number="1003" Name="CloseDate" Type="Int64" Description="有效期限 "/>
+  <Field Number="1004" Name="CreatDate" Type="Int64" Description="创建日期 "/>
+  <Field Number="1005" Name="DeliveryDate" Type="Int64" Description="交割日"/>
+  <Field Number="1006" Name="ExerciseDate" Type="Int64" Description="行权日(T+1) "/>
+  <Field Number="1007" Name="FinishTime" Type="Int64" Description="指令明细完成时间"/>
+  <Field Number="1008" Name="InitCurrentBackupDate" Type="Int64" Description="进行当日数据备份时的交易日期 "/>
+  <Field Number="1009" Name="InitFullBackupDate" Type="Int64" Description="进行全数据备份时的交易日期"/>
+  <Field Number="1010" Name="InputTime" Type="Int64" Description="写入时间 "/>
+  <Field Number="1011" Name="InstructDate" Type="Int64" Description="指令下达时间"/>
+  <Field Number="1012" Name="LastArchiveTime" Type="Int64" Description="上次归档日期 "/>
+  <Field Number="1013" Name="LastModDate" Type="Int64" Description="最后一次操作日期 "/>
+  <Field Number="1015" Name="NewSerialNum" Type="Int64" Description="新策略序号 "/>
+  <Field Number="1016" Name="LastTrdDate" Type="Int64" Description="最后交易日 "/>
+  <Field Number="1017" Name="ListDate" Type="Int64" Description="上市日"/>
+  <Field Number="1018" Name="LoginTime" Type="Int64" Description="柜员最后登录时间 "/>
+  <Field Number="1019" Name="MatureDate" Type="Int64" Description="到期日"/>
+  <Field Number="1020" Name="OfferStartTime" Type="Int64" Description="开始申报时间"/>
+  <Field Number="1021" Name="OfferStopTime" Type="Int64" Description="停止申报时间 "/>
+  <Field Number="1022" Name="OfferTime" Type="Int64" Description="申报时间（发送成功时间，由回报编写） "/>
+  <Field Number="1023" Name="OptTime" Type="Int64" Description="最后修改时间 "/>
+  <Field Number="1024" Name="PauseTime" Type="Int64" Description="暂停时间 "/>
+  <Field Number="1025" Name="PwdChangeDate" Type="Int64" Description="最后一次口令修改日期 "/>
+  <Field Number="1026" Name="ResumeTime" Type="Int64" Description="恢复时间"/>
+  <Field Number="1027" Name="StartDate" Type="Int64" Description="起始日期 "/>
+  <Field Number="1028" Name="ArrivedFillQty" Type="Int64" Description="最近一次修改指令时，本指令已经成交数量，主要用于量比修改后计算使用"/>
+  <Field Number="1029" Name="CreateTotalKnockQty" Type="Int64" Description="指令创建时的市场成交量 "/>
+  <Field Number="1030" Name="EndTotalExchKnockQty" Type="Int64" Description="代码执行完成时，市场成交量"/>
+  <Field Number="1031" Name="MaxBuyLimitOrderQty" Type="Int64" Description="买入限价委托上限数量(每笔最大限量) "/>
+  <Field Number="1032" Name="MaxBuyMarketOrderQty" Type="Int64" Description="买入市价委托上限数量(每笔最大限量)"/>
+  <Field Number="1033" Name="MaxOrderQty" Type="Int64" Description="单笔最大数量 "/>
+  <Field Number="1034" Name="MaxSellLimitOrderQty" Type="Int64" Description="卖出限价委托上限数量(每笔最大限量)"/>
+  <Field Number="1035" Name="MaxSellMarketOrderQty" Type="Int64" Description="卖出市价委托上限数量(每笔最大限量) "/>
+  <Field Number="1036" Name="MinBuyLimitOrderQty" Type="Int64" Description="买入限价委托下限数量(每单最小数量单位) "/>
+  <Field Number="1037" Name="MinBuyMarketOrderQty" Type="Int64" Description="买入市价委托下限数量(每单最小数量单位)"/>
+  <Field Number="1038" Name="MinOrderQty" Type="Int64" Description="单笔最小数量 "/>
+  <Field Number="1039" Name="MinSellLimitOrderQty" Type="Int64" Description="卖出限价委托下限数量(每单最小数量单位)"/>
+  <Field Number="1040" Name="MinSellMarketOrderQty" Type="Int64" Description="卖出市价委托下限数量(每单最小数量单位) "/>
+  <Field Number="1041" Name="OddQty" Type="Int64" Description="累计零股剩余数量"/>
+  <Field Number="1042" Name="OrderTotalKnockQty" Type="Int64" Description="指令第一笔委托时的市场成交量"/>
+  <Field Number="1043" Name="PostQty" Type="Int64" Description="本次股份余额 "/>
+  <Field Number="1044" Name="Preexchtotalknockqty" Type="Int64"
+         Description="上一交易日市场总成交量(如果上一日ExchTotalKnockQty为0向前获取到有值位置)"/>
+  <Field Number="1045" Name="StkOccurQty" Type="Int64" Description="股份发生数 "/>
+  <Field Number="1046" Name="StockFrozenQty" Type="Int64" Description="股份交易冻结"/>
+  <Field Number="1047" Name="SumWithdrawQty" Type="Int64" Description="累计撤单数量"/>
+  <Field Number="1048" Name="TotalCurrentstkQty" Type="Int64" Description="总流通数量"/>
+  <Field Number="1049" Name="TotalofferQty" Type="Int64" Description="报盘数量（累计报盘数量,委托表中的数量）"/>
+  <Field Number="1050" Name="SettleDate" Type="Int64" Description="交收日期"/>
+
+  <Field Number="1051" Name="LastRunTime" Type="Int64" Description="最后运行时间"/>
+  <Field Number="1052" Name="NextRunTime" Type="Int64" Description="下次运行时间"/>
+
+  <Field Number="1056" Name="KnockDate" Type="Int64" Description="估值日期"/>
+  <Field Number="1057" Name="ProfitLossDate" Type="Int64" Description="结账日期"/>
+  <Field Number="1058" Name="UnFinishQty" Type="Int64" Description="未完成数量"/>
+  <Field Number="1059" Name="OpenOrderQty" Type="Int64" Description="累计已成功下到OpenOrder的数量（不包括补单数量）"/>
+  <Field Number="1060" Name="SetupBegintime" Type="Int64" Description="建仓开始日期"/>
+  <Field Number="1061" Name="SetupEndTime" Type="Int64" Description="建仓结束日期"/>
+  <Field Number="1062" Name="PkeyId" Type="Int64" Description="主键代码 "/>
+  <Field Number="1065" Name="PublishDate" Type="Int64" Description="发行日期 "/>
+  <Field Number="1066" Name="LockDate" Type="Int64" Description="锁定日期 "/>
+  <Field Number="1067" Name="RightsDate" Type="Int64" Description="权益登记日 "/>
+
+  <Field Number="1069" Name="PayEndDate" Type="Int64" Description="缴款截止日 "/>
+  <Field Number="1070" Name="FirstAuditTime" Type="Int64" Description="一级复核时间"/>
+  <Field Number="1071" Name="SecAuditTime" Type="Int64" Description="二级复核时间"/>
+  <Field Number="1072" Name="DistributedTime" Type="Int64" Description="分发时间"/>
+  <Field Number="1073" Name="CurrentUsedQty" Type="Int64" Description="应委托数量"/>
+  <Field Number="1074" Name="CoveredFrozenQty" Type="Int64" Description="备兑冻结数量"/>
+  <Field Number="1075" Name="CoveredFrozenUsableQty" Type="Int64" Description="备兑冻结可用数量"/>
+  <Field Number="1076" Name="CoveredFrozenPositionQty" Type="Int64" Description="个股期权备兑开仓证券锁定昨日持仓数量"/>
+  <Field Number="1077" Name="ExpireTime" Type="Int64" Description="策略时效时间(tag126)"/>
+  <Field Number="1078" Name="ReturnTime" Type="Int64" Description="收到执行报告的时间"/>
+  <Field Number="1079" Name="RecordNo" Type="Int64" Description="执行报告序号"/>
+  <Field Number="1080" Name="RespTime" Type="Int64" Description="回报时间"/>
+  <Field Number="1081" Name="SendTime" Type="Int64" Description="发送时间"/>
+  <Field Number="1082" Name="PayDate" Type="Int64" Description="结算日"/>
+  <Field Number="1083" Name="Forcecanceltime" Type="Int64" Description="强制撤销时间"/>
+  <Field Number="1084" Name="RemarkTime" Type="Int64" Description="超时时间"/>
+  <Field Number="1092" Name="ExposureAmt" Type="Double" Description="敞口值"/>
+
+  <Field Number="1101" Name="FirstCouponDate" Type="Int64" Description="首次付息日"/>
+  <Field Number="1102" Name="CouponStartDate" Type="Int64" Description="起息日"/>
+  <Field Number="1104" Name="EarlyPaymentDate" Type="Int64" Description="提前兑付日"/>
+  <Field Number="1105" Name="IssueDate" Type="Int64" Description="发行日"/>
+  <Field Number="1106" Name="NextRightsDate" Type="Int64" Description="下一行权日"/>
+  <Field Number="1107" Name="EndRightsDate" Type="Int64" Description="行权到期日"/>
+  <Field Number="1109" Name="OfflinePublishQty" Type="Int64" Description="新股网下发行量"/>
+  <Field Number="1110" Name="OnlinePublishQty" Type="Int64" Description="新股网上发行量"/>
+  <Field Number="1111" Name="OnlinePurchaseDate" Type="Int64" Description="新股网上申购日"/>
+  <Field Number="1112" Name="OfflinePurchaseDate" Type="Int64" Description="新股网下申购日"/>
+  <Field Number="1113" Name="BallotDate" Type="Int64" Description="新股中签日"/>
+
+  <Field Number="2001" Name="TotalMktKnockAmt" Type="Double" Description="总成交金额"/>
+  <Field Number="2002" Name="AccuredInterest" Type="Double" Description="每百元应计利息额"/>
+  <Field Number="2003" Name="PrevTotalMktKnockAmt" Type="Double" Description="昨日成交金额"/>
+  <Field Number="2004" Name="OrderPriceUnit" Type="Double" Description="价格档位"/>
+  <Field Number="2005" Name="OrderPrice" Type="Double" Description="委託價格"/>
+  <Field Number="2008" Name="ReckoningAmt" Type="Double" Description="清算金額"/>
+  <Field Number="2009" Name="ParValue" Type="Double" Description="每股面值"/>
+  <Field Number="2010" Name="KnockAmt" Type="Double" Description="成交金额"/>
+  <Field Number="2011" Name="ETFRedemptionCashReplaceAmt" Type="Double" Description="赎回替代金额"/>
+  <Field Number="2012" Name="ETFApplyCashReplaceAmt" Type="Double" Description="申购替代金额"/>
+  <Field Number="2013" Name="PremiumRate" Type="Double" Description="溢价标志"/>
+  <Field Number="2014" Name="NAVperCU" Type="Double" Description="T-1日申购赎回基准单"/>
+  <Field Number="2015" Name="NAV" Type="Double" Description="T-1日基金的单位净值"/>
+  <Field Number="2016" Name="ETFSettlementCashAmt" Type="Double" Description="T-1日申购赎回现金差额"/>
+  <Field Number="2017" Name="MaxCashRatio" Type="Double" Description="现金替代比例上限"/>
+  <Field Number="2018" Name="ETFEstimateSettlementCashAmt" Type="Double" Description="T日预估现金余额"/>
+  <Field Number="2020" Name="AnnualIncomeRate" Type="Double" Description="年化收益率"/>
+  <Field Number="2021" Name="IncomeAmt" Type="Double" Description="收益金额"/>
+  <Field Number="2022" Name="StockBidRate" Type="Double" Description="股票的盘口比例"/>
+  <Field Number="2023" Name="FutureBidRate" Type="Double" Description="合约的盘口比例"/>
+  <Field Number="2024" Name="NoRiskInterestRate" Type="Double" Description="无风险利率"/>
+  <Field Number="2025" Name="CommisionRate" Type="Double" Description="手续费率"/>
+  <Field Number="2026" Name="FutureMarginUsedAmt" Type="Double" Description="预期保证金占用"/>
+  <Field Number="2027" Name="ExpectedBuyAmt" Type="Double" Description="预期现货买入金额"/>
+  <Field Number="2028" Name="ExpectedSellAmt" Type="Double" Description="预期现货卖出金额"/>
+  <Field Number="2029" Name="ExpectedOpenAmt" Type="Double" Description="预期期货开仓金额"/>
+  <Field Number="2030" Name="ExpectedCloseAmt" Type="Double" Description="预期期货平仓金额"/>
+  <Field Number="2031" Name="ExpectedStkBuyFee" Type="Double" Description="预期股票费用(买入)"/>
+  <Field Number="2032" Name="ExpectedStkSellFee" Type="Double" Description="预期股票费用(卖出)"/>
+  <Field Number="2033" Name="ExpectedFutureOpenFee" Type="Double" Description="预期期货费用（开仓）"/>
+  <Field Number="2034" Name="ExpectedFutureCloseFee" Type="Double" Description="预期期货费用（平仓）"/>
+  <Field Number="2035" Name="ExpectedIncome" Type="Double" Description="预期收益"/>
+  <Field Number="2036" Name="ExpectedAnnualIncomeRate" Type="Double" Description="预期年化收益率"/>
+  <Field Number="2039" Name="TransferAmt" Type="Double" Description="转账金额"/>
+  <Field Number="2040" Name="NewCostPrice" Type="Double" Description="新的成本价"/>
+  <Field Number="2041" Name="CurrentAmt" Type="Double" Description="当前资金余额"/>
+  <Field Number="2042" Name="UsableAmt" Type="Double" Description="可用资金"/>
+  <Field Number="2043" Name="MarginUsedAmt" Type="Double" Description="当日保证金占用"/>
+  <Field Number="2044" Name="TradeFrozenAmt" Type="Double" Description="交易冻结"/>
+  <Field Number="2045" Name="CurrentAmtForAsset" Type="Double" Description="实时资金余额/权益"/>
+  <Field Number="2046" Name="CurrentStkValue" Type="Double" Description="参考市值"/>
+  <Field Number="2047" Name="ProfitAndLoss" Type="Double" Description="投资损益"/>
+  <Field Number="2048" Name="CashMovementAmt" Type="Double" Description="当天出入金"/>
+  <Field Number="2049" Name="NewPrice" Type="Double" Description="最新价"/>
+  <Field Number="2050" Name="CostPrice" Type="Double" Description="成本价"/>
+  <Field Number="2051" Name="FloatPnL" Type="Double" Description="浮动盈亏"/>
+  <Field Number="2052" Name="InvestCost" Type="Double" Description="投资成本"/>
+  <Field Number="2053" Name="RealizedIncome" Type="Double" Description="已实现损益"/>
+  <Field Number="2055" Name="AccrualAmt" Type="Double" Description="应计利息"/>
+  <Field Number="2056" Name="Commission" Type="Double" Description="佣金"/>
+  <Field Number="2057" Name="ExchangeTradeFee" Type="Double" Description="一级费用"/>
+  <Field Number="2058" Name="BankBalance" Type="Double" Description="银行余额"/>
+  <Field Number="2059" Name="orderAmt" Type="Double" Description="委托金额"/>
+  <Field Number="2062" Name="TotalKnockAmt" Type="Double" Description="成交金额"/>
+  <Field Number="2063" Name="ExpectedCost" Type="Double" Description="约用资金"/>
+  <Field Number="2064" Name="RealtimeIncomeRate" Type="Double" Description="实时收益率"/>
+  <Field Number="2065" Name="FutureRealizedIncome" Type="Double" Description="期货：已实现收益"/>
+  <Field Number="2066" Name="StockRealizedIncome" Type="Double" Description="现货：已实现收益"/>
+  <Field Number="2067" Name="SimilarRiskAmt" Type="Double" Description="拟合风险"/>
+  <Field Number="2068" Name="SuspendedRiskAmt" Type="Double" Description="停牌风险"/>
+  <Field Number="2069" Name="WeightRate" Type="Double" Description="权重"/>
+  <Field Number="2070" Name="Beta" Type="Double" Description="Beta系数"/>
+  <Field Number="2072" Name="RelatedCoefficient" Type="Double" Description="相关系数"/>
+  <Field Number="2073" Name="FluctuationLimit" Type="Double" Description="涨跌幅"/>
+  <Field Number="2074" Name="BuyPrice1" Type="Double"/>
+  <Field Number="2075" Name="BuyPrice2" Type="Double"/>
+  <Field Number="2076" Name="BuyPrice3" Type="Double"/>
+  <Field Number="2077" Name="BuyPrice4" Type="Double"/>
+  <Field Number="2078" Name="BuyPrice5" Type="Double"/>
+  <Field Number="2079" Name="BuyPrice6" Type="Double"/>
+  <Field Number="2080" Name="BuyPrice7" Type="Double"/>
+  <Field Number="2081" Name="BuyPrice8" Type="Double"/>
+  <Field Number="2082" Name="BuyPrice9" Type="Double"/>
+  <Field Number="2083" Name="BuyPrice10" Type="Double"/>
+  <Field Number="2084" Name="SellPrice1" Type="Double"/>
+  <Field Number="2085" Name="SellPrice2" Type="Double"/>
+  <Field Number="2086" Name="SellPrice3" Type="Double"/>
+  <Field Number="2087" Name="SellPrice4" Type="Double"/>
+  <Field Number="2088" Name="SellPrice5" Type="Double"/>
+  <Field Number="2089" Name="SellPrice6" Type="Double"/>
+  <Field Number="2090" Name="SellPrice7" Type="Double"/>
+  <Field Number="2091" Name="SellPrice8" Type="Double"/>
+  <Field Number="2092" Name="SellPrice9" Type="Double"/>
+  <Field Number="2093" Name="SellPrice10" Type="Double"/>
+  <Field Number="2094" Name="MaxOrderPrice" Type="Double" Description="涨停价"/>
+  <Field Number="2095" Name="MinOrderPrice" Type="Double" Description="跌停价"/>
+  <Field Number="2096" Name="Closeprice" Type="Double" Description="昨日收盘价"/>
+  <Field Number="2097" Name="HighPrice" Type="Double" Description="最高价"/>
+  <Field Number="2098" Name="Lowprice" Type="Double" Description="最低价"/>
+  <Field Number="2099" Name="OpenPrice" Type="Double" Description="今日开盘价"/>
+  <Field Number="2100" Name="IOPV" Type="Double" Description="IOPV"/>
+  <Field Number="2101" Name="KnockPrice" Type="Double" Description="成交价格"/>
+  <Field Number="2102" Name="BuyAvgPrice" Type="Double" Description="加权平均委买价格"/>
+  <Field Number="2103" Name="SellAvgPrice" Type="Double" Description="加权平均委卖价格"/>
+  <Field Number="2104" Name="BuystampRate" Type="Double" Description="买印花税率"/>
+  <Field Number="2105" Name="SellstampRate" Type="Double" Description="卖印花税率"/>
+  <Field Number="2106" Name="TradeTransRate" Type="Double" Description="二级过户费"/>
+  <Field Number="2107" Name="ReckoningRate" Type="Double" Description="清算费"/>
+  <Field Number="2108" Name="HandlingRate" Type="Double" Description="经手费"/>
+  <Field Number="2109" Name="stkMngRate" Type="Double" Description="证管费"/>
+  <Field Number="2110" Name="ExchTransRate" Type="Double" Description="交易所过户费"/>
+  <Field Number="2111" Name="VentureRate" Type="Double" Description="风险基金"/>
+  <Field Number="2112" Name="StkValue" Type="Double" Description="证券市值"/>
+  <Field Number="2113" Name="knockAvgPrice" Type="Double" Description="成交均价"/>
+  <Field Number="2114" Name="TotalReckoningAmt" Type="Double" Description="总清算金额"/>
+  <Field Number="2115" Name="ClosePNL" Type="Double" Description="平仓盈亏"/>
+  <Field Number="2116" Name="unKnockAmt" Type="Double" Description="未完成金额"/>
+  <Field Number="2117" Name="KnockRate" Type="Double" Description="成交比例/完成比例"/>
+  <Field Number="2119" Name="PrevSettlementPrice" Type="Double" Description="昨结算价"/>
+  <Field Number="2120" Name="PostAmt" Type="Double" Description="发生后的资金余额"/>
+  <Field Number="2121" Name="StampTax" Type="Double" Description="印花税"/>
+  <Field Number="2122" Name="TradetransFee" Type="Double" Description="过户费"/>
+  <Field Number="2123" Name="ReckoningFee" Type="Double" Description="清算费"/>
+  <Field Number="2124" Name="TransRuleFee" Type="Double" Description="交易规费"/>
+  <Field Number="2125" Name="HandlingFee" Type="Double" Description="经手费"/>
+  <Field Number="2126" Name="StkMngFee" Type="Double" Description="证管费"/>
+  <Field Number="2128" Name="VentureFee" Type="Double" Description="风险基金"/>
+  <Field Number="2129" Name="ExchtransFee" Type="Double" Description="交易所过户费"/>
+  <Field Number="2130" Name="StkIndexPriceDiffRate1" Type="Double" Description="组合价格偏离指数比例提醒值1"/>
+  <Field Number="2131" Name="StkIndexPriceDiffRate2" Type="Double" Description="组合价格偏离指数比例提醒值2"/>
+  <Field Number="2132" Name="TotalAmount" Type="Double" Description="总金额"/>
+  <Field Number="2133" Name="PreviousIncome" Type="Double" Description="昨日收益"/>
+  <Field Number="2134" Name="PreviousCost" Type="Double" Description="参考成本价（昨日成本价）"/>
+  <Field Number="2135" Name="MinParameter" Type="Double" Description="最小参数"/>
+  <Field Number="2136" Name="MaxParameter" Type="Double" Description="最大参数"/>
+  <Field Number="2137" Name="ParameterDefault" Type="Double" Description="参数默认值"/>
+  <Field Number="2138" Name="RequiredUsableAmt" Type="Double" Description="所需现金"/>
+  <Field Number="2139" Name="Rate1" Type="Double" Description="跟踪指数比率"/>
+  <Field Number="2140" Name="Rate2" Type="Double" Description="组合比率"/>
+  <Field Number="2141" Name="TDOpenAvgPrice" Type="Double" Description="今日开仓均价"/>
+  <Field Number="2142" Name="DiffPrice" Type="Double" Description="涨跌价"/>
+  <Field Number="2143" Name="TotalAmt" Type="Double" Description="总金额"/>
+  <Field Number="2144" Name="BuyPrice" Type="Double"/>
+  <Field Number="2145" Name="SellPrice" Type="Double"/>
+  <Field Number="2146" Name="rate" Type="Double" Description="占用指数比例"/>
+  <Field Number="2147" Name="adjustRate" Type="Double" Description="加权因子"/>
+  <Field Number="2148" Name="CloseNoFeePNL" Type="Double" Description="平仓盈亏（不含费用）"/>
+  <Field Number="2149" Name="SampleDate1" Type="Double" Description="样本数据"/>
+  <Field Number="2150" Name="SampleData1" Type="Double" Description="样本数据"/>
+  <Field Number="2151" Name="NewPrice1" Type="Double" Description="价格以上"/>
+  <Field Number="2152" Name="NewPrice2" Type="Double" Description="价格以下"/>
+  <Field Number="2153" Name="TotalMktKnockAmt1" Type="Double" Description="总成交金额以上"/>
+  <Field Number="2154" Name="TotalMktKnockAmt2" Type="Double" Description="总成交金额以下"/>
+  <Field Number="2155" Name="TrackIndexProfit" Type="Double" Description="跟踪指数的收益率"/>
+  <Field Number="2156" Name="ImitateIndexProfit" Type="Double" Description="模拟指数的收益率"/>
+  <Field Number="2157" Name="FitDifference" Type="Double" Description="拟合误差"/>
+  <Field Number="2158" Name="FitDifferenceRate" Type="Double" Description="拟合误差率"/>
+  <Field Number="2159" Name="RealtimeCostPrice" Type="Double" Description="实时成本价"/>
+  <Field Number="2160" Name="SettlementPrice" Type="Double" Description="结算价"/>
+  <Field Number="2161" Name="AssetsTotalValue" Type="Double" Description="总资产or权益"/>
+  <Field Number="2162" Name="AssetsCash" Type="Double" Description="现金"/>
+  <Field Number="2163" Name="AssetsMarketValue" Type="Double" Description="市值"/>
+  <Field Number="2164" Name="AssetsPositionGandL" Type="Double" Description="浮动（盯市）盈亏"/>
+  <Field Number="2165" Name="AssetsRealPandL" Type="Double" Description="已实现盈亏"/>
+  <Field Number="2166" Name="AssetsMargin" Type="Double" Description="保证金（期货账户）"/>
+  <Field Number="2167" Name="AssetsBEPPrice" Type="Double" Description="盈亏平衡点价格"/>
+  <Field Number="2168" Name="PreviousCostAmt" Type="Double" Description="昨日成本金额"/>
+  <Field Number="2169" Name="TDTotalOpenAmt" Type="Double" Description="今日累计买入金额"/>
+  <Field Number="2170" Name="TDTotalCloseAmt" Type="Double" Description="今日累计卖出金额"/>
+  <Field Number="2171" Name="TDTotalOpenFee" Type="Double" Description="今日累计买入费用"/>
+  <Field Number="2172" Name="TDTotalCloseFee" Type="Double" Description="今日累计卖出费用"/>
+  <Field Number="2173" Name="AssetsBuyTotalAmt" Type="Double" Description="总买金额"/>
+  <Field Number="2174" Name="AssetsBuyTotalQty" Type="Double" Description="总买数量"/>
+  <Field Number="2175" Name="AssetsBuyTotalFree" Type="Double" Description="总买费用"/>
+  <Field Number="2176" Name="AssetsBuyAverageCost" Type="Double" Description="总买平均成本"/>
+  <Field Number="2177" Name="AssetsSellTotalAmt" Type="Double" Description="总卖金额"/>
+  <Field Number="2178" Name="AssetsSellTotalQty" Type="Double" Description="总卖数量"/>
+  <Field Number="2179" Name="AssetsSellTotalFree" Type="Double" Description="总卖费用"/>
+  <Field Number="2180" Name="AssetsSellAverageCost" Type="Double" Description="总卖平均成本"/>
+  <Field Number="2181" Name="TotalPnL" Type="Double" Description="总的盈亏"/>
+  <Field Number="2182" Name="PreSettlementPrice" Type="Double" Description="昨结算，仅期货有"/>
+  <Field Number="2183" Name="PostCostAmt" Type="Double" Description="当日成本金额（日终）"/>
+  <Field Number="2184" Name="AssetsPositionGandL1" Type="Double" Description="浮动（盯市）盈亏"/>
+  <Field Number="2185" Name="AssetsPositionGandL2" Type="Double" Description="浮动（盯市）盈亏"/>
+  <Field Number="2186" Name="MarginRate" Type="Double" Description="保证金率"/>
+  <Field Number="2187" Name="MarginAmt" Type="Double" Description="保证金金额(每手)"/>
+  <Field Number="2188" Name="OpenCloseRate" Type="Double" Description="开平仓费率"/>
+  <Field Number="2189" Name="OpenCloseFee" Type="Double" Description="开平仓费用(每手)"/>
+  <Field Number="2190" Name="CloseTodayRate" Type="Double" Description="平今费率"/>
+  <Field Number="2191" Name="CloseTodayFee" Type="Double" Description="平今费用(每手)"/>
+  <Field Number="2192" Name="DeliveryRate" Type="Double" Description="交割费率"/>
+  <Field Number="2193" Name="DeliveryFee" Type="Double" Description="交割费用(每手)"/>
+  <Field Number="2194" Name="YdMarginUsedAmt" Type="Double" Description="昨日保证金占用"/>
+  <Field Number="2195" Name="TDCloseAvgPrice" Type="Double" Description="今日平仓均价"/>
+  <Field Number="2196" Name="ExternalTotalAmount" Type="Double" Description="跨境(无行情)替代总金额"/>
+  <Field Number="2197" Name="ExchCommission" Type="Double" Description="交易所手续费"/>
+  <Field Number="2198" Name="CustCommission" Type="Double" Description="客户手续费"/>
+  <Field Number="2199" Name="ExchMarginUsedAmt" Type="Double" Description="交易所保证金占用"/>
+  <Field Number="2200" Name="CustMarginUsedAmt" Type="Double" Description="客户保证金占用"/>
+  <Field Number="2201" Name="RealtimePNL" Type="Double" Description="盯市盈亏"/>
+  <Field Number="2202" Name="ExpectedStkFee" Type="Double" Description="预期股票费用"/>
+  <Field Number="2203" Name="ExpectedFundFee" Type="Double" Description="预期基金费用"/>
+  <Field Number="2204" Name="ExpectedTransferFee" Type="Double" Description="预期申购费用"/>
+  <Field Number="2205" Name="OpenIndexPrice" Type="Double" Description="开仓指数点"/>
+  <Field Number="2206" Name="OpenBasicPriceDiff" Type="Double" Description="开仓基差"/>
+  <Field Number="2207" Name="OpenBasketPrice" Type="Double" Description="开仓组合点"/>
+  <Field Number="2208" Name="ExpectedTotalFee" Type="Double" Description="预期费用"/>
+  <Field Number="2209" Name="ExpectedReplaceCash" Type="Double" Description="预估现金替代金额(停牌)"/>
+  <Field Number="2210" Name="CloseIndexPrice" Type="Double" Description="平仓指数点"/>
+  <Field Number="2211" Name="CloseBasicPriceDiff" Type="Double" Description="平仓基差"/>
+  <Field Number="2212" Name="CloseBasketPrice" Type="Double" Description="平仓组合点"/>
+  <Field Number="2213" Name="FrozenPrice" Type="Double" Description="冻结价格"/>
+  <Field Number="2214" Name="ReplaceAmt" Type="Double" Description="替代金额"/>
+  <Field Number="2215" Name="BuyAutoCostPrice" Type="Double" Description="自动买盘均价"/>
+  <Field Number="2216" Name="SellAutoCostPrice" Type="Double" Description="自动卖盘均价"/>
+  <Field Number="2217" Name="FactCost" Type="Double" Description="实际成本"/>
+  <Field Number="2218" Name="FactTotalFee" Type="Double" Description="实际费用"/>
+  <Field Number="2219" Name="FactIncome" Type="Double" Description="已实现损益"/>
+  <Field Number="2220" Name="FactAnnualIncomeRate" Type="Double" Description="实际年化收益率"/>
+  <Field Number="2221" Name="FactBuyAmt" Type="Double" Description="实际买入金额"/>
+  <Field Number="2222" Name="FactSellAmt" Type="Double" Description="实际卖出金额"/>
+  <Field Number="2223" Name="FactOpenAmt" Type="Double" Description="实际开仓金额"/>
+  <Field Number="2224" Name="FactCloseAmt" Type="Double" Description="实际平仓金额"/>
+  <Field Number="2225" Name="FactReplaceCash" Type="Double" Description="实际现金替代买入的资金金额"/>
+  <Field Number="2226" Name="FactStkBuyFee" Type="Double" Description="实际股票费用(买入)"/>
+  <Field Number="2227" Name="FactStkSellFee" Type="Double" Description="实际股票费用(卖出)"/>
+  <Field Number="2228" Name="FactFutureOpenFee" Type="Double" Description="实际股票费用(开仓)"/>
+  <Field Number="2229" Name="FactFutureCloseFee" Type="Double" Description="实际股票费用(平仓)"/>
+  <Field Number="2230" Name="BuyAmt" Type="Double" Description="买入金额"/>
+  <Field Number="2231" Name="SellAmt" Type="Double" Description="卖出金额"/>
+  <Field Number="2232" Name="DividendAmt" Type="Double" Description="分红金额"/>
+  <Field Number="2233" Name="TodayBuyAmt" Type="Double" Description="当天买入金额"/>
+  <Field Number="2234" Name="TodaySellAmt" Type="Double" Description="当天卖出金额"/>
+  <Field Number="2235" Name="ReplaceCash" Type="Double" Description="停牌未买入的资金金额"/>
+  <Field Number="2236" Name="TotalBuyFee" Type="Double" Description="累计买入费用"/>
+  <Field Number="2237" Name="TotalSellFee" Type="Double" Description="累计卖出费用"/>
+  <Field Number="2238" Name="OpenAmt" Type="Double" Description="总开仓金额"/>
+  <Field Number="2239" Name="CloseAmt" Type="Double" Description="总平仓金额"/>
+  <Field Number="2240" Name="FutureCostPrice" Type="Double" Description="合约持仓成本"/>
+  <Field Number="2241" Name="TodayOpenAmt" Type="Double" Description="当天开仓金额"/>
+  <Field Number="2242" Name="TodayCloseAmt" Type="Double" Description="当天平仓金额"/>
+  <Field Number="2243" Name="TotalOpenFee" Type="Double" Description="累计开仓费用　"/>
+  <Field Number="2244" Name="TotalCloseFee" Type="Double" Description="累计平仓费用"/>
+  <Field Number="2245" Name="ResidualBuyAmt" Type="Double" Description="买入零股交易金额"/>
+  <Field Number="2246" Name="ResidualSellAmt" Type="Double" Description="停牌无法卖出金额"/>
+  <Field Number="2247" Name="EtfTransferAmt" Type="Double" Description="申赎金额"/>
+  <Field Number="2248" Name="FactStkFee" Type="Double" Description="实际股票费用"/>
+  <Field Number="2249" Name="FactFundFee" Type="Double" Description="实际基金费用"/>
+  <Field Number="2250" Name="FactTransferFee" Type="Double" Description="实际申购费用"/>
+  <Field Number="2251" Name="EstimateCashComponent" Type="Double" Description="预估现金差额"/>
+  <Field Number="2252" Name="CashComponent" Type="Double" Description="实际的现金差"/>
+  <Field Number="2253" Name="ReplaceCashRisk" Type="Double" Description="不确定金额"/>
+  <Field Number="2254" Name="CreditCashMarginRate" Type="Double" Description="融资保证金比例"/>
+  <Field Number="2255" Name="CreditShareMarginRate" Type="Double" Description="融券保证金比例"/>
+  <Field Number="2256" Name="CreditAssureRate" Type="Double" Description="担保折扣比例"/>
+  <Field Number="2257" Name="MaxTotalCreditAmt" Type="Double" Description="信用交易总额度"/>
+  <Field Number="2258" Name="MaxCreditCashAmt" Type="Double" Description="融资信用额度"/>
+  <Field Number="2259" Name="MaxCreditShareAmt" Type="Double" Description="融券信用额度"/>
+  <Field Number="2260" Name="PreviousCreditCashAmt" Type="Double" Description="昨日融资金额"/>
+  <Field Number="2261" Name="CurrentCreditCashAmt" Type="Double" Description="当前融资金额"/>
+  <Field Number="2262" Name="CurrentCreditFrozenAmt" Type="Double" Description="融资在途金额"/>
+  <Field Number="2263" Name="CreditCashInterest" Type="Double" Description="融资利息"/>
+  <Field Number="2264" Name="CreditShareInterest" Type="Double" Description="融券利息"/>
+  <Field Number="2265" Name="ExchTotalKnockAmt" Type="Double" Description="市场总成交金额"/>
+  <Field Number="2266" Name="NeedSettleAmt" Type="Double" Description="在途资金"/>
+  <Field Number="2267" Name="FactAssetsCash" Type="Double" Description="实际现金"/>
+  <Field Number="2268" Name="ReturnCreditCashAmt" Type="Double" Description="融资已还款金额"/>
+  <Field Number="2269" Name="ReturnCreditCashInterest" Type="Double" Description="融资已还利息"/>
+  <Field Number="2270" Name="CreditShareFee" Type="Double" Description="融券费用"/>
+  <Field Number="2271" Name="ReturnCreditShareFee" Type="Double" Description="融券已还费用"/>
+  <Field Number="2272" Name="CreditCashIntRate" Type="Double" Description="每日融资利率"/>
+  <Field Number="2273" Name="CreditShareIntRate" Type="Double" Description="每日融券费率"/>
+  <Field Number="2274" Name="TradeFee" Type="Double" Description="交易费用"/>
+  <Field Number="2275" Name="StopPrice" Type="Double" Description="止盈止损价格"/>
+  <Field Number="2276" Name="ClearTotalKnockAmt" Type="Double" Description="净价总成交金额"/>
+  <Field Number="2277" Name="RepoAmt" Type="Double" Description="未到期回购资金"/>
+  <Field Number="2278" Name="CreditCashAmt" Type="Double" Description="融资金额"/>
+  <Field Number="2279" Name="CreditShareAmt" Type="Double" Description="融券金额"/>
+  <Field Number="2280" Name="TdReturnCreditCashAmt" Type="Double" Description="当日还款金额"/>
+  <Field Number="2281" Name="TdCreditCashAmt" Type="Double" Description="当日融资金额"/>
+  <Field Number="2282" Name="CurrentCreditCostAmt" Type="Double" Description="当前融资/融券成本金额"/>
+  <Field Number="2283" Name="AssureAssets" Type="Double" Description="担保资产"/>
+  <Field Number="2284" Name="TotalDebt" Type="Double" Description="总负债"/>
+  <Field Number="2285" Name="FetchUsableAmt" Type="Double" Description="可取金额"/>
+  <Field Number="2286" Name="MaintainAssureScale" Type="Double" Description="维持担保比例"/>
+  <Field Number="2287" Name="MarginUsableAmt" Type="Double" Description="可用保证金"/>
+  <Field Number="2288" Name="CreditCashStkValue" Type="Double" Description="融资证券市值"/>
+  <Field Number="2289" Name="CreditShareStkValue" Type="Double" Description="融券证券市值"/>
+  <Field Number="2290" Name="CreditCashFee" Type="Double" Description="融资合约费用"/>
+  <Field Number="2291" Name="CreditCashUsableAmt" Type="Double" Description="融资可用额度"/>
+  <Field Number="2292" Name="CreditCashUsedAmt" Type="Double" Description="融资已用额度"/>
+  <Field Number="2293" Name="CreditShareUsableAmt" Type="Double" Description="融券可用额度"/>
+  <Field Number="2294" Name="CreditShareUsedAmt" Type="Double" Description="融券已用额度"/>
+  <Field Number="2295" Name="CreditCashMarginUsedAmt" Type="Double" Description="融资已用保证金"/>
+  <Field Number="2296" Name="CreditShareMarginUsedAmt" Type="Double" Description="融券已用保证金"/>
+  <Field Number="2297" Name="CreditCashPnL" Type="Double" Description="融资合约盈亏"/>
+  <Field Number="2298" Name="CreditSharePnL" Type="Double" Description="融券合约盈亏"/>
+  <Field Number="2299" Name="OtherFee" Type="Double" Description="其他费用"/>
+  <Field Number="2300" Name="CreditAssureUsableAmt" Type="Double" Description="买担保品可用资金"/>
+  <Field Number="2301" Name="CreditCashBuyUsableAmt" Type="Double" Description="买融资标的可用资金"/>
+  <Field Number="2302" Name="CreditStkUsableAmt" Type="Double" Description="买券还券可用资金"/>
+  <Field Number="2303" Name="CreditReturnUsableAmt" Type="Double" Description="现金还款可用资金"/>
+  <Field Number="2304" Name="TotalInterestAmt" Type="Double" Description="负债利息"/>
+  <Field Number="2305" Name="UnReturnCreditCashAmt" Type="Double" Description="融资未还金额"/>
+  <Field Number="2306" Name="UnReturnCreditCashInterest" Type="Double" Description="融资未还利息"/>
+  <Field Number="2307" Name="UnReturnCreditShareFee" Type="Double" Description="融券未还利息"/>
+  <Field Number="2308" Name="ReturnTradeFee" Type="Double" Description="已还交易费用"/>
+  <Field Number="2309" Name="OpenSpread" Type="Double" Description="开仓价差"/>
+  <Field Number="2310" Name="CloseSpread" Type="Double" Description="平仓价差"/>
+  <Field Number="2311" Name="FactOpenBuyAmt" Type="Double" Description="实际开仓买入金额（不含费用）"/>
+  <Field Number="2312" Name="FactOpenSellAmt" Type="Double" Description="实际开仓卖出金额（不含费用）"/>
+  <Field Number="2313" Name="FactCloseBuyAmt" Type="Double" Description="实际平仓买入金额（不含费用）"/>
+  <Field Number="2314" Name="FactCloseSellAmt" Type="Double" Description="实际平仓卖出金额（不含费用）"/>
+  <Field Number="2315" Name="ForwardOpenPara" Type="Double" Description="正向开仓阀值"/>
+  <Field Number="2316" Name="ForwardClosePara" Type="Double" Description="正向平仓阀值"/>
+  <Field Number="2317" Name="BackwardOpenPara" Type="Double" Description="反向开仓阀值"/>
+  <Field Number="2318" Name="BackwardClosePara" Type="Double" Description="反向平仓阀值"/>
+  <Field Number="2319" Name="ForwardPara1" Type="Double" Description="正向机会公式参数1"/>
+  <Field Number="2320" Name="ForwardPara2" Type="Double" Description="正向机会公式参数2"/>
+  <Field Number="2321" Name="ForwardPara3" Type="Double" Description="正向机会公式参数3"/>
+  <Field Number="2322" Name="BackwardPara1" Type="Double" Description="反向机会公式参数1"/>
+  <Field Number="2323" Name="BackwardPara2" Type="Double" Description="反向机会公式参数2"/>
+  <Field Number="2324" Name="BackwardPara3" Type="Double" Description="反向机会公式参数3"/>
+  <Field Number="2325" Name="YDOpenFee" Type="Double" Description="昨日开仓费用"/>
+  <Field Number="2326" Name="YDCloseFee" Type="Double" Description="昨日平仓费用"/>
+  <Field Number="2327" Name="YDBuyFee" Type="Double" Description="昨日买入费用"/>
+  <Field Number="2328" Name="YDSellFee" Type="Double" Description="昨日卖出费用"/>
+  <Field Number="2329" Name="TotalOpenAmt" Type="Double" Description="总开仓金额"/>
+  <Field Number="2330" Name="TotalCloseAmt" Type="Double" Description="总平仓金额"/>
+  <Field Number="2331" Name="ForwardSpread" Type="Double" Description="正向价差"/>
+  <Field Number="2332" Name="BackwardSpread" Type="Double" Description="反向价差"/>
+  <Field Number="2333" Name="TotalCommission" Type="Double" Description="总费用"/>
+  <Field Number="2334" Name="BonusStkRatio" Type="Double" Description="送股比例"/>
+  <Field Number="2335" Name="ConvertStkRatio" Type="Double" Description="转增比例"/>
+  <Field Number="2336" Name="CashRatio" Type="Double" Description="派现比例"/>
+  <Field Number="2337" Name="AddIssueRatio" Type="Double" Description="增发比例"/>
+  <Field Number="2338" Name="AddIssuePrice" Type="Double" Description="增发价格"/>
+  <Field Number="2339" Name="RationedStkRatio" Type="Double" Description="配股比例"/>
+  <Field Number="2340" Name="RationedStkPrice" Type="Double" Description="配股价格"/>
+  <Field Number="2341" Name="DiffRate" Type="Double" Description="涨跌幅"/>
+  <Field Number="2342" Name="VolumeRate" Type="Double" Description="委量比"/>
+  <Field Number="2343" Name="FundApplyRedemptionPrice" Type="Double" Description="基金申赎价格"/>
+  <Field Number="2344" Name="PERatio" Type="Double" Description="市盈率"/>
+  <Field Number="2345" Name="FIFOCost" Type="Double" Description="先进先出成本均价"/>
+  <Field Number="2346" Name="TdOpeningFrozenAmt" Type="Double" Description="今开冻结保证金额"/>
+  <Field Number="2347" Name="HedgingMarginRate" Type="Double" Description="套保保证金率"/>
+  <Field Number="2348" Name="ArbMarginRate" Type="Double" Description="套利保证金率"/>
+  <Field Number="2349" Name="YDAssetsTotalValue" Type="Double" Description="昨资产"/>
+  <Field Number="2350" Name="TdTotalPnL" Type="Double" Description="当日总盈亏"/>
+  <Field Number="2351" Name="DayKnockQtyRate" Type="Double" Description="日成交量比"/>
+  <Field Number="2352" Name="WeekKnockQtyRate" Type="Double" Description="周成交量比"/>
+  <Field Number="2353" Name="DayChangeRate" Type="Double" Description="日涨跌幅比"/>
+  <Field Number="2354" Name="WeekChangeRate" Type="Double" Description="周涨跌幅比"/>
+  <Field Number="2355" Name="MinPE" Type="Double" Description="市盈率起始范围"/>
+  <Field Number="2356" Name="MaxPE" Type="Double" Description="市盈率终止范围"/>
+  <Field Number="2357" Name="CurrentYBeginingAsset" Type="Double" Description="当前年期初资产"/>
+  <Field Number="2358" Name="CurrentMBeginingAsset" Type="Double" Description="当前月期初资产"/>
+  <Field Number="2359" Name="CurrentAsset" Type="Double" Description="当日总资产"/>
+  <Field Number="2360" Name="YBasicAsset" Type="Double" Description="年基准资产"/>
+  <Field Number="2361" Name="MBasicAsset" Type="Double" Description="月基准资产"/>
+  <Field Number="2362" Name="YNAV" Type="Double" Description="当日年资产净值"/>
+  <Field Number="2363" Name="MNAV" Type="Double" Description="当日月资产净值"/>
+  <Field Number="2364" Name="MTotalOpenAmt" Type="Double" Description="月买入/开仓金额"/>
+  <Field Number="2365" Name="MTotalCloseAmt" Type="Double" Description="月卖出/平仓金额"/>
+  <Field Number="2366" Name="YTotalOpenAmt" Type="Double" Description="年买入/开仓金额"/>
+  <Field Number="2367" Name="YTotalCloseAmt" Type="Double" Description="年卖出/平仓金额"/>
+  <Field Number="2368" Name="MCostAmt" Type="Double" Description="月成本金额（统计）"/>
+  <Field Number="2369" Name="MCostPrice" Type="Double" Description="月成本价（统计）"/>
+  <Field Number="2370" Name="MTotalPnl" Type="Double" Description="月累计盈亏（统计）"/>
+  <Field Number="2371" Name="YCostAmt" Type="Double" Description="年成本金额（统计）"/>
+  <Field Number="2372" Name="YCostPrice" Type="Double" Description="年成本价（统计）"/>
+  <Field Number="2373" Name="YTotalPnl" Type="Double" Description="年累计盈亏（统计）"/>
+  <Field Number="2374" Name="riskCoe" Type="Double" Description="风险管理系数"/>
+
+  <Field Number="2375" Name="CloseRate" Type="Double" Description="平仓费率"/>
+  <Field Number="2376" Name="CloseFee" Type="Double" Description="平仓费用(每手)"/>
+  <Field Number="2377" Name="PostNoFeeCostAmt" Type="Double" Description="成本金额(不含费用)"/>
+  <Field Number="2378" Name="SHHKUsableAmt" Type="Double" Description="沪港通可用资金"/>
+  <Field Number="2379" Name="SZHKUsableAmt" Type="Double" Description="深港通可用资金"/>
+  <Field Number="2380" Name="EquityCostAmt" Type="Double" Description="股票成本"/>
+  <Field Number="2381" Name="BondCostAmt" Type="Double" Description="债券成本"/>
+  <Field Number="2382" Name="FundCostAmt" Type="Double" Description="基金成本"/>
+  <Field Number="2383" Name="BPBuy" Type="Double" Description="买BP"/>
+  <Field Number="2384" Name="BPSell" Type="Double" Description="卖BP"/>
+  <Field Number="2385" Name="HisNAV" Type="Double" Description="T-2日基金的单位净值"/>
+
+  <Field Number="2392" Name="EndExchKnockAmt" Type="Double" Description="结束时市场总成交金额"/>
+
+  <Field Number="2401" Name="ExecPrice" Type="Double" Description="行权价"/>
+  <Field Number="2402" Name="HV" Type="Double" Description="历史波动率"/>
+  <Field Number="2403" Name="MarginRate1" Type="Double" Description="保证金率1"/>
+  <Field Number="2404" Name="MarginRate2" Type="Double" Description="保证金率2"/>
+  <Field Number="2405" Name="ExecuteRate" Type="Double" Description="行权费率"/>
+  <Field Number="2406" Name="ExecuteFee" Type="Double" Description="行权费用(每手)"/>
+  <Field Number="2407" Name="PremiumAmt" Type="Double" Description="当日权利金收付金额"/>
+  <Field Number="2408" Name="ExecIncome" Type="Double" Description="行权盈亏"/>
+
+  <Field Number="2501" Name="BuyExchRate" Type="Double" Description="参考汇率买入价"/>
+  <Field Number="2502" Name="SellExchRate" Type="Double" Description="参考汇率卖出价"/>
+  <Field Number="2503" Name="ExchRate" Type="Double" Description="参考汇率中间价"/>
+  <Field Number="2504" Name="StartPrice" Type="Double" Description="本价差表代码的最小价格"/>
+  <Field Number="2505" Name="GroupEndPrice" Type="Double" Description="本价差組別的最高价格"/>
+  <Field Number="2506" Name="GroupStartPrice" Type="Double" Description="本价差組別的最低价格"/>
+  <Field Number="2507" Name="PriceDiffUnit" Type="Double" Description="最小交易单位"/>
+  <Field Number="2508" Name="SettleReckoningAmt" Type="Double" Description="结算币种的清算金额"/>
+  <Field Number="2509" Name="SettleTotalReckoningAmt" Type="Double" Description="结算币种的总清算金额"/>
+  <Field Number="2510" Name="T2ExtraUsableAmt" Type="Double" Description="T+2日可用资金"/>
+
+  <Field Number="2511" Name="RiskDegree" Type="Double" Description="风险度"/>
+  <Field Number="2512" Name="RealRiskDegree" Type="Double" Description="实时风险度"/>
+  <Field Number="2513" Name="TriggerPrice" Type="Double" Description="触发价格"/>
+
+  <Field Number="2514" Name="rsMarginAmt" Type="Double" Description="保证金金额"/>
+  <Field Number="2515" Name="rsMarginUsedAmt" Type="Double" Description="保证金占用"/>
+  <Field Number="2516" Name="rsLendCashAmt" Type="Double" Description="对冲资金金额"/>
+  <Field Number="2517" Name="rsLendCashUsedAmt" Type="Double" Description="对冲资金占用"/>
+  <Field Number="2518" Name="rsMarginUsableAmt" Type="Double" Description="保证金可用金额"/>
+  <Field Number="2519" Name="rsLendCashUsableAmt" Type="Double" Description="对冲资金可用金额"/>
+  <Field Number="2520" Name="SplitMergeRate" Type="Double" Description="分拆/合并比例"/>
+  <Field Number="2521" Name="SettleBuyExchRate" Type="Double" Description="结算买入汇率"/>
+  <Field Number="2522" Name="SettleSellExchRate" Type="Double" Description="结算卖出汇率"/>
+  <Field Number="2523" Name="SettleAvgExchRate" Type="Double" Description="结算中间汇率"/>
+  <Field Number="2524" Name="OptionMarginUsedAmt" Type="Double" Description="期权保证金占用"/>
+  <Field Number="2525" Name="CreditShareCurrentAmt" Type="Double" Description="融券卖出资金余额"/>
+  <Field Number="2526" Name="MFUsedAmt" Type="Double" Description="购买场内货币基金使用的融券卖出资金实时额度"/>
+  <Field Number="2528" Name="CreditShareRTStkValue" Type="Double" Description="信用:融券市值"/>
+  <Field Number="2530" Name="SZT2ExtraUsableAmt" Type="Double" Description="深港T+2日可用资金"/>
+  <Field Number="2531" Name="T1ShareUsableAmt" Type="Double" Description="深港、沪港T+1日可用资金"/>
+
+  <Field Number="3000" Name="ArrivedFillAmt" Type="Double" Description="最近一次修改指令时，本指令的已经成交金额 "/>
+  <Field Number="3001" Name="BasicPreClosePrice" Type="Double" Description="标的证券昨收盘 "/>
+  <Field Number="3002" Name="BeginKnockAmt" Type="Double" Description="开始成交金额/数量 "/>
+  <Field Number="3003" Name="Buy1" Type="Double" Description="买一价 "/>
+  <Field Number="3004" Name="Commision" Type="Double" Description="手续费"/>
+  <Field Number="3005" Name="CreateTotalKnockAmt" Type="Double" Description="指令创建时的市场成交金额"/>
+  <Field Number="3007" Name="CustMarginAmt" Type="Double" Description="客户保证金占用"/>
+  <Field Number="3008" Name="DecLen" Type="Double" Description="小数位数 "/>
+  <Field Number="3009" Name="DepositInterest" Type="Double" Description="存款利息（利息变化）"/>
+  <Field Number="3010" Name="DepositRate" Type="Double" Description="默认存款年利率"/>
+  <Field Number="3011" Name="DepositSum" Type="Double" Description="存款利息积数（利息基数变化） "/>
+  <Field Number="3012" Name="DownPercent" Type="Double" Description="跌幅比例"/>
+  <Field Number="3013" Name="EndKnockAmt" Type="Double" Description="结束成交金额/数量 "/>
+  <Field Number="3014" Name="EndTotalExchKnockAmt" Type="Double" Description="代码执行完成时，市场成交金额 "/>
+  <Field Number="3016" Name="ExchMarginAmt" Type="Double" Description="交易所保证金占用"/>
+  <Field Number="3017" Name="FairValuePrice" Type="Double" Description="公允价格【停牌时关于股票的成本价值的计算】 "/>
+  <Field Number="3018" Name="FirstdayDownPercent" Type="Double" Description="首日上市跌幅度比例，０－无涨跌幅限制"/>
+  <Field Number="3019" Name="FirstdayUpPercent" Type="Double" Description="首日上市涨幅度比例，０－无涨跌幅限制"/>
+  <Field Number="3020" Name="FullKnockAmt" Type="Double" Description="全价成交金额/银行利息"/>
+  <Field Number="3021" Name="FundOccurAmt" Type="Double" Description="资金发生数 "/>
+  <Field Number="3022" Name="FundUseAmt" Type="Double" Description="资金本次可用数 "/>
+  <Field Number="3023" Name="HighestPrice" Type="Double" Description="最高价 "/>
+  <Field Number="3024" Name="InterestRate" Type="Double" Description="利息税率 "/>
+  <Field Number="3025" Name="LowestPrice" Type="Double" Description="最低价"/>
+  <Field Number="3026" Name="MaxLen" Type="Double" Description="最大长度 "/>
+  <Field Number="3027" Name="MaxTradeFee" Type="Double" Description="最高费用"/>
+  <Field Number="3028" Name="MinLen" Type="Double" Description="最小长度 "/>
+  <Field Number="3029" Name="MinTradeFee" Type="Double" Description="最低费用"/>
+  <Field Number="3030" Name="ExceptFrozenAmt" Type="Double" Description="异常冻结金额"/>
+
+  <Field Number="3031" Name="NetRate" Type="Double" Description="净值比例"/>
+  <Field Number="3032" Name="NumRate" Type="Double" Description="量比比例"/>
+  <Field Number="3033" Name="OddAmt" Type="Double" Description="累计零股剩余金额 "/>
+  <Field Number="3034" Name="OfferPercent" Type="Double" Description="吃盘比例 "/>
+  <Field Number="3035" Name="OffsetMarginAmt" Type="Double" Description="平仓释放保证金"/>
+  <Field Number="3037" Name="OpenFrozMargin" Type="Double" Description="今开冻结保证金 "/>
+  <Field Number="3038" Name="OpenOrderAmt" Type="Double" Description="累计已成功下到OpenOrder的金额"/>
+  <Field Number="3039" Name="Interest" Type="Double" Description="存款利息税"/>
+
+  <Field Number="3040" Name="OpenUsedMarginAmt" Type="Double" Description="今开占用保证金"/>
+  <Field Number="3041" Name="OrderPriceIncrement" Type="Double" Description="价格每次变化增量"/>
+  <Field Number="3042" Name="OrderPriceIncrementRate" Type="Double"
+         Description="价格每次变化比例，具体的委托价格＝原始委托价格(1 + 委托次数× 比例) "/>
+  <Field Number="3043" Name="OrderputtingQty" Type="Double" Description="申报数量（即往交易所接口库中填写的数量，申报单位与委托单位不同时) "/>
+  <Field Number="3044" Name="OrderTotalKnockAmt" Type="Double" Description="指令第一笔委托时的市场成交金额 "/>
+  <Field Number="3045" Name="AvgExhRate" Type="Double" Description="中间汇率 "/>
+  <Field Number="3046" Name="Percent" Type="Double" Description="每次委托比例"/>
+  <Field Number="3047" Name="PreClosePrice" Type="Double" Description="昨收盘"/>
+  <Field Number="3048" Name="PreexchtotalknockAmt" Type="Double" Description="上一个交易日的成交金额 "/>
+  <Field Number="3049" Name="Premium" Type="Double" Description="权利金"/>
+  <Field Number="3050" Name="PreviousAmt" Type="Double" Description="昨日成本金额"/>
+  <Field Number="3051" Name="PreviousStkValue" Type="Double" Description="昨日证券市值 "/>
+  <Field Number="3052" Name="PriceLimit" Type="Double" Description="价格限制,买入上限/卖出下限 "/>
+  <Field Number="3053" Name="ProductQuota" Type="Double" Description="产品份额 "/>
+  <Field Number="3054" Name="Sell1" Type="Double" Description="卖一价"/>
+  <Field Number="3055" Name="SpeculationMarginRate" Type="Double" Description="投机保证金率"/>
+  <Field Number="3056" Name="StkParValue" Type="Double" Description="股票面值股票一般为1元, 国债一般为100元"/>
+  <Field Number="3057" Name="StrikePrice" Type="Double" Description="执行价格"/>
+  <Field Number="3058" Name="OverdraftInterestRate" Type="Double" Description="默认信用日利率"/>
+  <Field Number="3059" Name="StkValue1" Type="Double" Description="持仓市值(不含货币基金)"/>
+  <Field Number="3061" Name="TotalFeeRate" Type="Double" Description="总费率（按指令金额计算） "/>
+  <Field Number="3062" Name="TotalOrderAmt" Type="Double" Description="累计执行下单金额"/>
+  <Field Number="3063" Name="TradingFee" Type="Double" Description="费用（具体多少元） "/>
+  <Field Number="3064" Name="TradingRate" Type="Double" Description="费率(按费率计算)"/>
+  <Field Number="3065" Name="UpPercent" Type="Double" Description="涨幅比例"/>
+  <Field Number="3066" Name="WithdrawOrderFlag" Type="Double" Description="已下撤单委托标志   0-未下 1-已下 2-撤单成功 "/>
+  <Field Number="3067" Name="XDPrice" Type="Double" Description="除权/息后价格 "/>
+  <Field Number="3070" Name="HedgingMarginAmt" Type="Double" Description="套保保证金金额（每手）"/>
+  <Field Number="3071" Name="SpeculationMarginAmt" Type="Double" Description="投机保证金金额（每手）"/>
+  <Field Number="3073" Name="StkWeightBeta" Type="Double" Description="权重"/>
+  <Field Number="3074" Name="KnockQtyF" Type="Double" Description="成交数量,场外开放基金（小数位）"/>
+  <Field Number="3075" Name="TradeReckoningAmt" Type="Double" Description="交易币种资金发生数"/>
+  <Field Number="3076" Name="SettleKnockAmt" Type="Double" Description="结算币种成交金额"/>
+  <Field Number="3077" Name="SettleFullKnockAmt" Type="Double" Description="结算币种全价成交金额"/>
+  <Field Number="3078" Name="ExchCommision" Type="Double" Description="交易所手续费"/>
+  <Field Number="3079" Name="CustCommision" Type="Double" Description="客户手续费"/>
+  <Field Number="3080" Name="OTCcurrentStkValue" Type="Double" Description="场外开放基金参考市值"/>
+  <Field Number="3081" Name="HK_UsableBalance" Type="Double" Description="港股通可用金额"/>
+  <Field Number="3082" Name="OverdraftLimit" Type="Double" Description="信用资金"/>
+  <Field Number="3083" Name="SettlePreviousCost" Type="Double" Description="结算币种昨日买入成本"/>
+  <Field Number="3084" Name="SettlePreviousIncome" Type="Double" Description="结算币种卖出收益"/>
+  <Field Number="3088" Name="PostQtyF" Type="Double" Description="本次股份余额（小数位）"/>
+  <Field Number="3089" Name="PreviousQtyF" Type="Double" Description="昨日余额（小数位）"/>
+
+  <Field Number="3096" Name="PreviousStandardAmt" Type="Double" Description="昨日本位币余额"/>
+  <Field Number="3097" Name="CurrentStandardAmt" Type="Double" Description="今日本位币余额"/>
+  <Field Number="3099" Name="NetCostPrice" Type="Double" Description="单位成本"/>
+  <Field Number="3100" Name="BuyingCost" Type="Double" Description="成本"/>
+  <Field Number="3101" Name="CostRate" Type="Double" Description="成本占净值比"/>
+  <Field Number="3102" Name="ClosePrice" Type="Double" Description="行情价格"/>
+  <Field Number="3104" Name="InvestRate" Type="Double" Description="市值占净值比"/>
+
+  <Field Number="3106" Name="RepurchaseProfit" Type="Double" Description="回购收益"/>
+
+  <Field Number="3107" Name="LastAnnualProfit" Type="Double" Description="上年每股利润"/>
+  <Field Number="3108" Name="AnnualProfit" Type="Double" Description="本年每股利润"/>
+  <Field Number="3109" Name="BondConvertRate" Type="Double" Description="债券折合比例"/>
+  <Field Number="3110" Name="GuarantyConvertRate" Type="Double" Description="担保物折算率"/>
+  <Field Number="3111" Name="TotalShare" Type="Double" Description="总股本"/>
+
+  <Field Number="3112" Name="MinValue1" Type="Double" Description="参数值最小取值"/>
+  <Field Number="3113" Name="MaxValue1" Type="Double" Description="参数值最大取值"/>
+  <Field Number="3114" Name="TodayPositionCost" Type="Double" Description="今日开仓均价"/>
+  <Field Number="3115" Name="ReferencePrice" Type="Double" Description="参考价格"/>
+  <Field Number="3116" Name="MaxBuyAmt" Type="Double" Description="最大买入金额"/>
+  <Field Number="3117" Name="ArrivedLastPx" Type="Double" Description="接受订单时的市场价格"/>
+  <Field Number="3118" Name="InstructPrice" Type="Double" Description="指令价格"/>
+  <Field Number="3119" Name="SellKnockAmt" Type="Double" Description="卖出成交金额"/>
+  <Field Number="3120" Name="ShouldAmt" Type="Double" Description="目标金额"/>
+  <Field Number="3121" Name="UnFinishAmt" Type="Double" Description="未完成金额"/>
+  <Field Number="3122" Name="AdjustAmt" Type="Double" Description="调整金额"/>
+  <Field Number="3123" Name="ExecuteAmt" Type="Double" Description="执行金额"/>
+  <Field Number="3124" Name="DoubleFee" Type="Double" Description="费用费率"/>
+  <Field Number="3125" Name="RealtimeAmt" Type="Double" Description="权益"/>
+  <Field Number="3126" Name="LoanMargin" Type="Double" Description="追加保证金"/>
+  <Field Number="3127" Name="PledgeAmt" Type="Double" Description="质押金"/>
+  <Field Number="3128" Name="PostAcctTotalAmt" Type="Double" Description="期末总资产"/>
+
+  <Field Number="3129" Name="CurrentQBeginingAsset" Type="Double" Description="上季期末资产成本"/>
+  <Field Number="3130" Name="CurrentWBeginingAsset" Type="Double" Description="上周期末资产成本"/>
+
+  <Field Number="3131" Name="MaxSellAmt" Type="Double" Description="最大卖出金额"/>
+
+  <Field Number="3132" Name="QBasicAsset" Type="Double" Description="上季期末资产净值"/>
+  <Field Number="3133" Name="WBasicAsset" Type="Double" Description="上周期末资产净值"/>
+  <Field Number="3134" Name="QNAV" Type="Double" Description="上季单位净值"/>
+  <Field Number="3135" Name="WNAV" Type="Double" Description="上周单位净值"/>
+  <Field Number="3136" Name="BankInterestRate" Type="Double" Description="计息利率"/>
+  <Field Number="3137" Name="ArbMarginAmt" Type="Double" Description="套利保证金金额"/>
+  <Field Number="3138" Name="BeforeRate" Type="Double" Description="税前利率"/>
+  <Field Number="3139" Name="AfterRate" Type="Double" Description="税后利率"/>
+  <Field Number="3140" Name="FaceAmount" Type="Double" Description="票面金额"/>
+  <Field Number="3141" Name="PublishQty" Type="Double" Description="发行数量"/>
+  <Field Number="3142" Name="NewStockPrice" Type="Double" Description="新股价格"/>
+  <Field Number="3143" Name="MarketRatioHint" Type="Double" Description="成交占指令后市场量提醒比例"/>
+  <Field Number="3144" Name="RealTimeMarketRatioHint" Type="Double" Description="成交回写线程实时计算的提醒比例"/>
+  <Field Number="3145" Name="PreTaxPropor" Type="Double" Description="税前比例"/>
+  <Field Number="3146" Name="AfterTaxPropor" Type="Double" Description="税后比例"/>
+  <Field Number="3147" Name="EquityPrice" Type="Double" Description="权益价格"/>
+  <Field Number="3148" Name="CalcuFee" Type="Double" Description="费率系数"/>
+
+  <Field Number="3151" Name="RefundReplen" Type="Double" Description="退补款"/>
+  <Field Number="3152" Name="OrderQtyF" Type="Double" Description="委托数量(小数位)"/>
+  <Field Number="3153" Name="PercentProgress" Type="Double" Description="具体进度值"/>
+  <Field Number="3154" Name="MinNumRate" Type="Double" Description="最小量比比例"/>
+  <Field Number="3155" Name="DisplaySize" Type="Double" Description="在途数量(tag111)"/>
+  <Field Number="3156" Name="MinDisplaySize" Type="Double" Description="最少在途数量(tag6317)"/>
+  <Field Number="3157" Name="RelativePxLimitoffset" Type="Double" Description="RelativePxLimitoffset(tag6304)"/>
+  <Field Number="3158" Name="LeavesQty" Type="Double" Description="LeavesQty(tag151)"/>
+  <Field Number="3159" Name="FixAvgPx" Type="Double" Description="FixAvgPx(tag6)"/>
+  <Field Number="3160" Name="TriggerValue" Type="Double" Description="触发值"/>
+  <Field Number="3161" Name="AccrueCondit" Type="Double" Description="计提条件(NAV)>"/>
+  <Field Number="3163" Name="InsideRate" Type="Double" Description="内部比例"/>
+  <Field Number="3164" Name="ChargeAmt" Type="Double" Description="应收金额"/>
+  <Field Number="3165" Name="SumClosePNL" Type="Double" Description="累计平仓盈亏(日终计算)"/>
+  <Field Number="3166" Name="SumTotalFee" Type="Double" Description="累计费用"/>
+  <Field Number="3170" Name="PriceVolatility" Type="Double" Description="价格波动率"/>
+  <Field Number="3172" Name="Amt2" Type="Double" Description="金额2"/>
+  <Field Number="3176" Name="QtyF1" Type="Double" Description="数量(含小数点)1"/>
+  <Field Number="3177" Name="QtyF2" Type="Double" Description="数量(含小数点)2"/>
+  <Field Number="3181" Name="Fee1" Type="Double" Description="费用1"/>
+  <Field Number="3182" Name="Fee2" Type="Double" Description="费用2"/>
+  <Field Number="3184" Name="OtherAmt" Type="Double" Description="其他金额"/>
+  <Field Number="3185" Name="BasePrice" Type="Double" Description="基准价"/>
+  <Field Number="3188" Name="MaxCost" Type="Double" Description="最大耗时"/>
+  <Field Number="3189" Name="MinCost" Type="Double" Description="最小耗时"/>
+  <Field Number="3190" Name="AvgCost" Type="Double" Description="平均耗时"/>
+  <Field Number="3192" Name="ThirdSystemTradeFrozenAmt" Type="Double" Description="柜台交易冻结"/>
+  <Field Number="3193" Name="ThirdSystemNeedSettleAmt" Type="Double" Description="柜台在途资金"/>
+  <Field Number="3196" Name="BondAsset" Type="Double" Description="债券资产"/>
+  <Field Number="3197" Name="RepurchaseAsset" Type="Double" Description="回购资产"/>
+  <Field Number="3198" Name="FundAsset" Type="Double" Description="基金资产"/>
+  <Field Number="3199" Name="OptionsAsset" Type="Double" Description="期权资产"/>
+  <Field Number="3200" Name="FutureRight" Type="Double" Description="期货权益"/>
+  <Field Number="3202" Name="TotalPay" Type="Double" Description="累计应付"/>
+  <Field Number="3203" Name="TotalRecv" Type="Double" Description="累计应收"/>
+  <Field Number="3204" Name="CreditShareFeeRate" Type="Double" Description="融券利率"/>
+  <Field Number="3205" Name="CreditCashFeeRate" Type="Double" Description="融资利率"/>
+  <Field Number="3206" Name="ThirdPostCostAmt" Type="Double" Description="第三方成本"/>
+  <Field Number="3207" Name="ThirdCostPrice" Type="Double" Description="第三方单位成本"/>
+  <Field Number="3208" Name="ThirdClosePrice" Type="Double" Description="第三方公允价格"/>
+  <Field Number="3209" Name="ThirdPostQtyF" Type="Double" Description="第三方数量"/>
+  <Field Number="3210" Name="ThirdStkValue" Type="Double" Description="第三方市值"/>
+  <Field Number="3223" Name="WithdrawAmt" Type="Double" Description="撤单金额"/>
+  <Field Number="3224" Name="UnitNetValue" Type="Double" Description="单位净值"/>
+  <Field Number="3225" Name="TotalUnitNetValue" Type="Double" Description="累计份额净值"/>
+  <Field Number="3226" Name="FutureStkValueB" Type="Double" Description="期货买方市值"/>
+  <Field Number="3227" Name="FutureStkValueS" Type="Double" Description="期货卖方市值"/>
+  <Field Number="3231" Name="BondtoStkRate" Type="Double" Description="转股比例"/>
+  <Field Number="3232" Name="BondReturnPrice" Type="Double" Description="回售价格"/>
+  <Field Number="3233" Name="BondtoStkPrice" Type="Double" Description="转股价格"/>
+  <Field Number="3235" Name="UnitYield" Type="Double" Description="万份收益"/>
+  <Field Number="3248" Name="TdInterestAmt" Type="Double" Description="当日利息金额"/>
+  <Field Number="3255" Name="SumWithdrawAmt" Type="Double" Description="累计撤单金额"/>
+  <Field Number="3257" Name="ParRate" Type="Double" Description="票面利率"/>
+  <Field Number="3271" Name="OldOrderAmt" Type="Double" Description="原委托金额"/>
+  <Field Number="3272" Name="OldOrderPrice" Type="Double" Description="原委托价格"/>
+  <Field Number="3273" Name="AlgoUsableAmt" Type="Double" Description="可委托金额(含ALGO)"/>
+  <Field Number="3275" Name="PretotalKnockAmt" Type="Double" Description="指令历史成交金额"/>
+  <Field Number="3298" Name="AverageRate" Type="Double" Description="标的平均收益率"/>
+  <Field Number="3299" Name="StandardDeviation" Type="Double" Description="标的收益率标准差"/>
+  <Field Number="3300" Name="Variance" Type="Double" Description="方差"/>
+  <Field Number="3301" Name="Covariance" Type="Double" Description="协方差"/>
+
+  <Field Number="3302" Name="InsOrderPrice" Type="Double" Description="指令价格"/>
+  <Field Number="3303" Name="TradeCostPrice" Type="Double" Description="交易币种成本价"/>
+  <Field Number="3304" Name="TradeRealTimeCostPrice" Type="Double" Description="交易币种实时成本"/>
+  <Field Number="3305" Name="PreviousTradeCost" Type="Double" Description="交易币种昨日成本价"/>
+
+  <Field Number="3311" Name="CurrentQtyF" Type="Double" Description="当前余额(小数位)"/>
+  <Field Number="3312" Name="UsableQtyF" Type="Double" Description="可用数量(小数位)"/>
+
+  <Field Number="3361" Name="CurrentParValue" Type="Double" Description="当前本金"/>
+  <Field Number="3362" Name="CurrentParRate" Type="Double" Description="当前票面利率"/>
+  <Field Number="3363" Name="Spread" Type="Double" Description="利差(浮息债)"/>
+  <Field Number="3364" Name="NetPrice" Type="Double" Description="估价净价（元）"/>
+  <Field Number="3365" Name="YTM" Type="Double" Description="估价收益率（％）"/>
+  <Field Number="3366" Name="FullPriceEnd" Type="Double" Description="日终估价全价（元）"/>
+  <Field Number="3367" Name="TotalCirculatingShareD" Type="Double" Description="流通量(亿)"/>
+  <Field Number="3368" Name="PlanIssAmt" Type="Double" Description="计划发行量（亿）"/>
+  <Field Number="3369" Name="ActIssAmt" Type="Double" Description="实际发行量（亿）"/>
+  <Field Number="3370" Name="RateFloor" Type="Double" Description="利率下限"/>
+  <Field Number="3371" Name="RateCap" Type="Double" Description="利率上限"/>
+  <Field Number="3372" Name="PriNciPal" Type="Double" Description="本次偿还本金"/>
+  <Field Number="3376" Name="ModifiedDuration" Type="Double" Description="估价修正久期"/>
+  <Field Number="3378" Name="Convexity" Type="Double" Description="估价凸性"/>
+  <Field Number="3379" Name="BPV" Type="Double" Description="估价基点价值"/>
+
+  <Field Number="3398" Name="DividendTax" Type="Double" Description="红利税收"/>
+  <Field Number="3399" Name="SubjectAmt" Type="Double" Description="科目余额"/>
+
+  <Field Number="4096" Name="ChartTimeSlots" Type="String" Description="行情图时间段"/>
+  <Field Number="4097" Name="AcctID" Type="String" Description="资金帐号"/>
+  <Field Number="4098" Name="TradeTimeZone" Type="String"/>
+  <Field Number="4099" Name="SourceID" Type="String" Description="消息发起方标识"/>
+  <Field Number="4100" Name="ExposureName" Type="String" Description="敞口名称"/>
+  <Field Number="4101" Name="ExposureScope" Type="String" Description="敞口值作用范围"/>
+  <Field Number="4102" Name="MonitorLevelList" Type="String" Description="风控级别列表"/>
+  <Field Number="4104" Name="StkID" Type="String" Description="证券代码/合约代码"/>
+  <Field Number="4105" Name="StkType" Type="String" Description="证券类别"/>
+  <Field Number="4106" Name="EV_StkType" Type="String" Description="估值证券类别"/>
+
+  <Field Number="4107" Name="BondId" Type="String" Description="债券代码"/>
+  <Field Number="4108" Name="StkIndustryType" Type="String" Description="行业种类(从万德数据获取)"/>
+  <Field Number="4109" Name="InstituTionMark" Type="String" Description="获取全部机构标识(all-获取全部机构)"/>
+  <Field Number="4115" Name="FileName" Type="String" Description="文件名称"/>
+  <Field Number="4116" Name="FileLastModifiedTime" Type="String" Description="文件最后更新时间"/>
+  <Field Number="4118" Name="FundID" Type="String" Description="基金代码"/>
+  <Field Number="4119" Name="OfferStatus" Type="String" Description="策略状态(0未执行, 1开始执行, 2暂停, 3完成, 4暂停之后继续完成)"/>
+  <Field Number="4120" Name="LocalExchCashId" Type="String" Description="本市场现金替代代码"/>
+  <Field Number="4123" Name="OtherExchCashId" Type="String" Description="非本市场现金替代代码"/>
+  <Field Number="4124" Name="ETFType" Type="String" Description="ETF类型"/>
+  <Field Number="4129" Name="UserName" Type="String" Description="用户名"/>
+  <Field Number="4130" Name="Password" Type="String" Description="密码"/>
+  <Field Number="4131" Name="AckMsg" Type="String" Description="Ack信息"/>
+  <Field Number="4134" Name="RegID" Type="String" Description="股東帳號"/>
+  <Field Number="4136" Name="ContractNo" Type="String" Description="合同序号(第三方系统产生的合同号)"/>
+  <Field Number="4137" Name="StatusCode" Type="String" Description="状态代码"/>
+  <Field Number="4138" Name="StatusMsg" Type="String" Description="状诚讯息"/>
+  <Field Number="4140" Name="AuthCode" Type="String" Description="授权码"/>
+  <Field Number="4141" Name="BSName" Type="String" Description="买卖标志"/>
+  <Field Number="4142" Name="OCName" Type="String" Description="开平标志"/>
+  <Field Number="4146" Name="ErrMsg" Type="String" Description="错误信息"/>
+  <Field Number="4147" Name="TradeType" Type="String" Description="交易類型"/>
+  <Field Number="4148" Name="LoginID" Type="String" Description="登录账号"/>
+  <Field Number="4149" Name="LoginPwd" Type="String" Description="登录密码"/>
+  <Field Number="4150" Name="LoginQuestion" Type="String" Description="密码问题"/>
+  <Field Number="4151" Name="LoginAnswer" Type="String" Description="密码答案"/>
+  <Field Number="4152" Name="Email" Type="String" Description="邮箱"/>
+  <Field Number="4153" Name="Telephone" Type="String" Description="固定电话"/>
+  <Field Number="4154" Name="PreReserveMsg" Type="String" Description="预留信息"/>
+  <Field Number="4155" Name="Address" Type="String" Description="地址"/>
+  <Field Number="4156" Name="BasketId" Type="String" Description="组合代码"/>
+  <Field Number="4157" Name="BasketName" Type="String" Description="组合名称"/>
+  <Field Number="4158" Name="IndexID" Type="String" Description="跟踪指数"/>
+  <Field Number="4159" Name="TradePwd" Type="String" Description="交易密码"/>
+  <Field Number="4160" Name="FutureAcctID" Type="String" Description="期货资金账号"/>
+  <Field Number="4161" Name="StockAcctID" Type="String" Description="现货资金账号"/>
+  <Field Number="4162" Name="CurrencyID" Type="String" Description="币种"/>
+  <Field Number="4163" Name="OldPassword" Type="String" Description="原口令"/>
+  <Field Number="4164" Name="NewPassword" Type="String" Description="新口令"/>
+  <Field Number="4166" Name="FuturePriceStrategy" Type="String" Description="期货价格策略"/>
+  <Field Number="4167" Name="StockPriceStrategy" Type="String" Description="现货价格策略"/>
+  <Field Number="4168" Name="BankID" Type="String" Description="银行代码"/>
+  <Field Number="4169" Name="BankPwd" Type="String" Description="银行密码"/>
+  <Field Number="4170" Name="AcctPwd" Type="String" Description="资金密码"/>
+  <Field Number="4171" Name="MAC" Type="String" Description="MAC地址"/>
+  <Field Number="4172" Name="OrderStatus" Type="String" Description="委托状态"/>
+  <Field Number="4173" Name="StkName" Type="String" Description="证券名称"/>
+  <Field Number="4174" Name="BeginAllotCode" Type="String" Description="起始配号"/>
+  <Field Number="4176" Name="StkIndustryName" Type="String" Description="行业板块"/>
+  <Field Number="4177" Name="StkStatus" Type="String" Description="状态"/>
+  <Field Number="4179" Name="KnockCode" Type="String" Description="成交编号"/>
+  <Field Number="4180" Name="ErrName" Type="String" Description="錯誤名称"/>
+  <Field Number="4181" Name="ErrDescr" Type="String" Description="錯誤描述"/>
+  <Field Number="4182" Name="BankName" Type="String" Description="银行名称"/>
+  <Field Number="4183" Name="AffiliatedAcctId" Type="String" Description="关联资金账号"/>
+  <Field Number="4184" Name="RegName" Type="String" Description="股东姓名"/>
+  <Field Number="4185" Name="MktOrderMsg" Type="String" Description="市价类型"/>
+  <Field Number="4186" Name="ExchName" Type="String" Description="市场名称"/>
+  <Field Number="4187" Name="funcCode" Type="String" Description="功能编号"/>
+  <Field Number="4188" Name="funcName" Type="String" Description="功能名称"/>
+  <Field Number="4189" Name="globalConst" Type="String" Description="内部标识"/>
+  <Field Number="4190" Name="interiorId" Type="String" Description="内部代码"/>
+  <Field Number="4191" Name="constDisplayName" Type="String" Description="标识显示内容"/>
+  <Field Number="4192" Name="memo" Type="String" Description="备注变量说明"/>
+  <Field Number="4193" Name="GroupName" Type="String" Description="账号组名称"/>
+  <Field Number="4194" Name="TemFileName" Type="String" Description="临时文件名称"/>
+  <Field Number="4196" Name="ProductName" Type="String" Description="产品名称"/>
+  <Field Number="4198" Name="PriceStrategy" Type="String" Description="价格策略"/>
+  <Field Number="4199" Name="DictName" Type="String" Description="字典名称"/>
+  <Field Number="4200" Name="DisplayName" Type="String" Description="显示名称"/>
+  <Field Number="4201" Name="DefaultValue" Type="String" Description="默认值"/>
+  <Field Number="4202" Name="QueryCode" Type="String" Description="通用查询编号(6位数字)"/>
+  <Field Number="4203" Name="ResultID" Type="String" Description="通用查询结果编号"/>
+  <Field Number="4204" Name="AcctName" Type="String" Description="账号姓名"/>
+  <Field Number="4205" Name="ExteriorDesc" Type="String" Description="外部名称"/>
+  <Field Number="4207" Name="MobilePhone" Type="String" Description="手机号码"/>
+  <Field Number="4208" Name="GridHeight" Type="String" Description="Grid高度"/>
+  <Field Number="4209" Name="GlobalConstName" Type="String" Description="全局常量名称"/>
+  <Field Number="4210" Name="Operation" Type="String" Description="操作的名称"/>
+  <Field Number="4211" Name="FundName" Type="String" Description="ETF基金名称"/>
+  <Field Number="4212" Name="QueryMode" Type="String" Description="查询功能号"/>
+  <Field Number="4213" Name="DisplayFormat" Type="String" Description="显示的格式"/>
+  <Field Number="4214" Name="StyleCondition" Type="String" Description="按条件显示不同的风格"/>
+  <Field Number="4215" Name="BankAcctID" Type="String" Description="银行账号"/>
+  <Field Number="4216" Name="PlateName" Type="String" Description="板块名称"/>
+  <Field Number="4217" Name="IndustryName" Type="String" Description="产业名称"/>
+  <Field Number="4218" Name="PlateIDList" Type="String" Description="板块Name，使用,分隔表示多个板块名称"/>
+  <Field Number="4219" Name="MarketTime" Type="String" Description="市场开收盘时间"/>
+  <Field Number="4220" Name="BranchId" Type="String" Description="营业部编码"/>
+  <Field Number="4221" Name="FutureAcctName" Type="String" Description="期货资金账号姓名"/>
+  <Field Number="4222" Name="StockAcctName" Type="String" Description="现货资金账号姓名"/>
+  <Field Number="4223" Name="ThirdSystemId" Type="String" Description="第三方系统ID"/>
+  <Field Number="4224" Name="Level2Flag" Type="String" Description="是否允许使用Level2行情"/>
+  <Field Number="4225" Name="BranchName" Type="String" Description="营业部名称"/>
+  <Field Number="4226" Name="StkAbbr" Type="String" Description="证券简称"/>
+  <Field Number="4227" Name="ThirdSysInterface" Type="String" Description="第三方系统接口"/>
+  <Field Number="4229" Name="ServerIP" Type="String" Description="主機IP"/>
+  <Field Number="4230" Name="ConnectName" Type="String" Description="連線簡稱"/>
+  <Field Number="4232" Name="IndicatorName" Type="String" Description="公式类型的名称"/>
+  <Field Number="4233" Name="formulaName" Type="String" Description="公式名称"/>
+  <Field Number="4234" Name="formulaDesc" Type="String" Description="公式描述"/>
+  <Field Number="4235" Name="FormulaScript" Type="String" Description="公式定义"/>
+  <Field Number="4238" Name="ParameterName" Type="String" Description="参数名称"/>
+  <Field Number="4239" Name="AuthService" Type="String" Description="授权码所授权的模块"/>
+  <Field Number="4240" Name="CubicRelation" Type="String" Description="菜单与DLL的对应关系"/>
+  <Field Number="4241" Name="IndexType" Type="String" Description="指数类型"/>
+  <Field Number="4242" Name="IndexName" Type="String" Description="指数名称"/>
+  <Field Number="4243" Name="ReturnTAGs" Type="String" Description="返回字段的TAG列表"/>
+  <Field Number="4245" Name="IntSelectStockName" Type="String" Description="智能选股类型"/>
+  <Field Number="4246" Name="SelectStockName" Type="String" Description="算法名称"/>
+  <Field Number="4247" Name="SelectStockDesc" Type="String" Description="算法描述"/>
+  <Field Number="4248" Name="ExchList" Type="String" Description="搜索市场"/>
+  <Field Number="4249" Name="StkTypeList" Type="String" Description="搜索的证券类别"/>
+  <Field Number="4250" Name="MsgUID" Type="String" Description="消息UID"/>
+  <Field Number="4251" Name="ConnectionName" Type="String" Description="GLB连线名称"/>
+  <Field Number="4252" Name="TrackIndexID" Type="String" Description="跟踪指数代码"/>
+  <Field Number="4253" Name="UserOwnerID" Type="String" Description="用户自定义指数代码"/>
+  <Field Number="4254" Name="NoticeTitle" Type="String" Description="公告标题"/>
+  <Field Number="4255" Name="NoticeLinkUri" Type="String" Description="公告详细资料的网络链接地址"/>
+  <Field Number="4256" Name="NoticeKeyWords" Type="String" Description="公告关键字"/>
+  <Field Number="4257" Name="NoticeOverView" Type="String" Description="公告摘要"/>
+  <Field Number="4258" Name="NoticeSectionText" Type="String" Description="公告段落正文"/>
+  <Field Number="4259" Name="NoticeThematype" Type="String" Description="订阅的主题，以^分割的字符串，详细见ThemaType的定义"/>
+  <Field Number="4260" Name="BasketCustomID" Type="String" Description="组合行情客户自定义的ID"/>
+  <Field Number="4261" Name="BasketCustomName" Type="String" Description="组合名称"/>
+  <Field Number="4262" Name="ThirdPartyAcctID" Type="String" Description="第三方系统帐号"/>
+  <Field Number="4263" Name="BrokerID" Type="String" Description="经纪公司代码"/>
+  <Field Number="4264" Name="OrderRef" Type="String" Description="报单编号"/>
+  <Field Number="4265" Name="OrderLocalID" Type="String" Description="报单本地编号"/>
+  <Field Number="4266" Name="OrderSysID" Type="String" Description="报单交易所编号"/>
+  <Field Number="4267" Name="GatewayID" Type="String" Description="交易网关ID"/>
+  <Field Number="4268" Name="BatchStatus" Type="String" Description="篮子状态‘0’：新建，‘1’：执行中，‘2’：完成，‘3’：委托失败"/>
+  <Field Number="4269" Name="ThirdSystemName" Type="String" Description="第三方系统名称"/>
+  <Field Number="4270" Name="F_productId" Type="String" Description="产品代码"/>
+  <Field Number="4271" Name="F_hedgeFlag" Type="String" Description="期货投保属性"/>
+  <Field Number="4273" Name="StockBatchStatus" Type="String" Description="现货状态"/>
+  <Field Number="4274" Name="FutureBatchStatus" Type="String" Description="期货状态"/>
+  <Field Number="4275" Name="BriefId" Type="String" Description="操作摘要"/>
+  <Field Number="4276" Name="OrderType" Type="String" Description="买卖类别(第三方返回)"/>
+  <Field Number="4277" Name="ProcessTime" Type="String" Description="日终处理时间"/>
+  <Field Number="4278" Name="ServerName" Type="String" Description="服务器名称"/>
+  <Field Number="4279" Name="QuotationSource" Type="String"
+         Description="行情源类别,分别有：现货五档,现货十档,ETF、股指期货、上期所、郑期所、大期所、组合行情等"/>
+  <Field Number="4280" Name="F_MappingContractId" Type="String" Description="期货连续合约当前对应的期货合约ID"/>
+  <Field Number="4281" Name="UpdateProductName" Type="String" Description="需要升级的产品名称"/>
+  <Field Number="4282" Name="UpdateFileName" Type="String" Description="需要升级的文件名称"/>
+  <Field Number="4283" Name="BriefDesc" Type="String" Description="操作摘要说明"/>
+  <Field Number="4284" Name="ExportFolderName" Type="String" Description="导出控件的产品文件夹名称"/>
+  <Field Number="4285" Name="SubscribeSymbol" Type="String" Description="订阅信息符号（关键字）"/>
+  <Field Number="4286" Name="Place" Type="String" Description="地点"/>
+  <Field Number="4287" Name="ExchIDEx" Type="String" Description="新加栏位，期货市场类别扩展栏位，F金融期货，S上海期货，D大连期货，Z郑州期货"/>
+  <Field Number="4288" Name="GrantOptList" Type="String" Description="允许使用的操作员^号分割"/>
+  <Field Number="4289" Name="GrantExchList" Type="String" Description="帐号允许交易的市场列表，^号分割"/>
+  <Field Number="4290" Name="FundCode" Type="String" Description="基金代码"/>
+  <Field Number="4291" Name="DeskId" Type="String" Description="席位代码"/>
+  <Field Number="4292" Name="CloseTimeConfig" Type="String" Description="第三方收盘时间(网关使用)"/>
+  <Field Number="4293" Name="TradeProperties" Type="String" Description="买卖性质"/>
+  <Field Number="4294" Name="QueryPostStr" Type="String" Description="查询定位标志串"/>
+  <Field Number="4295" Name="CertificatePwd" Type="String" Description="认证口令"/>
+  <Field Number="4296" Name="CertificateText" Type="String" Description="原始认证信息"/>
+  <Field Number="4297" Name="CertificateExtendText" Type="String" Description="扩展认证信息"/>
+  <Field Number="4298" Name="OpenTimeConfig" Type="String" Description="开始处理的时间"/>
+  <Field Number="4299" Name="FutureStkID" Type="String" Description="合约代码"/>
+  <Field Number="4300" Name="OrderTypeFlag" Type="String" Description="扩展委托方向 0:普通买卖 1:融资融券 2:期权"/>
+  <Field Number="4301" Name="InstituTionParent" Type="String" Description="父级机构"/>
+  <Field Number="4302" Name="OrderTypeDetailFlag" Type="String" Description="扩展委托方向明细"/>
+  <Field Number="4303" Name="LastLoginIP" Type="String" Description="上次登录IP"/>
+  <Field Number="4304" Name="AttachRegId" Type="String" Description="关联股东"/>
+  <Field Number="4305" Name="AttachDeskId" Type="String" Description="关联席位"/>
+  <Field Number="4306" Name="AttachAcctId" Type="String" Description="关联资金帐号"/>
+  <Field Number="4307" Name="ProductId" Type="String" Description="产品编号"/>
+  <Field Number="4309" Name="SubscribeType" Type="String" Description="订阅类型，如：Level1、Level2、期货行情，或RootNet交易等"/>
+  <Field Number="4310" Name="QuotType" Type="String" Description="行情类别：01:市场信息；02:基本资料；03:行情"/>
+  <Field Number="4311" Name="SnapshotFlag" Type="String" Description="获取快照数据的类型标识"/>
+  <Field Number="4312" Name="CategoryName" Type="String" Description="行情资讯分类名称"/>
+  <Field Number="4314" Name="InfoSource" Type="String" Description="数据源类型, 维赛特:vsat,港澳:gang"/>
+  <Field Number="4315" Name="F_MatchCondition" Type="String" Description="期货指令有效期"/>
+  <Field Number="4316" Name="F_OrderPriceType" Type="String" Description="期货价格策略"/>
+  <Field Number="4317" Name="Version" Type="String" Description="版本号"/>
+  <Field Number="4318" Name="LastLoginFailIP" Type="String" Description="上次登录失败IP"/>
+  <Field Number="4319" Name="MktOrderFlagDesc" Type="String" Description="市价类别描述"/>
+  <Field Number="4320" Name="CompactId" Type="String" Description="合约编号"/>
+  <Field Number="4321" Name="ClientIP" Type="String" Description="客户端IP"/>
+  <Field Number="4322" Name="ClientMAC" Type="String" Description="客户端MAC"/>
+  <Field Number="4323" Name="ClientHD" Type="String" Description="客户端硬盘号"/>
+  <Field Number="4324" Name="ConditionCode" Type="String" Description="条件代码"/>
+  <Field Number="4325" Name="ColumnName" Type="String" Description="列名"/>
+  <Field Number="4326" Name="TransStatusDesc" Type="String" Description="转账状态描述"/>
+  <Field Number="4327" Name="SessionIDKey" Type="String" Description="唯一的SessionID"/>
+  <Field Number="4328" Name="BasicStkId" Type="String" Description="标的代码"/>
+  <Field Number="4329" Name="MarketQuotationChartTimes" Type="String" Description="行情图时间段"/>
+  <Field Number="4330" Name="PairsName" Type="String" Description="配对名称"/>
+  <Field Number="4331" Name="OpenOrderTypeDetailFlag" Type="String" Description="开仓扩展业务类型明细"/>
+  <Field Number="4332" Name="CloseOrderTypeDetailFlag" Type="String" Description="平仓扩展业务类型明细"/>
+  <Field Number="4333" Name="BuyPriceStrategy" Type="String" Description="买入价格策略"/>
+  <Field Number="4334" Name="SellPriceStrategy" Type="String" Description="卖出价格策略"/>
+  <Field Number="4335" Name="StrategyId" Type="String" Description="策略名称"/>
+  <Field Number="4336" Name="TradeTypeList" Type="String" Description="搜索的交易类别"/>
+  <Field Number="4337" Name="ForwardURL" Type="String" Description="指向的网址"/>
+  <Field Number="4338" Name="SearchText" Type="String" Description="搜索的文本内容"/>
+  <Field Number="4339" Name="StrategyParaText" Type="String" Description="策略参数值"/>
+  <Field Number="4340" Name="ThirdSystemSortSerialList" Type="String" Description="第三方查询条件字段顺序列表,多个查询接口的条件顺序以^号分隔"/>
+  <Field Number="4341" Name="ExType" Type="String" Description="除权类型"/>
+  <Field Number="4342" Name="ServiceCenterName" Type="String" Description="服务中心名称"/>
+  <Field Number="4343" Name="LoginName" Type="String" Description="登录名称"/>
+  <Field Number="4344" Name="SupportAttributeList" Type="String" Description="柜台支持的业务属性列表"/>
+  <Field Number="4345" Name="PriceDiffCode" Type="String" Description="价差代码"/>
+  <Field Number="4346" Name="WeChatId" Type="String" Description="微信号"/>
+  <Field Number="4347" Name="QQId" Type="String" Description="QQ号"/>
+  <Field Number="4348" Name="CloseKnockCode" Type="String" Description="平仓成交编码"/>
+  <Field Number="4349" Name="MarketStatus" Type="String" Description="系统市场状态"/>
+  <Field Number="4350" Name="ErrCode" Type="String" Description="错误代码"/>
+  <Field Number="4351" Name="OriGroupName" Type="String" Description="原始账号组名称"/>
+  <Field Number="4352" Name="TemplateContent" Type="String" Description="模板内容"/>
+  <Field Number="4353" Name="Script" Type="String" Description="脚本内容"/>
+  <Field Number="4354" Name="Name" Type="String" Description="名称"/>
+  <Field Number="4355" Name="Value" Type="String" Description="值"/>
+  <Field Number="4356" Name="PublicParaValue" Type="String" Description="系统参数"/>
+  <Field Number="4357" Name="FollowUniqUserId" Type="String" Description="跟单原始下单的用户唯一Id"/>
+  <Field Number="4358" Name="ExtendAttribute" Type="String" Description="扩展账户属性"/>
+  <Field Number="4359" Name="TradeControlTime" Type="String" Description="交易控制时间(格式HHmm)"/>
+  <Field Number="4360" Name="PreOrderStatusList" Type="String" Description="预埋单状态List(可为空，可多选^分隔，如0^1)"/>
+  <Field Number="4361" Name="PreOrderCancelMessage" Type="String" Description="撤销预埋单消息（撤销失败才有）"/>
+  <Field Number="4362" Name="AppointNo" Type="String" Description="约定号"/>
+  <Field Number="4363" Name="TargetDeskId" Type="String" Description="对方席位"/>
+  <Field Number="4364" Name="TargetRegId" Type="String" Description="对方股东"/>
+  <Field Number="4365" Name="TransferType" Type="String"
+         Description="转让类型 'T'-议转让 'M'-做市转让 'B'-集合竞价+连续竞价 'C'-集合竞价转让 '0'-其它类型"/>
+  <Field Number="4366" Name="ArbitrageNoList" Type="String" Description="套利号集合。多个用'^'连接，如: 15^16^22"/>
+  <Field Number="4367" Name="ClientExtranetIP" Type="String" Description="客户端公网IP"/>
+  <Field Number="4368" Name="ParaType" Type="String" Description="条件类型"/>
+  <Field Number="4369" Name="CompareSymbol" Type="String" Description="条件比较符号"/>
+  <Field Number="4370" Name="ParaValue" Type="String" Description="参数字符串"/>
+  <Field Number="4371" Name="RelatedSymbol" Type="String" Description="与下一条件关系符号"/>
+  <Field Number="4372" Name="ConditionStkId" Type="String" Description="条件证券代码(增加、修改送入)"/>
+  <Field Number="4373" Name="ConditionStkName" Type="String" Description="条件证券名称"/>
+  <Field Number="4374" Name="NextDayOrderControlTime" Type="String" Description="隔夜委托开始接收时间"/>
+  <Field Number="4375" Name="ExtMagCardId" Type="String" Description="外部卡号"/>
+  <Field Number="4376" Name="FutureProcessTime" Type="String" Description="期货日终处理时间"/>
+  <Field Number="4377" Name="FutureOpenTimeConfig" Type="String" Description="期货开始处理的时间"/>
+  <Field Number="4378" Name="FinishedFlag" Type="String" Description="流水完成标志"/>
+  <Field Number="4379" Name="FutureFinishedFlag" Type="String" Description="期货流水完成标志"/>
+  <Field Number="4380" Name="ReckoningType" Type="String" Description="清算状态"/>
+  <Field Number="4381" Name="FutureReckoningType" Type="String" Description="期货清算状态"/>
+  <Field Number="4382" Name="OperationStep" Type="String" Description="清算操作步骤"/>
+  <Field Number="4383" Name="VolumeSerialNumber" Type="String" Description="驱动器Vol"/>
+  <Field Number="4384" Name="DateCycle" Type="String" Description="允许操作员登录周期"/>
+  <Field Number="4385" Name="KnockSerialNo" Type="String" Description="成交流水号"/>
+  <Field Number="4386" Name="SellHedgeFlag" Type="String" Description="卖投保属性"/>
+  <Field Number="4387" Name="BuyHedgeFlag" Type="String" Description="买投保属性"/>
+  <Field Number="4388" Name="ChannelInstitution" Type="String" Description="通道机构"/>
+  <Field Number="4389" Name="CustodianInstitution" Type="String" Description="托管机构"/>
+  <Field Number="4391" Name="AttachThirdSystemId" Type="String" Description="关联普通账户第三方系统"/>
+  <Field Number="4394" Name="DiskID" Type="String" Description="客户端硬盘ID"/>
+  <Field Number="4400" Name="ProdAcctTypeList" Type="String" Description="支持资产类型清单"/>
+  <Field Number="4401" Name="BondtoStkId" Type="String" Description="债转股代码"/>
+  <Field Number="4402" Name="LastLoginMAC" Type="String" Description="上次登录成功MAC地址"/>
+  <Field Number="4403" Name="LastLoginFailMAC" Type="String" Description="上次登录失败MAC地址"/>
+  <Field Number="4404" Name="CommRuleType" Type="String" Description="工作组类别"/>
+  <Field Number="4405" Name="CommRuleName" Type="String" Description="工作组名称"/>
+  <Field Number="4407" Name="ParentNoteName" Type="String" Description="流程规则名称"/>
+  <Field Number="4408" Name="InstructFlowType" Type="String" Description="流程审批内容"/>
+  <Field Number="4409" Name="CompareType" Type="String" Description="比较符号"/>
+  <Field Number="4410" Name="StkIdList" Type="String" Description="参数设置的值"/>
+  <Field Number="4412" Name="ProductAcctNumList" Type="String" Description="资产单元分类"/>
+  <Field Number="4413" Name="RiskAssetFactorID" Type="String" Description="元件ID"/>
+  <Field Number="4414" Name="RiskAssetFactorType" Type="String" Description="元件类型"/>
+  <Field Number="4415" Name="RiskAssetFactorName" Type="String" Description="元件名称"/>
+  <Field Number="4418" Name="CompactTime" Type="String" Description="合约时间"/>
+
+  <Field Number="4420" Name="DeskIdName" Type="String" Description="席位名称"/>
+  <Field Number="4421" Name="OfferDeskIdName" Type="String" Description="主席位名称"/>
+  <Field Number="4422" Name="PurchaseCashTime" Type="String" Description="申购冲现时点"/>
+  <Field Number="4423" Name="RedemptionCashTime" Type="String" Description="赎回冲现时点"/>
+  <Field Number="4424" Name="FrozenTime" Type="String" Description="冻结时点"/>
+  <Field Number="4425" Name="PurchaseUsableTime" Type="String" Description="申购款可用时点"/>
+  <Field Number="4426" Name="FrozenAmtCond" Type="String" Description="冻结资金范围"/>
+  <Field Number="4427" Name="FileInputTime" Type="String" Description="文件导入节点"/>
+  <Field Number="4428" Name="FileInputFlag" Type="String" Description="文件导入标志"/>
+  <Field Number="4429" Name="DividendCurrencyID" Type="String" Description="红利币种"/>
+  <Field Number="4430" Name="FundStatus" Type="String" Description="基金状态"/>
+  <Field Number="4431" Name="TAType" Type="String" Description="TA类型"/>
+  <Field Number="4432" Name="AgentOptId" Type="String" Description="代理操作员代码"/>
+
+  <Field Number="4501" Name="IsAutoToFix" Type="String" Description="是否自动提供给Fix执行报告"/>
+  <Field Number="4502" Name="IsSupportPendingNew" Type="String" Description="是否支持PendingNew订单状态"/>
+  <Field Number="4503" Name="IsDMADoneForDay" Type="String" Description="是否支持DMA订单进行DoneForDay"/>
+  <Field Number="4504" Name="IsSpecOrdType" Type="String" Description="是否支持自定义价格类型"/>
+  <Field Number="4505" Name="IsDMAMarketOrder" Type="String" Description="是否支持DMA做市价委托"/>
+  <Field Number="4506" Name="IsFullyFilledByDoneForDay" Type="String" Description="是否支持全部成交后做DoneForDay"/>
+  <Field Number="4507" Name="IsAmendPartFilledFixOrder" Type="String" Description="是否支持修改部分成交的Fix订单"/>
+  <Field Number="4508" Name="IsAutoDoneForDay" Type="String" Description="是否支持自动DoneForDay"/>
+  <Field Number="4509" Name="IsRuntimeDoneForDay" Type="String" Description="是否支持实时DoneForDay"/>
+  <Field Number="4510" Name="FixOnBehalfOfSubID" Type="String" Description="FixOnBehalfOfSubID"/>
+  <Field Number="4511" Name="FixListID" Type="String" Description="FixListID"/>
+  <Field Number="4512" Name="FixHandlInst" Type="String" Description="FixHandlInst"/>
+  <Field Number="4513" Name="RiskMonitorName" Type="String" Description="监控点名称 "/>
+  <Field Number="4514" Name="UpdateOptId" Type="String" Description="修改柜员 "/>
+  <Field Number="4515" Name="RiskExemptDesc" Type="String" Description="风控豁免描述 "/>
+  <Field Number="4516" Name="BondUnitFlag" Type="String" Description="是否支持转换债券数量单位 "/>
+  <Field Number="4517" Name="FixCashMargin" Type="String" Description="Fix两融业务标记(tag544)"/>
+
+  <Field Number="4600" Name="AcctGroupName" Type="String" Description="资产单元组名称"/>
+  <Field Number="4601" Name="ActionType" Type="String" Description="操作类型(manual-人工更新)"/>
+  <Field Number="4602" Name="AlterDesc" Type="String" Description="报警信息描述"/>
+  <Field Number="4603" Name="AmAggBeginTime" Type="String" Description="上午集中竞价开始时间时分 "/>
+  <Field Number="4604" Name="AmAggEndTime" Type="String" Description="上午集中竞价结束时间时分 "/>
+  <Field Number="4605" Name="AmTradeBeginTime" Type="String" Description="上午交易开始时间时分 "/>
+  <Field Number="4606" Name="AmTradeEndTime" Type="String" Description="上午交易结束时间时分 "/>
+  <Field Number="4607" Name="AssignoptPosId" Type="String" Description="角色代码/操作员代码"/>
+  <Field Number="4608" Name="AuditMAC" Type="String" Description="复核操作网卡（NIC）地址"/>
+  <Field Number="4609" Name="AuditMemo" Type="String" Description="复核说明"/>
+  <Field Number="4610" Name="AuditOptId" Type="String" Description="审核操作员代码 "/>
+  <Field Number="4611" Name="AuditOptName" Type="String" Description="复核操作员名称 "/>
+  <Field Number="4612" Name="AuthOptId" Type="String" Description="授权柜员=null：系统初始创建, 其它不为空 "/>
+  <Field Number="4613" Name="AuthOptPwd" Type="String" Description="复核操作员密码 "/>
+  <Field Number="4614" Name="BasicExchId" Type="String" Description="标的证券所在市场"/>
+  <Field Number="4615" Name="BasicStkType" Type="String" Description="标的证券类型(EBS–ETF，ASH–A股,IdX-指数)"/>
+  <Field Number="4616" Name="BdbfFullPath" Type="String" Description="具体的值（备份路径） "/>
+  <Field Number="4617" Name="BeginContractNum" Type="String" Description="开始合同号 "/>
+  <Field Number="4618" Name="BizDesc" Type="String" Description="业务使用说明"/>
+  <Field Number="4619" Name="BOName" Type="String" Description="后台摘要名 "/>
+  <Field Number="4620" Name="BranchArea" Type="String" Description="地区 "/>
+  <Field Number="4621" Name="BriefName" Type="String" Description="摘要变量名"/>
+  <Field Number="4622" Name="BusinessMark" Type="String" Description="交易所业务类型 "/>
+  <Field Number="4623" Name="CallfuncId" Type="String" Description="功能号 "/>
+  <Field Number="4624" Name="ChineseName" Type="String" Description="中文名称"/>
+  <Field Number="4625" Name="ComeFrom" Type="String" Description="数据来源(人工、自动) "/>
+  <Field Number="4626" Name="CommisionType" Type="String" Description="特殊费用类型"/>
+  <Field Number="4627" Name="CompanyName" Type="String" Description="所属公司"/>
+  <Field Number="4628" Name="ComputerName" Type="String" Description="计算机名 "/>
+  <Field Number="4629" Name="Contactor" Type="String" Description="联系人"/>
+  <Field Number="4630" Name="Contents" Type="String" Description="控件中显示的内容 "/>
+  <Field Number="4631" Name="ContractNum" Type="String" Description="合同序号"/>
+  <Field Number="4632" Name="CopyHolidayId" Type="String" Description="复制的交易日编号"/>
+  <Field Number="4633" Name="CurrencyDesc" Type="String" Description="货币标识 "/>
+  <Field Number="4634" Name="CurrencyIdList" Type="String" Description="估值币种 "/>
+  <Field Number="4635" Name="CurrencyName" Type="String" Description="货币名称 "/>
+  <Field Number="4636" Name="CurrentModule" Type="String" Description="运行的模块"/>
+  <Field Number="4637" Name="CustomerFeeId" Type="String" Description="佣金类别"/>
+  <Field Number="4638" Name="CustRateId" Type="String" Description="利率类别 "/>
+  <Field Number="4639" Name="DbfExpression" Type="String" Description="接口库处理条件"/>
+  <Field Number="4640" Name="DbfId" Type="String" Description="dbf标识 "/>
+  <Field Number="4641" Name="DbPwdKey" Type="String" Description="数据库表密码加密因子 "/>
+  <Field Number="4642" Name="DeliveryType" Type="String" Description="交割方式 "/>
+  <Field Number="4643" Name="Department" Type="String" Description="所属部门 "/>
+  <Field Number="4644" Name="Description" Type="String" Description="提示信息"/>
+  <Field Number="4645" Name="DeskName" Type="String" Description="席位名称 "/>
+  <Field Number="4646" Name="DistributedOptId" Type="String" Description="指令分发员 "/>
+  <Field Number="4647" Name="EndContractNum" Type="String" Description="结束合同号 "/>
+  <Field Number="4648" Name="EnglishFuncName" Type="String" Description="功能英文名称"/>
+  <Field Number="4649" Name="ExchAbbr" Type="String" Description="交易所简称（市场简称） "/>
+  <Field Number="4650" Name="ExchErrorAbbr" Type="String" Description="内部名称(交易所返回错误信息的简称)"/>
+  <Field Number="4651" Name="ExchErrorCode" Type="String" Description="交易所返回的错误代码"/>
+  <Field Number="4652" Name="ExchErrorEnglishMsg" Type="String" Description="委托确认码、错误码英文描述信息"/>
+  <Field Number="4653" Name="Excherrormsg" Type="String" Description="错误原因 "/>
+  <Field Number="4654" Name="ExchIdList" Type="String" Description="允许投资的市场 "/>
+  <Field Number="4655" Name="ExchProperty" Type="String" Description="市场属性 "/>
+  <Field Number="4656" Name="ExchType" Type="String" Description="市场类别 "/>
+  <Field Number="4657" Name="F_hedgeFlagList" Type="String" Description="投保属性"/>
+  <Field Number="4658" Name="F_offSetFlag" Type="String" Description="开平标志(OPEN开仓，CLOSE平仓)"/>
+  <Field Number="4659" Name="FirstoptPosId" Type="String" Description="角色代码/操作员代码 "/>
+  <Field Number="4660" Name="HolidayId" Type="String" Description="交易日编号"/>
+  <Field Number="4661" Name="HolidayName" Type="String" Description="交易日名称"/>
+  <Field Number="4662" Name="HotKey" Type="String" Description="功能热键名称 "/>
+  <Field Number="4663" Name="InstituTionId" Type="String" Description="机构代码"/>
+  <Field Number="4664" Name="InStituTionName" Type="String" Description="机构名称"/>
+  <Field Number="4665" Name="InstructId" Type="String" Description="指令代码 "/>
+  <Field Number="4666" Name="InstructName" Type="String" Description="指令名称 "/>
+  <Field Number="4667" Name="InteriorDesc" Type="String" Description="内部名称 "/>
+  <Field Number="4668" Name="IPOCurrencyIdList" Type="String" Description="募集币种"/>
+  <Field Number="4669" Name="LastModifyUserId" Type="String" Description="处理风险交易员"/>
+  <Field Number="4670" Name="RiskMemo" Type="String" Description="风险信息"/>
+  <Field Number="4671" Name="LocalOrderId" Type="String" Description="本地订单合同号，由报盘机负责生成"/>
+  <Field Number="4672" Name="MdbfFullPath" Type="String" Description="具体的值（主路径）"/>
+  <Field Number="4673" Name="ModuleId" Type="String" Description="模块编号 "/>
+  <Field Number="4674" Name="NightAggBeginTime" Type="String" Description="晚上集中竞价开始时间时分"/>
+  <Field Number="4675" Name="NightAggEndTime" Type="String" Description="晚上集中竞价结束时间时分"/>
+  <Field Number="4676" Name="NightTradeBeginTime" Type="String" Description="晚上交易开始时间时分"/>
+  <Field Number="4677" Name="NightTradeEndTime" Type="String" Description="晚上交易结束时间时分"/>
+  <Field Number="4678" Name="OfferDeskId" Type="String" Description="主席位(报盘席位)"/>
+  <Field Number="4679" Name="OfferOptId" Type="String" Description="报盘柜员 "/>
+  <Field Number="4680" Name="OfferRegId" Type="String" Description="报盘股东代码 "/>
+  <Field Number="4681" Name="OpenKnockCode" Type="String" Description="开仓编号"/>
+  <Field Number="4682" Name="OperationMAC" Type="String" Description="网卡地址 "/>
+  <Field Number="4683" Name="OptId" Type="String" Description="操作员"/>
+  <Field Number="4684" Name="OptIdCancel" Type="String" Description="取消操作的柜员"/>
+  <Field Number="4685" Name="OptIdOffer" Type="String" Description="下单柜员 "/>
+  <Field Number="4686" Name="OptionStkId" Type="String" Description="期权合约代码"/>
+  <Field Number="4687" Name="OptName" Type="String" Description="柜员名称"/>
+  <Field Number="4688" Name="OptPosId" Type="String" Description="角色代码/操作员代码"/>
+  <Field Number="4689" Name="OptPwd" Type="String" Description="密码 "/>
+  <Field Number="4690" Name="OrderSource" Type="String" Description="订单来源"/>
+  <Field Number="4691" Name="OrderSourceId" Type="String" Description="订单来源序列号"/>
+  <Field Number="4692" Name="OrderTypeAbbr" Type="String" Description="业务类型简称"/>
+  <Field Number="4693" Name="OrderTypeDesc" Type="String" Description="业务类型说明"/>
+  <Field Number="4694" Name="OrderTypeList" Type="String" Description="允许操作的委托类型"/>
+  <Field Number="4695" Name="OrderTypeMemo" Type="String" Description="业务备注"/>
+  <Field Number="4696" Name="OrigContractNum" Type="String" Description="撤单的原合同序号"/>
+  <Field Number="4697" Name="OwnerType" Type="String" Description="订单所有类型"/>
+  <Field Number="4698" Name="ParaId" Type="String" Description="参数（控件）标识 "/>
+  <Field Number="4699" Name="ParaName" Type="String" Description="参数名称 "/>
+  <Field Number="4700" Name="PasswordAlgorithm" Type="String" Description="加密算法"/>
+  <Field Number="4701" Name="PersonalId" Type="String" Description="身份证号码 "/>
+  <Field Number="4702" Name="PlatformId" Type="String" Description="接口类型，平台类型 "/>
+  <Field Number="4703" Name="PlatformName" Type="String" Description="交易所名称 "/>
+  <Field Number="4704" Name="PlatformState" Type="String" Description="平台状态"/>
+  <Field Number="4705" Name="PmAggBeginTime" Type="String" Description="下午集中竞价开始时间时分 "/>
+  <Field Number="4706" Name="PmAggEndTime" Type="String" Description="下午集中竞价结束时间时分 "/>
+  <Field Number="4707" Name="PmTradeBeginTime" Type="String" Description="下午交易开始时间时分 "/>
+  <Field Number="4708" Name="PmTradeEndTime" Type="String" Description="下午交易结束时间时分 "/>
+  <Field Number="4709" Name="PortfolioId" Type="String" Description="投资组合"/>
+  <Field Number="4710" Name="PortfolioName" Type="String" Description="组合名称"/>
+  <Field Number="4711" Name="PortfolioType" Type="String" Description="组合类型(从globalcont中获取)"/>
+  <Field Number="4712" Name="PostCode" Type="String" Description="邮政编码 "/>
+  <Field Number="4713" Name="ProdAcctName" Type="String" Description="资产单元名称 "/>
+  <Field Number="4714" Name="ProductAcctId" Type="String" Description="资产单元编号"/>
+  <Field Number="4715" Name="ProductFullName" Type="String" Description="产品全称"/>
+  <Field Number="4716" Name="PublicName" Type="String" Description="服务名 "/>
+  <Field Number="4717" Name="AlgorithmId" Type="String" Description="算法Id"/>
+  <Field Number="4718" Name="RateTypeDesc" Type="String" Description="利率类别描述 "/>
+  <Field Number="4719" Name="ReckoningNum" Type="String" Description="清算号【结算编号】 "/>
+  <Field Number="4720" Name="RoleId" Type="String" Description="角色标识 "/>
+  <Field Number="4721" Name="RoleName" Type="String" Description="角色名称 "/>
+  <Field Number="4722" Name="SecoptPosId" Type="String" Description="角色代码/操作员代码 "/>
+  <Field Number="4723" Name="SettleInteresDay1" Type="String" Description="每年第一个结息日(格式：0331)"/>
+  <Field Number="4724" Name="SettleInteresDay2" Type="String" Description="每年第二个结息日"/>
+  <Field Number="4725" Name="SettleInteresDay3" Type="String" Description="每年第三个结息日"/>
+  <Field Number="4726" Name="SettleInteresDay4" Type="String" Description="每年第四个结息日"/>
+  <Field Number="4727" Name="StkCategory" Type="String" Description="证券分类"/>
+  <Field Number="4728" Name="StkEnglishAbbr" Type="String" Description="英文简称 "/>
+  <Field Number="4729" Name="StkPoolId" Type="String" Description="股票池Id"/>
+  <Field Number="4730" Name="StkPoolName" Type="String" Description="股票池名称"/>
+  <Field Number="4731" Name="StkTypeDesc" Type="String" Description="证券类别说明"/>
+  <Field Number="4732" Name="StkTypeName" Type="String" Description="证券类别名称"/>
+  <Field Number="4733" Name="SubstkPoolId" Type="String" Description="子股票池 "/>
+  <Field Number="4734" Name="TargetCurrencyId" Type="String" Description="目标币种 "/>
+  <Field Number="4735" Name="TradeCurrencyId" Type="String" Description="交易币种"/>
+  <Field Number="4736" Name="TraderId" Type="String" Description="交易员代码 "/>
+  <Field Number="4737" Name="TradeTypeDesc" Type="String" Description="交易类型说明"/>
+  <Field Number="4738" Name="TradeTypeName" Type="String" Description="交易类型名称"/>
+  <Field Number="4739" Name="TradingFeeDict" Type="String"
+         Description="费用字典，主要是需要确定该费用放到tradinglog或tradingresult表的那个字典中"/>
+  <Field Number="4740" Name="TradingResultType" Type="String" Description="成交标志见globalConst定义 "/>
+  <Field Number="4741" Name="TransAddress" Type="String" Description="交易地址 "/>
+  <Field Number="4742" Name="TransIP" Type="String" Description="IP地址"/>
+  <Field Number="4743" Name="TransIPBak" Type="String" Description="IP备份地址 "/>
+  <Field Number="4744" Name="TransPort" Type="String" Description="IP端口"/>
+  <Field Number="4745" Name="TransPortBak" Type="String" Description="IP备份端口 "/>
+  <Field Number="4746" Name="UserDefinedBasketId" Type="String" Description="用户界面输入的组合Id"/>
+  <Field Number="4747" Name="ValueScope" Type="String"
+         Description="取值范围（输入值时控件类型定义，TEXT-文本输入，COMBOX-单选列表输入，UCOMBOXLIST-多选列表输入） "/>
+  <Field Number="4748" Name="InterCurrName" Type="String" Description="国际货币标识"/>
+  <Field Number="4749" Name="InterCurrSign" Type="String" Description="国际货币显示符号"/>
+  <Field Number="4750" Name="Terminalinfo" Type="String" Description="终端信息 "/>
+  <Field Number="4751" Name="CallFuncName" Type="String" Description="功能描述 "/>
+  <Field Number="4752" Name="SecuritiesCompany" Type="String" Description="券商名称 "/>
+  <Field Number="4753" Name="AssetCategory" Type="String" Description="资产种类:A0表示现金类,A1表示未到期回购 "/>
+  <Field Number="4754" Name="UserDefinedBasketName" Type="String" Description="用户界面输入的组合名称"/>
+  <Field Number="4755" Name="ThirdContractNo" Type="String" Description="第三方系统的合同号"/>
+  <Field Number="4756" Name="ThirdBranchId" Type="String" Description="第三方系统的营业部"/>
+  <Field Number="4757" Name="BsFlagDesc" Type="String" Description="买卖标志描述"/>
+  <Field Number="4758" Name="SubjectId" Type="String" Description="科目代码"/>
+  <Field Number="4759" Name="SubjectName" Type="String" Description="科目名称"/>
+  <Field Number="4760" Name="SubjectParent" Type="String" Description="上级科目"/>
+  <Field Number="4761" Name="AssetClassType" Type="String" Description="资产分类(1:资产类，2：负债类，3：共同类，4：权益类 ，6损益类)"/>
+  <Field Number="4762" Name="SubjectAttrName" Type="String" Description="科目性质"/>
+  <Field Number="4763" Name="SubjectAttrId" Type="String" Description="科目性质代码"/>
+  <Field Number="4764" Name="StockId" Type="String" Description="关联代码"/>
+  <Field Number="4765" Name="TradinglogTotalHandleResult" Type="String" Description="清算汇总处理结果说明"/>
+  <Field Number="4766" Name="CommisionFeeName" Type="String" Description="佣金名称"/>
+  <Field Number="4767" Name="ServiceName" Type="String" Description="服务名称"/>
+  <Field Number="4768" Name="VerifyDesc" Type="String" Description="处理结果"/>
+
+  <Field Number="4769" Name="RiskControlType" Type="String" Description="风险控制分类"/>
+  <Field Number="4770" Name="DataDesc" Type="String" Description="风险监控类型描述"/>
+  <Field Number="4771" Name="Sign" Type="String" Description="字母符号"/>
+  <Field Number="4772" Name="RiskControlMode" Type="String" Description="风险控制分类"/>
+  <Field Number="4773" Name="RiskControlFunc" Type="String" Description="风险监控类型描述"/>
+  <Field Number="4774" Name="ProductGroupType" Type="String" Description="'产品组类别(从globalconst中获取)"/>
+
+  <Field Number="4775" Name="ControlObject" Type="String" Description="风控作用对象字典列表"/>
+  <Field Number="4776" Name="MultiObject" Type="String" Description="可以多选输入的控制作用对象字典"/>
+  <Field Number="4777" Name="MustObject" Type="String" Description="是否必须设置的受控对象字典"/>
+  <Field Number="4778" Name="IsorhasObject" Type="String" Description="前面可以增加是非的对象字典"/>
+  <Field Number="4779" Name="ExemptControlObject" Type="String" Description="风控作用对象字典列表"/>
+  <Field Number="4780" Name="ExemptMultiObject" Type="String" Description="可以多选输入的控制作用对象字典"/>
+  <Field Number="4781" Name="ExemptMustObject" Type="String" Description="是否必须设置的受控对象字典"/>
+  <Field Number="4782" Name="ExemptisorhasObject" Type="String" Description="前面可以增加是非的对象字段"/>
+  <Field Number="4783" Name="MoleculeObject" Type="String" Description="允许分子出现的元件"/>
+  <Field Number="4784" Name="DenominatorObject" Type="String" Description="允许分母出现的元件"/>
+  <Field Number="4785" Name="RunType" Type="String" Description="监控运行方式"/>
+  <Field Number="4786" Name="ConfigValue" Type="String" Description="配置运行时间"/>
+  <Field Number="4787" Name="InvokedClass" Type="String" Description="调用程序对象"/>
+  <Field Number="4788" Name="ConditionName" Type="String" Description="条件名称"/>
+
+  <Field Number="4790" Name="Unit" Type="String" Description="参数值显示单位"/>
+  <Field Number="4791" Name="LessValuePara" Type="String" Description="值小于本项的参数值名称"/>
+  <Field Number="4792" Name="LargeValuePara" Type="String" Description="值大于本项的参数值名称"/>
+
+
+  <Field Number="4795" Name="FormulaDefine" Type="String" Description="公式定义"/>
+
+  <Field Number="4797" Name="RiskFactorSerial" Type="String" Description="元素序号"/>
+  <Field Number="4798" Name="RiskFactorID" Type="String" Description="元素名"/>
+  <Field Number="4799" Name="RiskFactorName" Type="String" Description="元素中文名"/>
+
+  <Field Number="4800" Name="TypeName" Type="String" Description="元素分类"/>
+  <Field Number="4801" Name="MessageAllOptFlag" Type="String" Description="消息发布给全部相关柜员标志，不发布、发布消息"/>
+  <Field Number="4802" Name="MessageOptIdList" Type="String" Description="消息指定接收的操作员"/>
+  <Field Number="4803" Name="MessagePosIdList" Type="String" Description="消息指定接收的角色"/>
+
+  <Field Number="4804" Name="RiskParaName" Type="String" Description="风控参数名称"/>
+
+  <Field Number="4806" Name="Email_cclist" Type="String" Description="抄送邮件的清单"/>
+  <Field Number="4807" Name="ConditionValue" Type="String" Description="条件值"/>
+  <Field Number="4808" Name="ParaValue1" Type="String" Description="参数值1"/>
+  <Field Number="4809" Name="ParaValue2" Type="String" Description="参数值1"/>
+  <Field Number="4810" Name="ParaValue3" Type="String" Description="参数值1"/>
+  <Field Number="4811" Name="ParaValue4" Type="String" Description="参数值1"/>
+  <Field Number="4812" Name="ParaValue5" Type="String" Description="参数值1"/>
+  <Field Number="4813" Name="ParaValue6" Type="String" Description="参数值1"/>
+  <Field Number="4814" Name="ParaValue7" Type="String" Description="参数值1"/>
+  <Field Number="4815" Name="ParaValue8" Type="String" Description="参数值1"/>
+  <Field Number="4816" Name="ParaValue9" Type="String" Description="参数值1"/>
+  <Field Number="4817" Name="ParaValue10" Type="String" Description="参数值1"/>
+
+  <Field Number="4818" Name="RiskParaDict" Type="String" Description="作用范围字典"/>
+  <Field Number="4823" Name="riskStkGroupCrtl" Type="String" Description="风控控制方式"/>
+
+  <Field Number="4824" Name="ProfitLossHandleResult" Type="String" Description="结账处理结果说明"/>
+
+  <Field Number="4825" Name="ClOrdId" Type="String" Description="Fix合同号"/>
+  <Field Number="4826" Name="FixOrderMode" Type="String" Description="订单类型"/>
+  <Field Number="4827" Name="FixOrderFlag" Type="String" Description="订单标志"/>
+  <Field Number="4828" Name="InvestScope" Type="String" Description="投资范围"/>
+  <Field Number="4829" Name="PriceListPlate" Type="String" Description="价格盘口"/>
+  <Field Number="4830" Name="QtyListPlate" Type="String" Description="数量盘口"/>
+  <Field Number="4831" Name="BusinessType" Type="String" Description="业务标志"/>
+  <Field Number="4832" Name="ProductNumList" Type="String" Description="产品序号列表"/>
+  <Field Number="4833" Name="ExceptionType" Type="String" Description="异常类型"/>
+  <Field Number="4834" Name="LimitDesc" Type="String" Description="风控限制描述"/>
+  <Field Number="4835" Name="Predix" Type="String" Description="操作员前缀"/>
+  <Field Number="4837" Name="StkType2" Type="String" Description="二级证券类别"/>
+  <Field Number="4838" Name="BeginStkId" Type="String" Description="开始证券代码"/>
+  <Field Number="4839" Name="LastStkId" Type="String" Description="结束证券代码"/>
+  <Field Number="4840" Name="RiskValue" Type="String" Description="风险值"/>
+  <Field Number="4841" Name="UnValidDesc" Type="String" Description="风险信息说明"/>
+  <Field Number="4842" Name="PartId" Type="String" Description="参与人代码"/>
+  <Field Number="4843" Name="ParentFundCode" Type="String" Description="母基金"/>
+  <Field Number="4844" Name="ProductStatusList" Type="String" Description="产品状态(0-成立，1-上市)"/>
+  <Field Number="4845" Name="RiskFuncName" Type="String" Description="风控规则名称"/>
+  <Field Number="4846" Name="BankAccount" Type="String" Description="账户"/>
+  <Field Number="4847" Name="NewStkID" Type="String" Description="新股代码"/>
+  <Field Number="4848" Name="RefresultId" Type="String" Description="关联结果ID"/>
+  <Field Number="4849" Name="TempLateId" Type="String" Description="查询模板ID"/>
+  <Field Number="4850" Name="Issuer" Type="String" Description="发行人"/>
+  <Field Number="4851" Name="internalStkId" Type="String" Description="唯一编码"/>
+  <Field Number="4852" Name="SecAuditMAC" Type="String" Description="二级审核主机地址"/>
+  <Field Number="4853" Name="DistributedMAC" Type="String" Description="分发主机地址"/>
+  <Field Number="4854" Name="OptIdCancelMAC" Type="String" Description="撤销策略主机地址"/>
+  <Field Number="4855" Name="TemplateName" Type="String" Description="模板名称"/>
+  <Field Number="4856" Name="NewRegId" Type="String" Description="新股东代码"/>
+  <Field Number="4857" Name="NewF_hedgeFlagList" Type="String" Description="新投保标识"/>
+  <Field Number="4858" Name="AuditLevel" Type="String" Description="复核级别"/>
+  <Field Number="4859" Name="AggAuction" Type="String" Description="集合竞价量比标志"/>
+  <Field Number="4860" Name="ISINName" Type="String" Description="ISINName"/>
+  <Field Number="4861" Name="BasicStkName" Type="String" Description="参考证券名称"/>
+  <Field Number="4862" Name="RoleIdList" Type="String" Description="角色标识列"/>
+  <Field Number="4863" Name="UsedFixTags" Type="String" Description="自定义TAG列"/>
+  <Field Number="4864" Name="OnBehalfOfCompId" Type="String" Description="原始发送方ID"/>
+  <Field Number="4865" Name="FixAccountID" Type="String" Description="Fix账户ID"/>
+
+  <Field Number="4866" Name="MsgType" Type="String" Description="Fix请求类型"/>
+  <Field Number="4867" Name="FixText" Type="String" Description="Fix备注(tag58)"/>
+  <Field Number="4868" Name="LimitPriceVol" Type="String" Description="限价量比(tag6298)"/>
+  <Field Number="4869" Name="ResetVolOnAmend" Type="String" Description="量比修改后生效时机(tag6297)"/>
+  <Field Number="4870" Name="RefIndex" Type="String" Description="参考指数(tag6073)"/>
+  <Field Number="4871" Name="StrategyType" Type="String" Description="策略类型"/>
+  <Field Number="4872" Name="KeepPriceFlag" Type="String" Description="保留限价挂单"/>
+  <Field Number="4873" Name="CustomAlgosId" Type="String" Description="策略ID"/>
+  <Field Number="4874" Name="FixTargetSubId" Type="String" Description="FIX客户发送的特定信息"/>
+  <Field Number="4875" Name="QuickTradeThreshold" Type="String" Description="价格阀值列表"/>
+  <Field Number="4876" Name="QuickTradePercent" Type="String" Description="参与比例列表"/>
+  <Field Number="4877" Name="StrategyStatus" Type="String" Description="Algo策略状态(tag1120)"/>
+  <Field Number="4878" Name="StrategyComponent" Type="String" Description="趋势跟踪"/>
+  <Field Number="4879" Name="RTNTcompId" Type="String" Description="RTNTcompId"/>
+  <Field Number="4880" Name="TargetCompId" Type="String" Description="TargetCompId"/>
+  <Field Number="4881" Name="SenderCompId" Type="String" Description="SenderCompId"/>
+  <Field Number="4882" Name="TargetCompIdList" Type="String" Description="TargetCompIdList"/>
+  <Field Number="4883" Name="OrigClOrdId" Type="String" Description="原始合同号码(tag41)"/>
+  <Field Number="4884" Name="FixSecondaryClOrdID" Type="String" Description="关联标识(tag526)"/>
+  <Field Number="4885" Name="FixOrdType" Type="String" Description="价格类型(Tag40)"/>
+  <Field Number="4886" Name="FixTimeInForce" Type="String" Description="指令的有效期类型(Tag59)"/>
+  <Field Number="4887" Name="FixExtendTag" Type="String" Description="Fix扩展参数"/>
+  <Field Number="4888" Name="ExecID" Type="String" Description="ExecID(Tag17)"/>
+  <Field Number="4889" Name="OrderId" Type="String" Description="订单ID(tag37)"/>
+  <Field Number="4890" Name="ExecTransType" Type="String" Description="ExecTransType(tag20)"/>
+  <Field Number="4891" Name="ExecRefID" Type="String" Description="ExecRefID(tag19)"/>
+  <Field Number="4892" Name="ExecType" Type="String" Description="ExecType(tag150)"/>
+  <Field Number="4893" Name="AlgoDefaultPara" Type="String" Description="算法默认参数"/>
+  <Field Number="4894" Name="DispatchModeList" Type="String" Description="指派方式列表"/>
+  <Field Number="4895" Name="UpDownPriceFlag" Type="String" Description="涨跌停价格标志"/>
+  <Field Number="4896" Name="FIXClientId" Type="String" Description="Fix客户ID"/>
+  <Field Number="4897" Name="SenderSubID" Type="String" Description="senderSubID(Tag50)"/>
+  <Field Number="4898" Name="OnBehalfOfSubID" Type="String" Description="OnBehalfOfSubID(Tag116)"/>
+  <Field Number="4899" Name="FixChannelId" Type="String" Description="FIXGateway通道ID"/>
+  <Field Number="4900" Name="SenderCompIdList" Type="String" Description="发送方ID列表"/>
+  <Field Number="4901" Name="FIXexecInst" Type="String" Description="ExecInst(Tag18)"/>
+  <Field Number="4902" Name="FixMaxPriceLevel" Type="String" Description="FIX价格策略中的最高档位"/>
+  <Field Number="4903" Name="SecurityType" Type="String" Description="证券类型(Stock-现货、Future-期货、Option-期权)"/>
+  <Field Number="4904" Name="RightsType" Type="String" Description="权益类型"/>
+  <Field Number="4905" Name="MOC" Type="String" Description="收盘价格标志"/>
+  <Field Number="4906" Name="PossResend" Type="String" Description="重复发送标志"/>
+  <Field Number="4907" Name="StrategyTypeList" Type="String" Description="策略类型list"/>
+  <Field Number="4908" Name="AlgoStatus" Type="String" Description="Algo状态"/>
+  <Field Number="4909" Name="NextClOrdId" Type="String" Description="下一个Fix合同号"/>
+  <Field Number="4910" Name="FixOrderStatus" Type="String" Description="Fix连接状态"/>
+  <Field Number="4911" Name="OCFlagList" Type="String" Description="开平标志List"/>
+  <Field Number="4912" Name="OutCashType" Type="String" Description="业务类别"/>
+  <Field Number="4913" Name="AccruedFeeType" Type="String" Description="费用类型"/>
+  <Field Number="4914" Name="AutoArbitrageType" Type="String" Description="执行套利方式：自动或手工"/>
+  <Field Number="4916" Name="TradeInstituTionId" Type="String" Description="投顾机构编码"/>
+  <Field Number="4917" Name="FileType" Type="String" Description="文件类型"/>
+  <Field Number="4918" Name="StrategyName" Type="String" Description="策略名称"/>
+  <Field Number="4919" Name="FeeName" Type="String" Description="费用名称"/>
+  <Field Number="4920" Name="CateGoryId" Type="String" Description="报告分类ID"/>
+  <Field Number="4925" Name="SortType" Type="String" Description="排序方式"/>
+  <Field Number="4927" Name="TmpTableName" Type="String" Description="临时表名称"/>
+  <Field Number="4928" Name="TemplateType" Type="String" Description="模板类型"/>
+  <Field Number="4930" Name="Source" Type="String" Description="來源別"/>
+  <Field Number="4931" Name="OrigSource" Type="String" Description="原始來源別"/>
+  <Field Number="4936" Name="TradeStkID" Type="String" Description="上市代码"/>
+  <Field Number="4932" Name="RequestCountTop" Type="String" Description="请求次数TOP5功能号"/>
+  <Field Number="4933" Name="RequestCostTop" Type="String" Description="请求耗时TOP5功能号"/>
+  <Field Number="4934" Name="TimeoutCountTop" Type="String" Description="超时请求数TOP3功能号"/>
+  <Field Number="4935" Name="DoublCountTop" Type="String" Description="重复请求数TOP3功能号"/>
+  <Field Number="4937" Name="CustID" Type="String" Description="客户号"/>
+  <Field Number="4938" Name="RelatedStkId" Type="String" Description="相关证券代码"/>
+  <Field Number="4939" Name="PositionId" Type="String" Description="持仓管理ID"/>
+  <Field Number="4941" Name="ThirdSubjectIdStr" Type="String" Description="第三方科目列表"/>
+  <Field Number="4942" Name="ThirdSubjectNameStr" Type="String" Description="第三方科目名称列表"/>
+  <Field Number="4943" Name="ThirdProductNum" Type="String" Description="第三方系统产品序号"/>
+  <Field Number="4944" Name="CustPwd" Type="String" Description="客户密码/交易员密码"/>
+  <Field Number="4945" Name="ActionFlag" Type="String" Description="操作类型"/>
+  <Field Number="4946" Name="Action" Type="String" Description="要复核的操作动作"/>
+  <Field Number="4947" Name="AuditOptId2" Type="String" Description="复核操作员2"/>
+  <Field Number="4948" Name="AttributeType" Type="String" Description="属性类型"/>
+  <Field Number="4949" Name="AttributeValue" Type="String" Description="属性的值"/>
+  <Field Number="4950" Name="CalculationFlag" Type="String" Description="计算方式"/>
+  <Field Number="4951" Name="ContractType" Type="String" Description="合约类型"/>
+  <Field Number="4952" Name="TargetType" Type="String" Description="标的类型"/>
+  <Field Number="4953" Name="IntelligentType" Type="String" Description="策略类型"/>
+  <Field Number="4954" Name="SuportFIX" Type="String" Description="是否支持FIX"/>
+  <Field Number="4955" Name="InnerInstructId" Type="String" Description="原指令ID"/>
+  <Field Number="4956" Name="MeetingSeq" Type="String" Description="股东大会序列号"/>
+  <Field Number="4957" Name="Meetingdesc" Type="String" Description="股东大会名称"/>
+  <Field Number="4958" Name="StatusDesc" Type="String" Description="状态描述"/>
+  <Field Number="4959" Name="VoteId" Type="String" Description="议案编号"/>
+  <Field Number="4960" Name="VoteInfo" Type="String" Description="议案名称"/>
+  <Field Number="4961" Name="VoteType" Type="String" Description="议案类型"/>
+  <Field Number="4962" Name="VoteRelation" Type="String" Description="议案关系"/>
+  <Field Number="4964" Name="ThirdReckoningType" Type="String" Description="第三方系统清算类型"/>
+  <Field Number="4965" Name="CustFundAcctId" Type="String" Description="客户基金账号"/>
+  <Field Number="4966" Name="SqlName" Type="String" Description="脚本名称"/>
+  <Field Number="4967" Name="SqlDesc" Type="String" Description="脚本说明"/>
+  <Field Number="4968" Name="SqlTemplate" Type="String" Description="SQL定义脚本"/>
+  <Field Number="4972" Name="Maturity" Type="String" Description="期限"/>
+  <Field Number="4976" Name="WeightMethod" Type="String" Description="权重计算方式"/>
+  <Field Number="4977" Name="DayList" Type="String" Description="每年派息日期(格式:MM-DD,MM-DD……)"/>
+  <Field Number="4978" Name="AppProdName" Type="String" Description="终端软件名称"/>
+  <Field Number="4980" Name="EnterTime" Type="String" Description="进入本状态时间"/>
+  <Field Number="4981" Name="TerminalId" Type="String" Description="终端信息ID"/>
+  <Field Number="4982" Name="AppID" Type="String" Description="终端识别码"/>
+  <Field Number="4983" Name="TerminalInfo" Type="String" Description="终端采集信息"/>
+  <Field Number="4984" Name="BankAcctType" Type="String" Description="银行账号类型"/>
+  <Field Number="4985" Name="CollectId" Type="String" Description="终端采集ID"/>
+  <Field Number="4986" Name="ClientCollectId" Type="String" Description="操作员采集ID与TerminalID存放在同一字段中"/>
+  <Field Number="4989" Name="CostSubjectIdList" Type="String" Description="对应成本科目列表"/>
+  <Field Number="4990" Name="RuleMemo" Type="String" Description="规则说明"/>
+  <Field Number="4991" Name="InstructQtyStrategy" Type="String" Description="指令数量策略"/>
+  <Field Number="4992" Name="riskProductCtrl" Type="String" Description="控制层次"/>
+  <Field Number="4994" Name="RelatedType" Type="String" Description="关联类型 0-联合，1-互斥"/>
+  <Field Number="4995" Name="FlowType" Type="String" Description="流程类型"/>
+  <Field Number="4996" Name="OperationItem" Type="String" Description="操作项目"/>
+  <Field Number="4997" Name="OperationItemName" Type="String" Description="操作项目名称"/>
+  <Field Number="4998" Name="ReckoningMode" Type="String" Description="清算模式(0-分仓清算, 1-直报清算,或定义的其他特殊清算方式)"/>
+  <Field Number="4999" Name="ExecuteFuncCode" Type="String" Description="清算执行对应接口"/>
+
+  <Field Number="5002" Name="Certificate" Type="Binary" Description="数字证书"/>
+  <Field Number="5003" Name="RateList" Type="String" Description="浮动利率列表"/>
+  <Field Number="5006" Name="JDBC_URL" Type="String" Description="数据库连接地址"/>
+  <Field Number="5007" Name="IssuerID" Type="String" Description="发行人ID（内部使用）"/>
+  <Field Number="5008" Name="CompCode" Type="String" Description="发行人ID（外部资讯数据）"/>
+  <Field Number="5009" Name="CompName" Type="String" Description="发行人名称"/>
+  <Field Number="5020" Name="StkDynamicName" Type="String" Description="证券维度模板名称"/>
+  <Field Number="5021" Name="StkDynamicRule" Type="String" Description="证券维度规则"/>
+  <Field Number="5022" Name="StkDynamicFactor" Type="String" Description="规则条件表"/>
+  <Field Number="5023" Name="RuleName" Type="String" Description="证券维度条件名称"/>
+  <Field Number="5024" Name="RuleID" Type="String" Description="数据库字段"/>
+  <Field Number="5025" Name="RuleValueType" Type="String"
+         Description="控件类型：TEXT-文本输入，COMBOX-单选列表输入，UCOMBOXLIST-多选列表输入）"/>
+  <Field Number="5026" Name="RuleValueunit" Type="String" Description="数值单位"/>
+  <Field Number="5027" Name="Ruledefine" Type="String" Description="规则表达式"/>
+  <Field Number="5028" Name="StkDynamicDefName" Type="String" Description="动态维度名称"/>
+  <Field Number="5029" Name="RuleCompare" Type="String" Description="比较方向"/>
+  <Field Number="5030" Name="RuleValue" Type="String" Description="条件赋值"/>
+  <Field Number="5031" Name="StkDynamicType" Type="String" Description="证券维度模板分类(A0-股票，A1-债券，A2-基金，F1-期货,D2-期权)"/>
+  <Field Number="5032" Name="RiskParaNumList" Type="String" Description="客户定制的风控参数序号"/>
+  <Field Number="5033" Name="RiskMonitorNumList" Type="String" Description="风险监控点序号"/>
+  <Field Number="5034" Name="CompareDirection" Type="String" Description="比较方向"/>
+  <Field Number="5041" Name="InternalCode" Type="String" Description="内部编码"/>
+  <Field Number="5042" Name="Guarantor" Type="String" Description="担保机构ID"/>
+  <Field Number="5043" Name="QuoteType" Type="String" Description="报价方式（0：净价，1：全价，9：无披露）"/>
+  <Field Number="5044" Name="IssueMode" Type="String" Description="发行模式（0：贴现，1：付息）"/>
+  <Field Number="5045" Name="BaseRateCode" Type="String" Description="基础利率（浮息债）"/>
+  <Field Number="5046" Name="Type" Type="String" Description="债券类型"/>
+  <Field Number="5047" Name="InternalType" Type="String" Description="内部分类"/>
+  <Field Number="5048" Name="ShortName" Type="String" Description="简称"/>
+  <Field Number="5049" Name="UnlistedCode" Type="String" Description="未上市债券代码"/>
+  <Field Number="5051" Name="Term" Type="String" Description="期限"/>
+  <Field Number="5052" Name="CompLevelCode" Type="String" Description="机构评级"/>
+  <Field Number="5053" Name="LevelCode" Type="String" Description="评级"/>
+  <Field Number="5054" Name="RatingAgency" Type="String" Description="评级机构"/>
+  <Field Number="5056" Name="CompType" Type="String" Description="机构分类"/>
+  <Field Number="5066" Name="FundType" Type="String" Description="基金类型"/>
+  <Field Number="5070" Name="InsideCompLevel" Type="String" Description="外部评级"/>
+  <Field Number="5071" Name="OutsideCompLevel" Type="String" Description="内部评级"/>
+  <Field Number="5072" Name="TotalCompLevel" Type="String" Description="综合评级"/>
+  <Field Number="5092" Name="StkDynamicIDList" Type="String" Description="证券维度序号"/>
+  <Field Number="5093" Name="LongSymbolCN" Type="String" Description="中文证券名称(长)"/>
+  <Field Number="5094" Name="RecordDetail" Type="String" Description="记录明细"/>
+  <Field Number="5095" Name="RecordName" Type="String" Description="记录名称"/>
+  <Field Number="5096" Name="ParentRecord" Type="String" Description="父级记录"/>
+  <Field Number="5099" Name="AssetClass" Type="String" Description=" 资产类型（0-现金资产；1-应付；2-应收）"/>
+
+  <Field Number="8192" Name="FileContent" Type="LongBinary" Description="文件内容"/>
+  <Field Number="8193" Name="CombinInfoData" Type="LongBinary" Description="文件内容"/>
+  <Field Number="8194" Name="CombinInfoAddData" Type="LongBinary" Description="文件内容"/>
+  <Field Number="8195" Name="CombinInfoDelData" Type="LongBinary" Description="文件内容"/>
+  <Field Number="8196" Name="UpdateFileList" Type="LongBinary" Description="客户端升级信息列表文件内容"/>
+  <Field Number="8197" Name="UpdateFileContent" Type="LongBinary" Description="客户端升级文件内容"/>
+  <Field Number="8198" Name="CategoryInfomation" Type="LongBinary" Description="行情资讯分类资讯内容"/>
+
+  <Field Number="12290" Name="Flag" Type="Int32"/>
+  <Field Number="12291" Name="SessionID" Type="Int32" Description="业务会话ID"/>
+  <Field Number="12293" Name="TradeUnit" Type="Int32" Description="交易单位"/>
+  <Field Number="12295" Name="SHBondUnit" Type="Int32" Description="上海债券数量单位"/>
+  <Field Number="12296" Name="SZBondUnit" Type="Int32" Description="深圳债券数量单位"/>
+  <Field Number="12350" Name="MinBuyQty" Type="Int32" Description="买入下限"/>
+  <Field Number="12351" Name="MinSellQty" Type="Int32" Description="卖出下限"/>
+  <Field Number="12352" Name="ExposureNum" Type="Int32" Description="敞口ID"/>
+  <Field Number="12353" Name="Exposuretype" Type="Int32" Description="敞口类别"/>
+  <Field Number="12354" Name="ExposureStatus" Type="Int32" Description="敞口状态"/>
+  <Field Number="12355" Name="ExposureDetailNum" Type="Int32" Description="敞口值ID"/>
+  <Field Number="12356" Name="ExposureDetailStatus" Type="Int32" Description="敞口值状态"/>
+  <Field Number="12363" Name="TradesCount" Type="Int32" Description="成交笔数"/>
+  <Field Number="12364" Name="Decimal" Type="Int32" Description="小數位數"/>
+  <Field Number="12365" Name="BeginSN" Type="Int32" Description="回补开始序号"/>
+  <Field Number="12366" Name="EndSN" Type="Int32" Description="回补结束序号"/>
+  <Field Number="12367" Name="FilesCount" Type="Int32" Description="文件数量"/>
+  <Field Number="12368" Name="FileSize" Type="Int32" Description="文件大小"/>
+  <Field Number="12369" Name="CreationRedemptionUnit" Type="Int32" Description="最小赎回单位"/>
+  <Field Number="12372" Name="CreationFlag" Type="Int32" Description="申购买卖控制标志"/>
+  <Field Number="12373" Name="RedemptionFlag" Type="Int32" Description="赎回买卖控制标志"/>
+  <Field Number="12377" Name="LocalExchStkCount" Type="Int32" Description="本所成份股数"/>
+  <Field Number="12378" Name="OtherExchStkCount" Type="Int32" Description="非本所成份股数"/>
+  <Field Number="12379" Name="ComponentStockQty" Type="Int32" Description="成份股总数量"/>
+  <Field Number="12380" Name="ExecuteQty" Type="Int32" Description="执行数量"/>
+  <Field Number="12386" Name="BasketQty" Type="Int32" Description="籃子數量"/>
+  <Field Number="12387" Name="RecordCount" Type="Int32" Description="筆數"/>
+  <Field Number="12403" Name="Quantity" Type="Int32" Description="撤單/成交數量"/>
+  <Field Number="12408" Name="TotalQty" Type="Int32" Description="合约手数"/>
+  <Field Number="12411" Name="PageNo" Type="Int32" Description="查询页数"/>
+  <Field Number="12412" Name="MaxRowsPerPage" Type="Int32" Description="每页查询多少行"/>
+  <Field Number="12420" Name="AllotCount" Type="Int32" Description="配号个数"/>
+  <Field Number="12428" Name="StockCount" Type="Int32" Description="成份股个数"/>
+  <Field Number="12430" Name="QuotaSerialNo" Type="Int32" Description="委託序號"/>
+  <Field Number="12431" Name="RspMsgID" Type="Int32" Description="回報封包類型"/>
+  <Field Number="12432" Name="SequenceNo" Type="Int32" Description="回補流水序號"/>
+  <Field Number="12433" Name="BasketType" Type="Int32" Description="篮子类型"/>
+  <Field Number="12436" Name="convertQty" Type="Int32" Description="每手数量"/>
+  <Field Number="12437" Name="level" Type="Int32" Description="菜单级别"/>
+  <Field Number="12438" Name="funcType" Type="Int32" Description="功能类型"/>
+  <Field Number="12439" Name="sortSerial" Type="Int32" Description="排序号"/>
+  <Field Number="12440" Name="MaxSN" Type="Int32" Description="最大序号"/>
+  <Field Number="12442" Name="OrderRate" Type="Int32" Description="交易份额"/>
+  <Field Number="12443" Name="TypeFlag" Type="Int32" Description="类型标志，1：内存中的最大序号；2：文件中的最大序号"/>
+  <Field Number="12444" Name="OrderMode" Type="Int32" Description="交易模式"/>
+  <Field Number="12445" Name="ValueLen" Type="Int32" Description="值长度"/>
+  <Field Number="12446" Name="ColumnWidth" Type="Int32" Description="列宽"/>
+  <Field Number="12450" Name="GroupId" Type="Int32" Description="组ID"/>
+  <Field Number="12451" Name="FailCount" Type="Int32" Description="失败笔数"/>
+  <Field Number="12457" Name="State" Type="Int32" Description="运行状态"/>
+  <Field Number="12458" Name="IsL1Setup" Type="Int32"/>
+  <Field Number="12459" Name="IsL2Setup" Type="Int32"/>
+  <Field Number="12460" Name="IsETFSetup" Type="Int32"/>
+  <Field Number="12461" Name="IsFuSetup" Type="Int32"/>
+  <Field Number="12462" Name="L1ClientCount" Type="Int32"/>
+  <Field Number="12463" Name="L1FileMessCount" Type="Int32"/>
+  <Field Number="12464" Name="L1MemMessCount" Type="Int32"/>
+  <Field Number="12465" Name="L2ClientCount" Type="Int32"/>
+  <Field Number="12466" Name="L2FileMessCount" Type="Int32"/>
+  <Field Number="12467" Name="L2MemMessCount" Type="Int32"/>
+  <Field Number="12468" Name="ETFClientCount" Type="Int32"/>
+  <Field Number="12469" Name="FuturesClientCount" Type="Int32"/>
+  <Field Number="12470" Name="FuturesFileMessCount" Type="Int32"/>
+  <Field Number="12471" Name="FuturesMemMessCount" Type="Int32"/>
+  <Field Number="12473" Name="RegStatus" Type="Int32" Description="股东状态"/>
+  <Field Number="12474" Name="PlateId" Type="Int32" Description="板块ID"/>
+  <Field Number="12475" Name="ExchStkCount" Type="Int32" Description="成份股个数"/>
+  <Field Number="12478" Name="funclevel" Type="Int32" Description="菜单级别"/>
+  <Field Number="12479" Name="IndicatorType" Type="Int32" Description="公式类型编号"/>
+  <Field Number="12480" Name="formulaId" Type="Int32" Description="公式代码"/>
+  <Field Number="12481" Name="lineDrawMethod" Type="Int32" Description="画图方法"/>
+  <Field Number="12482" Name="ParameterId" Type="Int32" Description="参数序号"/>
+  <Field Number="12486" Name="Service" Type="Int32" Description="服務權限"/>
+  <Field Number="12487" Name="canRedeemQty" Type="Int32" Description="canRedeemQty"/>
+  <Field Number="12488" Name="gapQty" Type="Int32" Description="缺口数量"/>
+  <Field Number="12489" Name="canSubscriptQty" Type="Int32" Description="canSubscriptQty"/>
+  <Field Number="12492" Name="adjustTotalQty" Type="Int32" Description="加权股本"/>
+  <Field Number="12493" Name="StartSeqNo" Type="Int32" Description="起始回補流水序號"/>
+  <Field Number="12494" Name="EndSeqNo" Type="Int32" Description="结束回補流水序號"/>
+  <Field Number="12495" Name="IntParam" Type="Int32" Description="Int型参数"/>
+  <Field Number="12497" Name="IntSelectStockType" Type="Int32" Description="智能选股编号"/>
+  <Field Number="12498" Name="SelectStockID" Type="Int32" Description="算法代码"/>
+  <Field Number="12499" Name="SearchInterval" Type="Int32" Description="搜索区间"/>
+  <Field Number="12500" Name="SearchTarget" Type="Int32" Description="搜索对像"/>
+  <Field Number="12501" Name="SamplePoint" Type="Int32" Description="搜索点位"/>
+  <Field Number="12502" Name="ContractTimes" Type="Int32" Description="合约乘数，仅期货市场有，默认取300"/>
+  <Field Number="12503" Name="RinkType" Type="Int32" Description="排行榜类别"/>
+  <Field Number="12506" Name="NoticeUrgentlevel" Type="Int32" Description="紧急度，可根据需要订阅相应紧急程度的系统公告，详细见UrgentLevel的定义"/>
+  <Field Number="12507" Name="NoticeImportantlevel" Type="Int32"
+         Description="重要度，可根据需要订阅相应重要程度的系统公告，详细见ImportantLevel的定义"/>
+  <Field Number="12508" Name="NoticeSourcetype" Type="Int32" Description="来源，可订阅不同来源的消息，详细见ImportantLevel的定义"/>
+  <Field Number="12509" Name="NoticeSectionID" Type="Int32" Description="段落ID"/>
+  <Field Number="12510" Name="DayCloseQty" Type="Int32" Description="当日冻结"/>
+  <Field Number="12511" Name="TickSequenceNo" Type="Int32" Description="Tick序号"/>
+  <Field Number="12512" Name="FrontID" Type="Int32" Description="前端编号"/>
+  <Field Number="12513" Name="GatewayDiffTime" Type="Int32" Description="交易网关与CBS之间的时间差"/>
+  <Field Number="12514" Name="ThirdPartyDiffTime" Type="Int32" Description="交易网关与第三方系统之间的时间差"/>
+  <Field Number="12515" Name="QRYAssetsBeginDate" Type="Int32" Description="账户查询的开始日期"/>
+  <Field Number="12516" Name="QRYAssetsEndDate" Type="Int32" Description="账户查询的结束日期"/>
+  <Field Number="12517" Name="QRYAssetsDate" Type="Int32" Description="账户查询的日期"/>
+  <Field Number="12518" Name="AssetsBeginTradeDate" Type="Int32" Description="账户查询的日期"/>
+  <Field Number="12519" Name="AssetsEndTradeDate" Type="Int32" Description="账户查询的日期"/>
+  <Field Number="12522" Name="PlateInfoVersion" Type="Int32" Description="板块信息的版本信息"/>
+  <Field Number="12523" Name="ThirdSystemSessionID" Type="Int32" Description="第三方系统的业务会话ID"/>
+  <Field Number="12524" Name="ContractSerialNo" Type="Int32" Description="期货合约顺序号"/>
+  <Field Number="12525" Name="SuccessCount" Type="Int32" Description="成功个数"/>
+  <Field Number="12526" Name="ServerPort" Type="Int32" Description="服务端口"/>
+  <Field Number="12527" Name="UpdateFileOffset" Type="Int32" Description="获取升级文件内容的偏移量"/>
+  <Field Number="12528" Name="UpdateFileDataSize" Type="Int32" Description="获取升级文件内容的数据长度（单位：字节）"/>
+  <Field Number="12529" Name="TrailDays" Type="Int32" Description="试用天数"/>
+  <Field Number="12530" Name="TrailBegindate" Type="Int32" Description="试用开始日期"/>
+  <Field Number="12531" Name="TrailEndDate" Type="Int32" Description="试用结束日期"/>
+  <Field Number="12532" Name="PurchaseBegindate" Type="Int32" Description="产品授权日期"/>
+  <Field Number="12533" Name="PurchaseEndDate" Type="Int32" Description="产品授权日期"/>
+  <Field Number="12534" Name="SysStatus" Type="Int32" Description="系统状态"/>
+  <Field Number="12535" Name="MaxLimitOrderQty" Type="Int32" Description="限价委托上限"/>
+  <Field Number="12536" Name="MinLimitOrderQty" Type="Int32" Description="限价委托下限"/>
+  <Field Number="12537" Name="MaxMarketOrderQty" Type="Int32" Description="市价委托上限"/>
+  <Field Number="12538" Name="MinMarketOrderQty" Type="Int32" Description="市价委托下限"/>
+  <Field Number="12559" Name="ArbitrageNo" Type="Int32" Description="套利号"/>
+  <Field Number="12564" Name="LoginErrorCount" Type="Int32" Description="登录口令错误次数"/>
+  <Field Number="12567" Name="TradeDate" Type="Int32" Description="交易日"/>
+  <Field Number="12568" Name="PrevTradeDate" Type="Int32" Description="前一个交易日"/>
+  <Field Number="12569" Name="NextTradeDate" Type="Int32" Description="下一个交易日"/>
+  <Field Number="12570" Name="LastReckoningDate" Type="Int32" Description="上次交收日期 "/>
+  <Field Number="12571" Name="LastStartupDate" Type="Int32" Description="上次开机日期 "/>
+
+  <Field Number="12572" Name="ThirdSystemMaxRows" Type="Int32" Description="第三方查询每次最大记录数"/>
+  <Field Number="12573" Name="PageSize" Type="Int32" Description="每页记录数"/>
+  <Field Number="12574" Name="PageNum" Type="Int32" Description="页号"/>
+  <Field Number="12575" Name="TotalCount" Type="Int32" Description="总数"/>
+  <Field Number="12576" Name="ThirdSystemSortSerial" Type="Int32" Description="第三方查询结果字段顺序"/>
+  <Field Number="12577" Name="ThirdSystemConditionCount" Type="Int32" Description="第三方查询条件字段数"/>
+  <Field Number="12578" Name="ThirdSystemResultCount" Type="Int32" Description="第三方查询结果字段数"/>
+  <Field Number="12579" Name="ComboCreatationLimit" Type="Int32" Description="控制用户创建组合的最大数量"/>
+  <Field Number="12580" Name="ContinuousChange" Type="Int32" Description="连续涨跌X天"/>
+  <Field Number="12581" Name="MarketMarkerQty" Type="Int32" Description="做市商数量"/>
+
+  <Field Number="12583" Name="BatchOrderPackNum" Type="Int32" Description="批量委托包大小"/>
+  <Field Number="12586" Name="FundOpenDate" Type="Int32" Description="基金开放日"/>
+  <Field Number="12588" Name="RelatedQty" Type="Int32" Description="替代数量"/>
+  <Field Number="12589" Name="TargetId" Type="Int32" Description="标的代码"/>
+  <Field Number="12605" Name="PairsNo" Type="Int32" Description="配对编号"/>
+  <Field Number="12606" Name="PairsGroup" Type="Int32" Description="1:组一2:组二"/>
+  <Field Number="12607" Name="GroupNo" Type="Int32" Description="账号组编号"/>
+  <Field Number="12608" Name="SampleDay" Type="Int32" Description="样本天数"/>
+
+  <Field Number="12700" Name="PriceDiffNum" Type="Int32" Description="价差数量"/>
+  <Field Number="12701" Name="Status" Type="Int32" Description="状态"/>
+  <Field Number="12702" Name="ConfirmFlag" Type="Int32" Description="委托确认标志"/>
+  <Field Number="12703" Name="AutoCloseFlag" Type="Int32" Description="自动平仓（0-自动平仓，1-免于自动平仓）"/>
+  <Field Number="12704" Name="StockHoldFlag" Type="Int32" Description="保留头寸（0-保留，1-不保留）"/>
+  <Field Number="12705" Name="LegSide" Type="Int32" Description="申请方向(1-净,2-多头,3-空头)"/>
+  <Field Number="12706" Name="RiskMonitorNum" Type="Int32" Description="风险监控点序号"/>
+  <Field Number="12707" Name="RiskExemptNum" Type="Int32" Description="风控豁免序号"/>
+  <Field Number="12708" Name="StkDynamicTempID" Type="Int32" Description="证券维度模板序号"/>
+  <Field Number="12709" Name="StkDynamicRuleID" Type="Int32" Description="证券维度条件序号"/>
+  <Field Number="12710" Name="StkDynamicID" Type="Int32" Description="证券维度序号"/>
+
+  <Field Number="13000" Name="AlterFlag" Type="Int32" Description="风险标志（0-无风险，1-因风险被暂停,2-被恢复执行，3-因风险被终止） "/>
+  <Field Number="13001" Name="AssigncheckTime" Type="Int32" Description="等待时间"/>
+  <Field Number="13002" Name="AssignoptPosFlag" Type="Int32" Description="1 角色 0 - 操作员* "/>
+  <Field Number="13003" Name="AuditTimeOut" Type="Int32" Description="待复核时间(分),0不进行提示 "/>
+  <Field Number="13004" Name="BranchNum" Type="Int32" Description="营业部序号"/>
+  <Field Number="13005" Name="BsPermit" Type="Int32" Description="买卖方向 0-Buy; 1-Sale; 2-双向 "/>
+  <Field Number="13006" Name="BuyRecNum" Type="Int32" Description="接口库买入总数"/>
+  <Field Number="13007" Name="DecimalUnit" Type="Int32" Description="价格小数位数"/>
+  <Field Number="13008" Name="DeliveryMonth" Type="Int32" Description="交割月份"/>
+  <Field Number="13009" Name="DeliveryYear" Type="Int32" Description="交割年份 "/>
+  <Field Number="13010" Name="DisplaySerial" Type="Int32" Description="显示序号（交易所显示顺序）"/>
+  <Field Number="13011" Name="ProductAcctNum" Type="Int32" Description="资产单元编号 "/>
+  <Field Number="13012" Name="PortfolioNum" Type="Int32" Description="投资组合编号 "/>
+  <Field Number="13013" Name="FirstCheckTime" Type="Int32" Description="等待时间 "/>
+  <Field Number="13014" Name="FirstoptPosFlag" Type="Int32" Description="1 角色 0 - 操作员*"/>
+  <Field Number="13015" Name="InstDetailSerialNum" Type="Int32" Description="订单流水号"/>
+  <Field Number="13016" Name="InstructFlag" Type="Int32" Description="指令来源标志（0-ETF套利，1-期现套利，2-对冲交易）"/>
+  <Field Number="13017" Name="InstructStatus" Type="Int32" Description="指令状态 "/>
+  <Field Number="13018" Name="InstructType" Type="Int32" Description="指令类型（0-数量指令,1-金额指令）"/>
+  <Field Number="13019" Name="InterestDays" Type="Int32" Description="年计息天数 "/>
+  <Field Number="13020" Name="InterestMode" Type="Int32" Description="计息方式*（利率调整时分段计息）"/>
+  <Field Number="13021" Name="IntervalFlag" Type="Int32" Description="区间计算方式(0-按成交金额,1-按成交数量)"/>
+  <Field Number="13022" Name="StkPoolNum" Type="Int32" Description="股票池Id "/>
+  <Field Number="13023" Name="OfferPortfolioNum" Type="Int32" Description="主投资组合编号 "/>
+
+  <Field Number="13024" Name="MarketValueFlag" Type="Int32" Description="市值标志0不计算/1计算*"/>
+  <Field Number="13025" Name="MdbfRecNo" Type="Int32" Description="外部dbf中的记录号(主路径）"/>
+  <Field Number="13026" Name="NoonWriteOrderFlag" Type="Int32" Description="中午是否进行报盘,0--不报盘, 1--报盘"/>
+  <Field Number="13027" Name="OddFlag" Type="Int32" Description="零股处理方式（0-舍掉 1-补足,不超量 2-补足可超量)"/>
+  <Field Number="13028" Name="OfferInterval" Type="Int32" Description=" 扫盘间隔（秒） "/>
+  <Field Number="13029" Name="OfferStrategy" Type="Int32" Description="算法策略（0-一次性，1－平均分配，2－扫盘策略，3-按照指令量比，4－按照执行量比） "/>
+  <Field Number="13030" Name="OfferType" Type="Int32" Description="报盘模式（0-不推送，1-支持推送）"/>
+  <Field Number="13031" Name="OpenCloseFlag" Type="Int32" Description="开市/闭市标志（0-闭市/1-开市）"/>
+  <Field Number="13032" Name="OptPosFlag" Type="Int32" Description="1 角色 0 - 操作员"/>
+  <Field Number="13033" Name="OrderExistFlag" Type="Int32" Description="是否有委托请求（0-无；1-有） "/>
+  <Field Number="13034" Name="OrderNumFlag" Type="Int32" Description="计算方式（0-按分笔成交，1-按合同号） "/>
+  <Field Number="13035" Name="OrderPriceFlag" Type="Int32" Description="委托价格标志（客户委托价，系统定价（忽略客户定价，检查用户定价） "/>
+  <Field Number="13036" Name="OrderStrategy" Type="Int32" Description="委托策略"/>
+  <Field Number="13037" Name="OrderSumFlag" Type="Int32"
+         Description="统计方式（0-如果有个性化的，按个性化的费用设置计算，1-如果有个性化的，使用个性化的费用+标准的设置(累加)"/>
+  <Field Number="13038" Name="OrderUnit" Type="Int32" Description="委托单位(股/张、手)*"/>
+  <Field Number="13039" Name="PatchFlag" Type="Int32" Description="补单标记(0-手动撤单，1-自动撤单，2-已计入补单数量，3-最后一笔委托)"/>
+  <Field Number="13040" Name="PostProcessFlag" Type="Int32" Description="处理标志(0-未处理，1-已处理；便于自动线程增量查询)"/>
+  <Field Number="13041" Name="PreContractTimes" Type="Int32" Description="上交易日合约乘数 "/>
+  <Field Number="13042" Name="PriceMode" Type="Int32" Description="价格策略，0--固定，1--限价，3--市场价格（在GLOBALCONST表中定义）"/>
+  <Field Number="13043" Name="ProductNum" Type="Int32" Description="产品序号 "/>
+  <Field Number="13044" Name="ProductStatus" Type="Int32" Description="产品状态(0-成立，1-上市)"/>
+  <Field Number="13045" Name="PwdChangePeriod" Type="Int32" Description="密码有效天数"/>
+  <Field Number="13046" Name="PwdChangetimes" Type="Int32" Description="密码有效次数 "/>
+  <Field Number="13047" Name="QtyPerhand" Type="Int32" Description="每手股数 "/>
+  <Field Number="13048" Name="RateMode" Type="Int32" Description="利率模式 "/>
+  <Field Number="13049" Name="RepoAnnualDays" Type="Int32" Description="回购年利率的天数（上海360，深圳360） "/>
+  <Field Number="13050" Name="SecCheckTime" Type="Int32" Description="等待时间 "/>
+  <Field Number="13051" Name="SecoptPosFlag" Type="Int32" Description="1 角色 0 - 操作员*"/>
+  <Field Number="13052" Name="SellRecNum" Type="Int32" Description="接口库卖出总数 "/>
+  <Field Number="13053" Name="SerialNum" Type="Int32" Description="流水号"/>
+  <Field Number="13054" Name="SettleInterestMode" Type="Int32" Description="起息方式（0-T+0计息/1-T+1计息）"/>
+  <Field Number="13055" Name="StkPoolFlag" Type="Int32" Description="股票池操作标志（0-允许，1-禁止）"/>
+  <Field Number="13056" Name="StkRegisterDay" Type="Int32" Description="股权登记日 "/>
+  <Field Number="13057" Name="StkSum" Type="Int32" Description="投资组合数 "/>
+  <Field Number="13058" Name="SysSetType" Type="Int32" Description="系统设置类型（0-正常/1-增加/2-修改/3-删除）"/>
+  <Field Number="13059" Name="TotalLoginNum" Type="Int32" Description="最后一次修改口令后,该柜员的登录次数 "/>
+  <Field Number="13060" Name="TotalNum" Type="Int32" Description="累计下单次数(用于比例变化价格) "/>
+  <Field Number="13061" Name="TotalRecNum" Type="Int32" Description="接口库已处理总数"/>
+  <Field Number="13062" Name="TradeFeeFlag" Type="Int32" Description="费用计算方式(0--按成交金额,1--按成交数量)"/>
+  <Field Number="13063" Name="TradeFlag" Type="Int32" Description="允许交易选择"/>
+  <Field Number="13064" Name="TradingFeeType" Type="Int32" Description="费用类别(0-交易费用,1-印花税，2-佣金)"/>
+  <Field Number="13065" Name="UndoFlag" Type="Int32" Description="冲正标志（0-正常；1-冲正；2-被冲正） "/>
+  <Field Number="13066" Name="UnReadFlag" Type="Int32" Description="交易员未阅读标记，1－未阅读，0－已阅读 "/>
+  <Field Number="13067" Name="UpdatePermitFlag" Type="Int32" Description="操作股票池中证券代码权限(1表示允许，0表示不允许) "/>
+  <Field Number="13068" Name="WithdrawInterval" Type="Int32" Description="撤单间隔 "/>
+  <Field Number="13069" Name="WithdrawNum" Type="Int32" Description="连续撤单次数"/>
+  <Field Number="13070" Name="WithdrawRecNum" Type="Int32" Description="接口库撤单总数 "/>
+  <Field Number="13071" Name="ParentStkIndustryNum" Type="Int32" Description="父节点分类ID "/>
+  <Field Number="13072" Name="LegerLevel" Type="Int32" Description="分类级别 "/>
+  <Field Number="13073" Name="StkIndustryNum" Type="Int32" Description="证券分类ID编码 "/>
+  <Field Number="13074" Name="LegalFlag" Type="Int32" Description="合法标志(交易所确认) "/>
+  <Field Number="13075" Name="SubstkPoolNum" Type="Int32" Description="合法标志(交易所确认) "/>
+  <Field Number="13076" Name="ParentstkPoolNum" Type="Int32" Description="父股票池ID"/>
+  <Field Number="13078" Name="LevelFlag" Type="Int32" Description="证券级别"/>
+
+  <Field Number="13079" Name="RiskParaNum" Type="Int32" Description="客户定制的风控参数序号 "/>
+  <Field Number="13080" Name="ConditionSerial" Type="Int32" Description="条件序号 "/>
+  <Field Number="13081" Name="ParaSerial" Type="Int32" Description="参数值序号"/>
+  <Field Number="13082" Name="IntervalTime" Type="Int32" Description="监控时间间隔"/>
+  <Field Number="13083" Name="MutexRiskParaNum" Type="Int32" Description="互斥风控参数序号 "/>
+  <Field Number="13084" Name="VoucherId" Type="Int32" Description="凭证号 "/>
+  <Field Number="13086" Name="AssetFlag" Type="Int32" Description="借贷方向（借：1，贷：-1） "/>
+  <Field Number="13087" Name="TotalLevel" Type="Int32" Description="汇集到几级 "/>
+  <Field Number="13088" Name="VoucherTotalFlag" Type="Int32" Description="汇集标志 "/>
+  <Field Number="13089" Name="CoverDays" Type="Int32" Description="回购天数 "/>
+  <Field Number="13090" Name="AdjustQty" Type="Int32" Description="调整股份数量"/>
+  <Field Number="13091" Name="InputProductAcctNum" Type="Int32" Description="划入资产单元编号"/>
+  <Field Number="13092" Name="InputPortfolioNum" Type="Int32" Description="划入投资组合编号"/>
+  <Field Number="13093" Name="StkPortfolioNum" Type="Int32" Description="现货投资组合编号"/>
+  <Field Number="13094" Name="FutPortfolioNum" Type="Int32" Description="期货投资组合编号"/>
+  <Field Number="13095" Name="OptPortfolioNum" Type="Int32" Description="期权投资组合编号"/>
+  <Field Number="13096" Name="ReckoningStatus" Type="Int32" Description="账户清算状态"/>
+  <Field Number="13097" Name="RoleType" Type="Int32" Description="角色属性"/>
+  <Field Number="13098" Name="ReckoningDate" Type="Int32" Description="清算时间"/>
+  <Field Number="13099" Name="LoginTimes" Type="Int32" Description="当日登录次数"/>
+  <Field Number="13100" Name="Priority" Type="Int32" Description="清算步骤,当前资金账户清算执行步骤,0-未开始"/>
+  <Field Number="13101" Name="BankInterestId" Type="Int32" Description="银行计息ID"/>
+  <Field Number="13102" Name="InterestType" Type="Int32" Description="存款类型"/>
+  <Field Number="13103" Name="BankInterestDays" Type="Int32" Description="计息天数"/>
+  <Field Number="13104" Name="PayInterestType" Type="Int32" Description="付息方式（0：一次性，1：月，2：季，3：半年，4：年）"/>
+  <Field Number="13105" Name="CalcInterestType" Type="Int32" Description="计息方式（0：按实际天数/365计息，1：按实际天数计息）"/>
+  <Field Number="13106" Name="CalcType" Type="Int32" Description="计算方式（0：按实际天数，1：按平均值）"/>
+  <Field Number="13107" Name="BondInterestId" Type="Int32" Description="债券计息ID"/>
+  <Field Number="13108" Name="PayInterestFrequency" Type="Int32" Description="计算频度"/>
+  <Field Number="13109" Name="InterestTimes" Type="Int32" Description="计息次数"/>
+  <Field Number="13110" Name="QuotationCheckFlag" Type="Int32" Description="限制涨跌幅标志"/>
+  <Field Number="13111" Name="ForceCloseCount" Type="Int32" Description="强平次数"/>
+  <Field Number="13112" Name="EquityInfoId" Type="Int32" Description="权益信息ID"/>
+  <Field Number="13113" Name="TemplateNum" Type="Int32" Description="模板序号"/>
+  <Field Number="13114" Name="TotalUpdateTimes" Type="Int32" Description="合计发生次数"/>
+  <Field Number="13115" Name="StrategyStyle" Type="Int32" Description="策略风格"/>
+  <Field Number="13116" Name="MaxPriceLevels" Type="Int32" Description="MaxPriceLevels(tag6183)"/>
+  <Field Number="13117" Name="MaxOrdersPerLevels" Type="Int32" Description="MaxOrdersPerLevels(tag6184)"/>
+  <Field Number="13118" Name="RefIndexPxIntercept" Type="Int32" Description="RefIndexPxIntercept(tag6071)"/>
+  <Field Number="13119" Name="RelativePxLimitBase" Type="Int32" Description="RelativePxLimitType(tag6302)"/>
+  <Field Number="13120" Name="RelativePxLimitType" Type="Int32" Description="RelativePxLimitType(tag6303)"/>
+  <Field Number="13121" Name="AmOpenPercent" Type="Int32" Description="AmOpenPercent(tag6181)"/>
+  <Field Number="13122" Name="PmClosePercent" Type="Int32" Description="PmClosePercent(tag6184)"/>
+  <Field Number="13123" Name="AmPercent" Type="Int32" Description="AmPercent(tag6180)"/>
+  <Field Number="13124" Name="TargetCompIdStatus" Type="Int32" Description="TargetCompIdStatus"/>
+  <Field Number="13125" Name="SenderCompIdStatus" Type="Int32" Description="SenderCompIdStatus"/>
+  <Field Number="13126" Name="DispatchMode" Type="Int32" Description="分发方式（0-人工，1-自动）"/>
+  <Field Number="13127" Name="AdjustNum" Type="Int32" Description="调整次数"/>
+  <Field Number="13128" Name="MaxRowNum" Type="Int32" Description="每次返回的记录数"/>
+  <Field Number="13129" Name="Times" Type="Int32" Description="发送的次数"/>
+  <Field Number="13130" Name="CredPortfolioNum" Type="Int32" Description="信用投资组合编号"/>
+  <Field Number="13131" Name="AccruedBaseType" Type="Int32" Description="计提基准（1：资产净值）"/>
+  <Field Number="13132" Name="AccruedMode" Type="Int32" Description="计提周期（1：日，2：月 3：季，4：半年 5：年）"/>
+  <Field Number="13133" Name="SettleMode" Type="Int32" Description="结算周期（1：日，2：月 3：季，4：半年 5：年）"/>
+  <Field Number="13134" Name="HolidayMonth" Type="Int32" Description="月份 "/>
+  <Field Number="13136" Name="PriceModeIntell" Type="Int32" Description="执行价格策略"/>
+  <Field Number="13137" Name="ProductStrategyNum" Type="Int32" Description="产品策略ID(估值用)"/>
+  <Field Number="13138" Name="StrategyNum" Type="Int32" Description="策略ID"/>
+  <Field Number="13139" Name="ExecuteTime" Type="Int32" Description="等待时间"/>
+  <Field Number="13140" Name="CompleteGroupNum" Type="Int32" Description="完成组数"/>
+  <Field Number="13141" Name="InnerDetailSerialNum" Type="Int32" Description="原指令明细ID"/>
+  <Field Number="13144" Name="ClientExtranetPort" Type="Int32" Description="客户端外网端口"/>
+  <Field Number="13145" Name="FixListSeqNo" Type="Int32" Description="FixListSeqNo "/>
+  <Field Number="13146" Name="FixTotNoOrders" Type="Int32" Description="FixTotNoOrders "/>
+  <Field Number="13148" Name="CommRuleId" Type="Int32" Description="工作组序号"/>
+  <Field Number="13149" Name="ParentNoteId" Type="Int32" Description="父节点ID"/>
+  <Field Number="13150" Name="SubNoteId" Type="Int32" Description="子节点ID"/>
+  <Field Number="13151" Name="OldPriceMode" Type="Int32" Description="原价格策略，0--固定，1--限价，3--市场价格（在GLOBALCONST表中定义）"/>
+  <Field Number="13156" Name="InsPriceMode" Type="Int32" Description="指令价格类别"/>
+  <Field Number="13157" Name="BackupMode" Type="Int32" Description="备份模式（1-当日数据备份/2-完全数据备份）"/>
+  <Field Number="13159" Name="InstituTionLevel" Type="Int32" Description="机构等级"/>
+  <Field Number="13160" Name="RelatedRiskParaNum" Type="Int32" Description="关联风控点的风控ID "/>
+  <Field Number="13166" Name="OccupationDays" Type="Int32" Description="占款天数"/>
+  <Field Number="13168" Name="ReckoningNode" Type="Int32" Description="清算时点(1-T日日初,2-T日日终)"/>
+  <Field Number="13169" Name="ActionObject" Type="Int32"
+         Description="作用对象 0-SYSTEM-系统，1-PRODUCT-产品，2-THIRD_SYSTEM-对接系统，3-ACCOUNT-资金账号，4-REGISTRATION-股东,5-TA"/>
+  <Field Number="13170" Name="DependPriority" Type="Int32" Description="清算步骤：该步骤依赖的步骤，即该步骤必须在dependPriority声明步骤后执行任务"/>
+  <Field Number="13171" Name="ParentPriority" Type="Int32" Description="清算步骤：父级步骤"/>
+  <Field Number="13172" Name="FoldFlag" Type="Int32" Description="展示时是否折叠子项目（子步骤），0-不折叠子项目，1-折叠子项目"/>
+  <Field Number="13173" Name="RecordType" Type="Int32" Description="记录类型0-行情记录 、1-资讯记录"/>
+
+  <Field Number="16386" Name="OrderKind" Type="Char" Description="委託類別 '0'：一般委託 '1'：篮子，'2'：期現套利，4:群组"/>
+  <Field Number="16387" Name="BSType" Type="Char" Description="买卖类别 'B'：买 'S'：卖"/>
+  <Field Number="16388" Name="OrderFlag" Type="Char" Description="交易類別 'N'：新單 'D'：撤單 "/>
+  <Field Number="16389" Name="NoOrderFlag" Type="Char" Description="无委托成交(Y表示无委托成交，N表示有委托成交)"/>
+  <Field Number="16390" Name="OCFlag" Type="Char" Description="开平标志 'O'：开仓'C'：平仓 'A'：自动"/>
+  <Field Number="16391" Name="MktOrderFlag" Type="Char" Description="市價類別"/>
+  <Field Number="16392" Name="SellOCFlag" Type="Char" Description="卖开平标志 'O'：开仓'C'：平仓 'A'：自动"/>
+  <Field Number="16393" Name="BuyOCFlag" Type="Char" Description="买开平标志 'O'：开仓'C'：平仓 'A'：自动"/>
+  <Field Number="16394" Name="IsAscend" Type="Bool" Description="顺序类型 true 升序, false 降序,"/>
+  <Field Number="16395" Name="RLSubscibe" Type="Bool" Description="是否订阅？实时获取请勿填写本字段，填写时true为订阅，false为解订阅"/>
+  <Field Number="16396" Name="StkTradeFlag" Type="Char" Description="ETF成分股允许交易标志"/>
+  <Field Number="16399" Name="OrigChannel" Type="Char" Description="原始管道別"/>
+  <Field Number="16400" Name="ReSendFlag" Type="Char" Description="委託重送 'Y':重送單 'N'首次傳送"/>
+  <Field Number="16401" Name="ReportType" Type="Char" Description="回報類型"/>
+  <Field Number="16402" Name="UpdateFlag" Type="Char" Description="操作方式,0表示增加,1表示删除,2表示修改"/>
+  <Field Number="16403" Name="NoRiskInterestMode" Type="Char" Description="无风险利率模式"/>
+  <Field Number="16404" Name="StkExchID" Type="Char" Description="成分股市场"/>
+  <Field Number="16405" Name="AcctAttribute" Type="Char" Description="账号类型"/>
+  <Field Number="16406" Name="TradeFeeMode" Type="Char" Description="收费模式"/>
+  <Field Number="16409" Name="SumFlag" Type="Char" Description="0表示只返回汇总数据,1表示返回明细数据"/>
+  <Field Number="16414" Name="SuccessFlg" Type="Char" Description="成功失败标志，0/Y表示成功，1/N表示失败"/>
+  <Field Number="16415" Name="RepeatLoginFlag" Type="Char" Description="允许重复登录Y表示允许，N表示不允许"/>
+  <Field Number="16417" Name="QtyStrategy" Type="Char" Description="数量策略"/>
+  <Field Number="16420" Name="FilterFlag" Type="Char" Description="获取信息,0表示获取基本信息,1表示获取篮子明细信息"/>
+  <Field Number="16421" Name="ReplaceFlag" Type="Char" Description="替代标志"/>
+  <Field Number="16422" Name="ExchID" Type="Char" Description="市场类别0上海A股,1深A,2上海B股,3深圳B股,F期货"/>
+  <Field Number="16423" Name="TradeSignal" Type="Char" Description="T表示跨日，N表示当日"/>
+  <Field Number="16424" Name="MktStatus" Type="Char" Description="O-盘中,C--&gt;收盘;P--&gt;预埋单"/>
+  <Field Number="16425" Name="pwdCheckFlag" Type="Char" Description="密码验证标志"/>
+  <Field Number="16426" Name="ValidFlag" Type="Char" Description="检查通过标志 Y:通过, N:不通过"/>
+  <Field Number="16427" Name="TradeStatus" Type="Char" Description="交易状态(首日上市),Y首日上市,N通常状态"/>
+  <Field Number="16428" Name="SuspendedFlag" Type="Char" Description="停牌标志F正常,T停牌"/>
+  <Field Number="16429" Name="IsETFFlag" Type="Char" Description="是否是ETF"/>
+  <Field Number="16430" Name="Channel" Type="Char" Description="管道別"/>
+  <Field Number="16431" Name="QueryFlag" Type="Char" Description="查询日期,T:当日 H:历史"/>
+  <Field Number="16432" Name="IsDirectlyBackFill" Type="Bool" Description="是否直接回补行情"/>
+  <Field Number="16433" Name="isDisplay" Type="Char" Description="是否显示"/>
+  <Field Number="16441" Name="PwdStatus" Type="Char" Description="密码状态"/>
+  <Field Number="16442" Name="ConnectMode" Type="Char" Description="連線方式( 'A':自動, 'I':指定IDC, 'S':指定主機)"/>
+  <Field Number="16443" Name="Local" Type="Bool" Description="是否為內部連線"/>
+  <Field Number="16445" Name="IndexExchId" Type="Char" Description="指数市场"/>
+  <Field Number="16447" Name="ThirdPartyPlatformFlag" Type="Char" Description="第三方系统平台标识, 'R':根网,'S':上期技术"/>
+  <Field Number="16448" Name="AcctIDType" Type="Char" Description="帐号类型('W':微信号,'Q':QQ号,'M':手机号,'E'：Email)"/>
+  <Field Number="16449" Name="LoginMode" Type="Char"
+         Description="登录方式 'L'：登录帐号+密码 'A'：授权码+密码 'E'：登录帐号(检查LoginID是否已存在)"/>
+  <Field Number="16450" Name="FeeType" Type="Char" Description="计算方式 '0'：按率计算 '1'：按手计算"/>
+  <Field Number="16451" Name="FutMultiAttributRegFlag" Type="Char" Description="期货帐户是否对应多个属性的交易编码 '0'：否 '1'：是"/>
+  <Field Number="16452" Name="ChangeTradeUnitFlag" Type="Char" Description="交易数量是否需要进行单位转换"/>
+  <Field Number="16453" Name="ConnectStatus" Type="Char" Description="连接状态 '0'：正常登出 '2'：异常断开"/>
+  <Field Number="16454" Name="UpdateCheckFlag" Type="Char" Description="客户端升级检查标志 'Y'：需要返回升级差异文件列表 'N'：不需要返回升级差异文件列表"/>
+  <Field Number="16455" Name="NeedUpdateFlag" Type="Char" Description="客户端升级标志 'Y'：需要升级 'N'：不需要升级"/>
+  <Field Number="16457" Name="LastLoginValidFlag" Type="Char" Description="上次登录验证标志 Y:通过, N:不通过"/>
+  <Field Number="16458" Name="PasswordFlag" Type="Char" Description="密码锁定"/>
+  <Field Number="16459" Name="MasterMap" Type="Char" Description="主图类型"/>
+  <Field Number="16460" Name="FutureExchID" Type="Char" Description="期货市场"/>
+  <Field Number="16461" Name="FSFlag" Type="Char" Description="期货现货市场标记 F:期货,S:现货"/>
+  <Field Number="16462" Name="FirstFlag" Type="Char" Description="第一次使用标记"/>
+  <Field Number="16463" Name="ProductType" Type="Char" Description="产品类型 0:标准产品 1:自定义产品"/>
+  <Field Number="16464" Name="FundMarketID" Type="Char" Description="基金市场代码"/>
+  <Field Number="16465" Name="ClientOptType" Type="Char" Description="用户操作类型 '0'：登出/断开 '1'：登入 '2'：异常断开 '4'：锁屏 '5'：解锁"/>
+  <Field Number="16466" Name="QueryType" Type="Char" Description="查询类型"/>
+  <Field Number="16467" Name="BatchFlag" Type="Char" Description="批量标志 '0':普通 '1':批量 "/>
+  <Field Number="16468" Name="BasketFlag" Type="Char" Description="篮子标志 '0':是 '1':否 "/>
+  <Field Number="16469" Name="BasketStrategy" Type="Char" Description="篮子数量策略类型 "/>
+  <Field Number="16470" Name="SignFlag" Type="Char" Description="签约标志(是否签约)，N:没有签约，Y:已签约"/>
+  <Field Number="16471" Name="FirstLoginModifyPwdFlag" Type="Char" Description="首次登录是否需要修改密码"/>
+  <Field Number="16472" Name="AuthSign" Type="Char" Description="权限标志"/>
+  <Field Number="16473" Name="IsReadOnly " Type="Char" Description="是否是只读类型"/>
+  <Field Number="16474" Name="TurnOverRate" Type="Char" Description="换手率 1:小于1%  2:1-5%  3:大于5%  0:不限"/>
+  <Field Number="16475" Name="DayAmplitudeRate" Type="Char" Description="当日振幅比 1:小于1%  2:1-10%  3大于10% 0:不限"/>
+  <Field Number="16476" Name="StkValueFlag" Type="Char" Description="市值规模标志 1:小于5000万 2:5000万 - 1亿  3:大于1亿 0:不限"/>
+  <Field Number="16477" Name="SeniorExecFlag" Type="Char" Description="高管买卖标志 'B' 买入  'S'卖出  '0'：不限"/>
+  <Field Number="16478" Name="AuthCodeType" Type="Char" Description="登录账号属性 '0'-系统分配 '1'-资金账号 '2'-手机号 '3'-邮箱。默认0"/>
+  <Field Number="16479" Name="StkOrderStatus" Type="Char" Description="证券当前状态 'T'-正常交易状态 'M'-可恢复熔断 'N'-不可恢复熔断"/>
+  <Field Number="16480" Name="ShortPrefix" Type="Char" Description="证券简称前缀"/>
+  <Field Number="16481" Name="ISINCode" Type="Char" Description="ISIN 编码"/>
+  <Field Number="16482" Name="F_ProductClass" Type="Char" Description="产品类型 FUTURE/OPTION"/>
+  <Field Number="16483" Name="TradeOrderFlag" Type="Char" Description="交易标志：0-允许直接委托(不需要审核)，1-允许直接委托，需要审核，2-不允许直接委托"/>
+  <Field Number="16484" Name="InvestStrategy" Type="Char" Description="投资建议类型 "/>
+  <Field Number="16485" Name="ExpireFlag" Type="Char" Description="过期标志 'Y':已过期 'N':未过期"/>
+  <Field Number="16501" Name="OptionCPFlag" Type="Char" Description="期权类型 C-买权,P-卖权"/>
+  <Field Number="16502" Name="OptionType" Type="Char" Description="欧式美式 E-欧式期权 A-美式期权"/>
+  <Field Number="16503" Name="FOFlag" Type="Char" Description="期货期权标记 F:期货,O:期权"/>
+  <Field Number="16504" Name="Peroid" Type="Char" Description="K线周期：0-秒线，1-分线，2-日线，3-周线，4-月线，5-季线，6-年线"/>
+  <Field Number="16505" Name="PreOrderStatus" Type="Char" Description="预埋单状态：'0'-待发送 '1'-已撤销 '2'-发送完成 '3'-发送失败"/>
+
+  <Field Number="16506" Name="ConditionExchId" Type="Char" Description="条件市场(增加、修改送入)"/>
+  <Field Number="16507" Name="SplitStatus" Type="Char" Description="分拆合并状态"/>
+  <Field Number="16508" Name="TradingPhaseStatus" Type="Char" Description="行情实时状态"/>
+  <Field Number="18000" Name="Acceleratekey" Type="Char" Description="功能加速键 "/>
+  <Field Number="18001" Name="AssetType" Type="Char" Description="资产类型 "/>
+  <Field Number="18002" Name="AssignMode" Type="Char" Description="指令分发，0-不需要，1-人工，2-自动"/>
+  <Field Number="18003" Name="BriefType" Type="Char" Description="摘要类别 "/>
+  <Field Number="18004" Name="BsFlag" Type="Char" Description="合约方向，B－多头，S-空头 "/>
+  <Field Number="18005" Name="ChargeType" Type="Char" Description="收费类型"/>
+  <Field Number="18006" Name="CloseFlag" Type="Char" Description="停牌标志(T-停牌/F-正常)"/>
+  <Field Number="18007" Name="CoveredFlag" Type="Char" Description="备兑标志 "/>
+  <Field Number="18008" Name="DataWriteMode" Type="Char" Description="报盘类型 "/>
+  <Field Number="18009" Name="ExeOptMode" Type="Char" Description="办理标识(0-临柜1-见证2-网上)"/>
+  <Field Number="18010" Name="FirstcheckMode" Type="Char" Description="一级复核，0-不需要，1-人工，2-自动"/>
+  <Field Number="18011" Name="FormType" Type="Char" Description="窗体类型"/>
+  <Field Number="18012" Name="GlobalParaFirstType" Type="Char" Description="参数业务类型(第一级) "/>
+  <Field Number="18013" Name="GlobalParasedType" Type="Char" Description="参数业务类型(第二级) "/>
+  <Field Number="18015" Name="ProdAcctType" Type="Char" Description="资产类型(从globalcont中获取)"/>
+  <Field Number="18016" Name="ReckoningCheckFlag" Type="Char" Description="清算时是否计算资金"/>
+  <Field Number="18017" Name="RegType" Type="Char" Description="股东（帐户）类别【全局常量regType】"/>
+  <Field Number="18018" Name="SeccheckMode" Type="Char" Description="二级复核，0-不需要，1-人工，2-自动"/>
+  <Field Number="18019" Name="StkAllotFlag" Type="Char" Description="证券除权除息标志：N=-正常交易,E-表示除权,D-表示除息,A-表示除权除息"/>
+  <Field Number="18020" Name="StkReckChkFlag" Type="Char" Description="清算时是否计算股份"/>
+  <Field Number="18021" Name="StrikeStyle" Type="Char" Description="行权方式欧式美式(欧式-E,美式-A)"/>
+  <Field Number="18022" Name="TDeliverFlag" Type="Char" Description="T日交收标志 "/>
+  <Field Number="18023" Name="Tradingfeelevel" Type="Char" Description="1表示一级费用，2表示二级费用 "/>
+  <Field Number="18024" Name="WithdrawMode" Type="Char" Description="撤单方式"/>
+  <Field Number="18025" Name="AcctGroupStatus" Type="Char" Description="帐户组状态 "/>
+  <Field Number="18027" Name="AuditFlag" Type="Char" Description="审核标志(0-未审核/1-审核未通过,2-复核通过,3-数据留痕)"/>
+  <Field Number="18028" Name="BdbfStatus" Type="Char" Description="备份库启用状态"/>
+  <Field Number="18029" Name="CheckFlag" Type="Char" Description="复核标志(0-不复核，1-复核) "/>
+  <Field Number="18030" Name="CloseStkNavFlag" Type="Char" Description="长期停牌股票估值类型(从globalconst中获取)"/>
+  <Field Number="18031" Name="DataType" Type="Char" Description="基本数据类型：字段、数字、整数、俘点* "/>
+  <Field Number="18032" Name="DeliveryFlag" Type="Char" Description="交收标志（0-未交收/1-交收） "/>
+  <Field Number="18033" Name="HoldingChgFlag" Type="Char"
+         Description="股份资金日志中成交数量不为0时的意义。0-不会导致股份余额变化；1-导致股份余额增加；-1-导致股份余额减少"/>
+  <Field Number="18034" Name="InitBackupFlag" Type="Char" Description="初始化前备份标志(0-未备份/1-备份) "/>
+  <Field Number="18035" Name="InitCurrentBackupFlag" Type="Char" Description="交收后当日数据备份标志 "/>
+  <Field Number="18036" Name="OptFlag" Type="Char" Description="柜员类别(0-内部柜员,1-外部柜员)"/>
+  <Field Number="18037" Name="PathFlag" Type="Char" Description="路径标识(0-交易，1-交易所清算/2-登记公司) "/>
+  <Field Number="18038" Name="PoolIdFlag" Type="Char" Description="明细类型，1表示子股票池，0表示具体的代码"/>
+  <Field Number="18039" Name="PrintFlag" Type="Char" Description="交割时是否出现(1-出现，0-隐藏) "/>
+  <Field Number="18040" Name="ReckoningBackupFlag" Type="Char" Description="交收前备份标志(0-未备份/1-备份)"/>
+  <Field Number="18041" Name="ReckoningCurrentBackupFlag" Type="Char" Description="交收前当日数据备份标志"/>
+  <Field Number="18042" Name="ReckoningFlag" Type="Char" Description="清算标志(0-统一清算，1-独立清算，2-分仓清算) "/>
+  <Field Number="18043" Name="SyncFlag" Type="Char" Description="同步模式"/>
+  <Field Number="18044" Name="SysfuncFlag" Type="Char" Description="该菜单的标志（查询、操作、复核） "/>
+  <Field Number="18045" Name="SystemStatus" Type="Char" Description="状态：系统运行状态：0：正常运行1：正在初始化2：正在交收 "/>
+  <Field Number="18046" Name="SystemUndoFlag" Type="Char" Description="系统交收恢复标志"/>
+  <Field Number="18047" Name="TransCtrlFlag" Type="Char" Description="转入DBF接口库控制标志（0-交收前/1-交收后） "/>
+  <Field Number="18048" Name="TrusteeAcctFlag" Type="Char" Description="帐户托管标志：1-托管，0-不托管 "/>
+  <Field Number="18049" Name="UnDeliveryFundUseFlag" Type="Char" Description="未交收资金使用标志 "/>
+  <Field Number="18050" Name="UnDeliverystkUseFlag" Type="Char" Description="未交收股份使用标志"/>
+  <Field Number="18051" Name="InitPermit" Type="Char" Description="允许初始化标志:0-不允许/1-允许"/>
+  <Field Number="18052" Name="PermitFlag" Type="Char" Description="允许标志"/>
+  <Field Number="18053" Name="MdbfStatus" Type="Char" Description="主库启用状态"/>
+  <Field Number="18054" Name="QueryDisplayFlag" Type="Char" Description="查询时是否出现(1-出现，0-隐藏)"/>
+  <Field Number="18055" Name="QueryPermitFlag" Type="Char" Description="查询权限(1表示允许，0表示不允许) "/>
+  <Field Number="18056" Name="OperPermitFlag" Type="Char" Description="操作权限(1表示允许，0表示不允许)"/>
+  <Field Number="18057" Name="CheckPermitFlag" Type="Char" Description="复核权限(1表示允许，0表示不允许) "/>
+  <Field Number="18058" Name="ApprovalPermitFlag" Type="Char" Description="审批权限(1表示允许，0表示不允许)"/>
+  <Field Number="18059" Name="HolidayFlag1" Type="Char" Description="交易日标志1（0-非交易日/1-交易日）"/>
+  <Field Number="18060" Name="HolidayFlag10" Type="Char" Description="交易日标志10 "/>
+  <Field Number="18061" Name="HolidayFlag11" Type="Char" Description="交易日标志11 "/>
+  <Field Number="18062" Name="HolidayFlag12" Type="Char" Description="交易日标志12 "/>
+  <Field Number="18063" Name="HolidayFlag13" Type="Char" Description="交易日标志13 "/>
+  <Field Number="18064" Name="HolidayFlag14" Type="Char" Description="交易日标志14 "/>
+  <Field Number="18065" Name="HolidayFlag15" Type="Char" Description="交易日标志15 "/>
+  <Field Number="18066" Name="HolidayFlag16" Type="Char" Description="交易日标志16 "/>
+  <Field Number="18067" Name="HolidayFlag17" Type="Char" Description="交易日标志17 "/>
+  <Field Number="18068" Name="HolidayFlag18" Type="Char" Description="交易日标志18 "/>
+  <Field Number="18069" Name="HolidayFlag19" Type="Char" Description="交易日标志19 "/>
+  <Field Number="18070" Name="HolidayFlag2" Type="Char" Description="交易日标志2 "/>
+  <Field Number="18071" Name="HolidayFlag20" Type="Char" Description="交易日标志20 "/>
+  <Field Number="18072" Name="HolidayFlag21" Type="Char" Description="交易日标志21 "/>
+  <Field Number="18073" Name="HolidayFlag22" Type="Char" Description="交易日标志22 "/>
+  <Field Number="18074" Name="HolidayFlag23" Type="Char" Description="交易日标志23 "/>
+  <Field Number="18075" Name="HolidayFlag24" Type="Char" Description="交易日标志24 "/>
+  <Field Number="18076" Name="HolidayFlag25" Type="Char" Description="交易日标志25 "/>
+  <Field Number="18077" Name="HolidayFlag26" Type="Char" Description="交易日标志26 "/>
+  <Field Number="18078" Name="HolidayFlag27" Type="Char" Description="交易日标志27 "/>
+  <Field Number="18079" Name="HolidayFlag28" Type="Char" Description="交易日标志28 "/>
+  <Field Number="18080" Name="HolidayFlag29" Type="Char" Description="交易日标志29 "/>
+  <Field Number="18081" Name="HolidayFlag3" Type="Char" Description="交易日标志3 "/>
+  <Field Number="18082" Name="HolidayFlag30" Type="Char" Description="交易日标志30 "/>
+  <Field Number="18083" Name="HolidayFlag31" Type="Char" Description="交易日标志31 "/>
+  <Field Number="18084" Name="HolidayFlag4" Type="Char" Description="交易日标志4 "/>
+  <Field Number="18085" Name="HolidayFlag5" Type="Char" Description="交易日标志5 "/>
+  <Field Number="18086" Name="HolidayFlag6" Type="Char" Description="交易日标志6 "/>
+  <Field Number="18087" Name="HolidayFlag7" Type="Char" Description="交易日标志7 "/>
+  <Field Number="18088" Name="HolidayFlag8" Type="Char" Description="交易日标志8 "/>
+  <Field Number="18089" Name="HolidayFlag9" Type="Char" Description="交易日标志9 "/>
+  <Field Number="18090" Name="StkValueType" Type="Char" Description="市值计算(从globalconst中获取)"/>
+  <Field Number="18091" Name="TradeClass" Type="Char" Description="投资分类：0-交易性，1-可供出售，2-持有到期"/>
+  <Field Number="18093" Name="SubjectDetailFlag" Type="Char" Description="是否为明细科目(1：明细，0：非明细)"/>
+  <Field Number="18094" Name="IsAccountingQty" Type="Char" Description="核算数量(1：是，0：否)"/>
+  <Field Number="18095" Name="FinancingLoanFlag" Type="Char" Description="融资标的标志"/>
+  <Field Number="18096" Name="SecuritiesLoanFlag" Type="Char" Description="融券标的标志"/>
+  <Field Number="18097" Name="MarketMakerFlag" Type="Char" Description="做市商标志"/>
+  <Field Number="18098" Name="FinancingLoanTradingFlag" Type="Char" Description="融资交易状态"/>
+  <Field Number="18099" Name="SecuritiesLoanTradingFlag" Type="Char" Description="融券交易状态"/>
+  <Field Number="18100" Name="SecuritiesLoanSellPriceLimitFlag" Type="Char" Description="融券卖出价格限制"/>
+  <Field Number="18101" Name="VoteFlag" Type="Char" Description="网络投票标志"/>
+  <Field Number="18102" Name="StkIssueType" Type="Char" Description="发行方式"/>
+  <Field Number="18103" Name="TotalFlag" Type="Char" Description="交易汇总标志"/>
+
+  <Field Number="18104" Name="SupportMonitorFlag" Type="Char" Description="是否支持事中监控"/>
+  <Field Number="18105" Name="SupportTradeControlFlag" Type="Char" Description="是否支持事前监控"/>
+  <Field Number="18106" Name="IsNull" Type="Char" Description="支持过滤权限查询"/>
+  <Field Number="18107" Name="SupportTriggeredFlag" Type="Char" Description="是否支持事中转事前"/>
+  <Field Number="18108" Name="FormulaFlag" Type="Char" Description="是否支持自定义公式"/>
+  <Field Number="18109" Name="MutexFlag" Type="Char" Description="是否支持互斥设置"/>
+
+
+  <Field Number="18113" Name="QueryStaticFlag" Type="Char" Description="静态查询权限"/>
+  <Field Number="18114" Name="ForceCloseFlag" Type="Char" Description="强平权限标记"/>
+  <Field Number="18115" Name="RemarkFlag" Type="Char" Description="批注权限标记"/>
+  <Field Number="18116" Name="RiskSumFlag" Type="Char" Description="多产品汇总计算"/>
+  <Field Number="18117" Name="LogicalRelationFlag" Type="Char" Description="多产品汇总计算"/>
+  <Field Number="18118" Name="StartRiskFlag" Type="Char" Description="启动风控标志"/>
+  <Field Number="18119" Name="InstructLimitFlag" Type="Char" Description="指令级限制类型"/>
+  <Field Number="18120" Name="StaticControlFlag" Type="Char" Description="静态查询标识"/>
+  <Field Number="18121" Name="MonitorLevel" Type="Char" Description="指标对应风控级别"/>
+  <Field Number="18122" Name="TriggeredLevel" Type="Char" Description="事中触发事前级别"/>
+  <Field Number="18123" Name="BeTriggeredFlag" Type="Char" Description="事前检查是否被触发"/>
+  <Field Number="18124" Name="UnParaFlag" Type="Char" Description="如果是Y表示使用具体值，N表示非具体值"/>
+  <Field Number="18125" Name="ExemptFlag" Type="Char" Description="作用范围，0表示作用范围，1-表示豁免的作用范围"/>
+  <Field Number="18126" Name="OrderLimitFlag" Type="Char" Description="委托限制类型"/>
+  <Field Number="18127" Name="SwitchOrderFlag" Type="Char" Description="换股指令标志"/>
+  <Field Number="18128" Name="IsIncludeFee" Type="Char" Description="指令金额是否包含费用(0-不含费用，1-含费用) "/>
+  <Field Number="18129" Name="IncludeAccuredInterest" Type="Char" Description="是否包含应计利息"/>
+  <Field Number="18130" Name="ExecuteMode" Type="Char" Description="执行模式"/>
+  <Field Number="18131" Name="IsAuto" Type="Char" Description="是否自动"/>
+  <Field Number="18132" Name="ExecStatus" Type="Char" Description="报盘状态"/>
+  <Field Number="18133" Name="FillStatus" Type="Char" Description="成交状态"/>
+  <Field Number="18134" Name="AdjustedFlag" Type="Char" Description="调整方式0-增加1-减少"/>
+  <Field Number="18136" Name="ProductCheckFlag" Type="Char" Description="不控制产品权限"/>
+  <Field Number="18137" Name="StkpoolCheckFlag" Type="Char" Description="不控制股票池权限"/>
+  <Field Number="18138" Name="ConditionStatus" Type="Char" Description="条件状态"/>
+  <Field Number="18139" Name="RepoInterFlag" Type="Char" Description="回购利息计算"/>
+  <Field Number="18140" Name="MainFlag" Type="Char" Description="基金类型"/>
+  <Field Number="18142" Name="IsMac" Type="Char" Description="是否启动MAC检查(N-不启用^Y-启用)"/>
+  <Field Number="18143" Name="BackupFlag" Type="Char" Description="备份类型(1-全备份)"/>
+  <Field Number="18144" Name="OptionAssureAcctAttribute" Type="Char" Description="标的锁定解锁功能"/>
+  <Field Number="18145" Name="SettleInterestType" Type="Char" Description="计息类别"/>
+  <Field Number="18147" Name="FileOrderFlag" Type="Char" Description="允许文件下单"/>
+  <Field Number="18149" Name="IsSupportALGO" Type="Char" Description="支持外部Algo下单"/>
+  <Field Number="18150" Name="IsSupportInterALGO" Type="Char" Description="支持内部Algo下单"/>
+  <Field Number="18151" Name="IsDSAOrderFlag" Type="Char" Description="支持DSA下单"/>
+  <Field Number="18152" Name="NoProfit" Type="Char" Description="盈利标志"/>
+  <Field Number="18153" Name="WeightedVotingRights" Type="Char" Description="投票权差异"/>
+  <Field Number="18154" Name="IsWorkOrderFlag" Type="Char" Description="支持WorkOrder下单"/>
+  <Field Number="18155" Name="AddPermitFlag" Type="Char" Description="增加权限(1表示允许，0表示不允许) "/>
+  <Field Number="18156" Name="DeletePermitFlag" Type="Char" Description="删除权限(1表示允许，0表示不允许) "/>
+  <Field Number="18157" Name="APIServiceFlag" Type="Char" Description="支持接入服务(0-EXE,1-API,2-手机号码)"/>
+  <Field Number="18161" Name="IsALGOManualOrder" Type="Char" Description="ALGO部分是否支持人工拍单"/>
+  <Field Number="18162" Name="OnLineOptFlag" Type="Char" Description="在线交易员优先级分发标志(0-不选择,1-选择)"/>
+  <Field Number="18163" Name="WorkAvgFlag" Type="Char" Description="工作量平均标志(0-不选择,1-选择)"/>
+  <Field Number="18164" Name="PriorStkFlag" Type="Char" Description="继承前一次代码分发标志(0-不选择,1-选择)"/>
+  <Field Number="18165" Name="MoreTraderDistFlag" Type="Char" Description="多交易员分发标志(0-不选择,1-选择)"/>
+
+
+  <Field Number="20482" Name="AcctIdNum" Type="Int16" Description="允许操作的账号个数"/>
+  <Field Number="20483" Name="StkDeliveryDays" Type="Int16" Description="股份交收天数"/>
+  <Field Number="20484" Name="TrailExpireFlag" Type="Int16" Description="试用过期标志 0:未过期,1:过期"/>
+  <Field Number="20485" Name="PurchaseExpireFlag" Type="Int16" Description="授权过期标志 0:未过期,1:过期"/>
+  <Field Number="20486" Name="AllowTrailFlag" Type="Int16" Description="允许试用标志 0:不允许,1:允许"/>
+  <Field Number="20488" Name="DisplayFlag" Type="Int16" Description="显示标志"/>
+  <Field Number="20489" Name="ControlType" Type="Int16" Description="控件类型"/>
+  <Field Number="20490" Name="InputFlag" Type="Int16" Description="输入标志"/>
+  <Field Number="20491" Name="AlignMode" Type="Int16" Description="对齐方式"/>
+  <Field Number="20492" Name="SumMode" Type="Int16" Description="统计方式"/>
+  <Field Number="20493" Name="ShowMode" Type="Int16" Description="显示方式"/>
+  <Field Number="20494" Name="ValueType" Type="Int16" Description="值的类型"/>
+  <Field Number="20495" Name="TransStatus" Type="Int16" Description="转账状态"/>
+  <Field Number="20496" Name="Sponsor" Type="Int16" Description="发起方 0:券商,1:银行"/>
+  <Field Number="20497" Name="SaveFetchFlag" Type="Int16" Description="转账类型(0表示银行转券商,1表示券商转银行,2表示查询银行余额)"/>
+  <Field Number="20498" Name="OptStatus" Type="Int16" Description="操作状态"/>
+  <Field Number="20499" Name="ArbitrageType" Type="Int16" Description="套利方式 0：溢价 1：折价"/>
+  <Field Number="20500" Name="MainRegFlag" Type="Int16" Description="主股东标志 1:主股东"/>
+  <Field Number="20501" Name="ClientType" Type="Int16" Description="客户分类(-1：后台管理员 0：网上交易 1：私募信托)"/>
+  <Field Number="20502" Name="CertificateType" Type="Int16" Description="安全认证类型 0:普通 1：认证口令 2：动态口令 3：UKEY"/>
+  <Field Number="20503" Name="DisplayCategory" Type="Int16" Description="菜单显示分类 1：行情 2:交易 3：设定和管理"/>
+  <Field Number="20504" Name="NoUpdateUsableFlag" Type="Int16" Description="不更新可用数标志, =1 表示不更新可用数"/>
+  <Field Number="20505" Name="StkBuyStatus" Type="Int16" Description="当日现货买入状态, -1：无交易 0：进行中 1：完成"/>
+  <Field Number="20506" Name="FutOpenStatus" Type="Int16" Description="当日期货开仓状态, -1：无交易 0：进行中 1：完成"/>
+  <Field Number="20507" Name="StkSellStatus" Type="Int16" Description="当日现货卖出状态, -1：无交易 0：进行中 1：完成"/>
+  <Field Number="20508" Name="FutCloseStatus" Type="Int16" Description="当日期货平仓状态, -1：无交易 0：进行中 1：完成"/>
+  <Field Number="20509" Name="ArbitrageStatus" Type="Int16" Description="套利状态"/>
+  <Field Number="20510" Name="CreditCashFlag" Type="Int16" Description="融资标志 0:可用,1:不可用"/>
+  <Field Number="20511" Name="CreditShareFlag" Type="Int16" Description="融券标志 0:可用,1:不可用"/>
+  <Field Number="20512" Name="CreditAssureFlag" Type="Int16" Description="担保标志 0:可用,1:不可用"/>
+  <Field Number="20513" Name="LoginStatus" Type="Int16" Description="用户状态"/>
+  <Field Number="20514" Name="AcctCount" Type="Int16" Description="关联资金帐号个数"/>
+  <Field Number="20515" Name="CreditFlag" Type="Int16" Description="融资融券方向 0:融资,1：融券"/>
+  <Field Number="20516" Name="RepurchaseDay" Type="Int16" Description="回购天数"/>
+  <Field Number="20517" Name="CreditDetailReturnFlag" Type="Int16" Description="信用是否支持按明细还款还券参数 0：不支持 1：支持"/>
+  <Field Number="20518" Name="BankPwdCheckFlag" Type="Int16" Description="银行密码校验标志"/>
+  <Field Number="20519" Name="ThirdSystemValueType" Type="Int16" Description="第三方值类型"/>
+  <Field Number="20520" Name="ThirdSystemPageFlag" Type="Int16" Description="第三方查询是否分页查询 0:否 1:是"/>
+  <Field Number="20521" Name="CreditStkAcctFlag" Type="Int16" Description="信用标的和担保品管理方式 0:按第三方管理 1:按资金帐号管理"/>
+  <Field Number="20522" Name="ForwardOpenFlag" Type="Int16" Description="正向开仓提示0表示不提示1表示提示"/>
+  <Field Number="20523" Name="ForwardCloseFlag" Type="Int16" Description="正向平仓提示0表示不提示1表示提示"/>
+  <Field Number="20524" Name="BackwardOpenFlag" Type="Int16" Description="反向开仓提示0表示不提示1表示提示"/>
+  <Field Number="20525" Name="BackwardCloseFlag" Type="Int16" Description="反向平仓提示0表示不提示1表示提示"/>
+  <Field Number="20526" Name="BigMarginFlag" Type="Int16" Description="是否是大边保证金0:否(默认)，1:是"/>
+  <Field Number="20527" Name="LocalQueryType" Type="Int16" Description="本地查询类型，0:从本地查，1:从第三方同步查询"/>
+  <Field Number="20528" Name="PermissionStatus" Type="Int16" Description="权限状态 0：删除，1：正常"/>
+  <Field Number="20529" Name="AcctGroupNum" Type="Int16" Description="允许添加最多组数"/>
+  <Field Number="20531" Name="Subjectlevel" Type="Int16" Description="科目级别(1: 1级，2：2级，3：3级，4：4级)"/>
+  <Field Number="20532" Name="ReckoningTypeFlag" Type="Int16" Description="清算业务类型(内部)"/>
+  <Field Number="20533" Name="ActualRepurchaseDays" Type="Int16" Description="计息天数"/>
+  <Field Number="20536" Name="ChargeFlag" Type="Int16" Description="计费模式"/>
+  <Field Number="20537" Name="ChannelNum" Type="Int16" Description="通道编号"/>
+  <Field Number="20539" Name="ExecFlag" Type="Int16" Description="执行标志(0-必须执行, 1-不执行)"/>
+  <Field Number="20540" Name="RepeatFlag" Type="Int16" Description="重复执行标志(0-允许重复, 1-不允许重复)"/>
+  <Field Number="20541" Name="AutoFlag" Type="Int16" Description="自动执行标志(0-自动执行, 1-非自动执行)"/>
+
+  <Field Number="20601" Name="OptionUsedAssureFlag" Type="Int16" Description="备兑标志 0:非备兑 1:备兑"/>
+
+  <Field Number="20701" Name="IsIrregularCoupon" Type="Int16" Description="是否为不规则付息（1：规则，2：不规则）"/>
+  <Field Number="20702" Name="CustodianPlace" Type="Int16" Description="托管场所（1：上证，2：中债登，3：上清所，4：深圳）"/>
+  <Field Number="20703" Name="BookPlace" Type="Int16" Description="簿记场所（1：上证，2：中债登，3：上清所，4：深圳）"/>
+  <Field Number="20704" Name="IsRight" Type="Int16" Description="含权信息（1：不含权，2：含权）"/>
+  <Field Number="20705" Name="PayOffGrade" Type="Int16" Description="清偿等级（0：优先，1次级）"/>
+  <Field Number="20706" Name="ShSettleWay" Type="Int16" Description="上交所清算交收方式(0否,1是)"/>
+
+  <Field Number="21000" Name="SendFlag" Type="Int16" Description="发送标志(写到dbf文件的标志)"/>
+  <Field Number="21001" Name="ExecuteStatus" Type="Int16" Description="执行状态（0-执行，1-中止，2-锁定，3-暂停）"/>
+  <Field Number="21002" Name="FundProcessDays" Type="Int16" Description="资金交收周期(T+?) "/>
+  <Field Number="21004" Name="HolidayYear" Type="Int16" Description="年份"/>
+  <Field Number="21005" Name="MaxLoginNum" Type="Int16" Description="允许在线数"/>
+  <Field Number="21006" Name="PortfolioStatus" Type="Int16" Description="组合状态(从globalcont中获取)"/>
+  <Field Number="21007" Name="Discountdays" Type="Int16" Description="周期"/>
+  <Field Number="21008" Name="FeeStyle" Type="Int16" Description="费用类型"/>
+  <Field Number="21009" Name="RefreshType" Type="Int16" Description="刷新类型"/>
+  <Field Number="21010" Name="PortfolioCount" Type="Int16" Description="投资组合个数"/>
+  <Field Number="21011" Name="IsTradeCalcuInterestFlag" Type="Int16" Description="成交金额含应计利息"/>
+  <Field Number="21012" Name="IsReckoningCalcuInterestFlag" Type="Int16" Description="清算成交金额含应计利息"/>
+  <Field Number="21013" Name="IsAllFlag" Type="Int16" Description="全部标志’（0-没有/1-有）"/>
+  <Field Number="21016" Name="ActiveXType" Type="Int16" Description="控件类型"/>
+  <Field Number="21019" Name="FOFsType" Type="Int16" Description="子母基金类型（0-母基金，1-子基金）"/>
+  <Field Number="21020" Name="ReturnCreditCashType" Type="Int16" Description="融资还款方式（0-等比例偿还，1-先息后本）"/>
+  <Field Number="21021" Name="CreditOrderReturnFlag" Type="Int16" Description="卖券还款合约选择（0-支持，1-不支持）"/>
+  <Field Number="21022" Name="DataFlag" Type="Int16" Description="数据标志"/>
+
+  <Field Number="24001" Name="SMReqAction" Type="String" Description="系统监控请求的操作"/>
+  <Field Number="24002" Name="SMReqParameterStr" Type="LongBinary" Description="系统监控请求的参数的字符串表示形式"/>
+  <Field Number="24003" Name="SMResponseStr" Type="LongBinary" Description="系统监控请求的应答的字符串表示形式"/>
+  <Field Number="24004" Name="SMServerStatusStr" Type="LongBinary" Description="服务器状态信息的字符串表示形式"/>
+
+</Dictionary>

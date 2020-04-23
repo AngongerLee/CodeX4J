@@ -1,4 +1,4 @@
-package chengyujia.codex4j.config;
+package com.croot.gencode.config;
 
 import com.alibaba.fastjson.JSON;
 import org.apache.commons.io.FileUtils;

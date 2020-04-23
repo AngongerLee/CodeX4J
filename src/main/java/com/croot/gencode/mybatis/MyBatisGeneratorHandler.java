@@ -1,6 +1,6 @@
-package chengyujia.codex4j.mybatis;
+package com.croot.gencode.mybatis;
 
-import chengyujia.codex4j.config.UserConfigModel;
+import com.croot.gencode.config.UserConfigModel;
 import org.mybatis.generator.config.*;
 import org.mybatis.generator.internal.DefaultShellCallback;
 

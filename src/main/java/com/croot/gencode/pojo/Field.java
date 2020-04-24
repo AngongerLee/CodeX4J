@@ -2,24 +2,17 @@ package com.croot.gencode.pojo;
 
 import lombok.Data;
 
+import javax.xml.bind.annotation.*;
+
 @Data
+@XmlSeeAlso({
+        DictField.class
+})
+@XmlAccessorType(value = XmlAccessType.FIELD)
+@XmlRootElement
 public class Field {
+    @XmlAttribute(name = "Name")
     private String name;
+    @XmlAttribute(name = "Description")
     private String description;
-
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public String getDescription() {
-        return description;
-    }
-
-    public void setDescription(String description) {
-        this.description = description;
-    }
 }

@@ -1,4 +1,4 @@
-package com.croot.gencode.pojo;
+package com.croot.gencode.pojo.message;
 
 import lombok.Data;
 
@@ -9,9 +9,9 @@ import javax.xml.bind.annotation.XmlRootElement;
 import java.util.List;
 
 @Data
-@XmlRootElement(name = "Dictionary")
+@XmlRootElement(name = "Messages")
 @XmlAccessorType(value = XmlAccessType.FIELD)
-public class Dictionary {
-    @XmlElement(name = "Field")
-    private List<DictField> dictFieldList;
+public class Messages {
+    @XmlElement(name = "Message")
+    private List<Message> messageList;
 }

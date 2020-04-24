@@ -1,7 +1,7 @@
 package com.croot.gencode.common;
 
-import com.croot.gencode.pojo.DictField;
-import com.croot.gencode.pojo.Dictionary;
+import com.croot.gencode.pojo.dict.DictField;
+import com.croot.gencode.pojo.dict.Dictionary;
 import org.dom4j.Document;
 import org.dom4j.Element;
 import org.junit.Assert;
@@ -108,22 +108,4 @@ public class DictXmlTest {
     }
 
 
-    @Test
-    public void testCompare() {
-        long jaxbStart = System.currentTimeMillis();
-        for (int i = 0; i < 10000; i++) {
-            testJAXBReader();
-        }
-        long jaxbEnd = System.currentTimeMillis();
-        long xmlStart = System.currentTimeMillis();
-        for (int i = 0; i < 10000; i++) {
-            testRead();
-        }
-        long xmlEnd = System.currentTimeMillis();
-
-
-        System.out.println("JAXB:\t" + (jaxbEnd - jaxbStart));
-        System.out.println("XML:\t" + (xmlEnd - xmlStart));
-
-    }
 }

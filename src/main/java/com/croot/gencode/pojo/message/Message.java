@@ -12,7 +12,7 @@ public class Message {
     @XmlAttribute(name = "Name")
     private String name;
     @XmlAttribute(name = "Code")
-    private String code;
+    private Long code;
     @XmlAttribute(name = "Description")
     private String Description;
     @XmlAttribute(name = "WebService")
